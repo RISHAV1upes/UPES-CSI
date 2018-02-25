@@ -1,0 +1,291 @@
+#toolbar-menu [class^="icon"] {
+	transition: 0.4s;
+	height: 0;
+  	width: 0;
+  	border: 0.125em solid;
+  	background: none;
+  	border-color: transparent;
+  	color: white;
+  	text-align: center;
+  	display: inline-block;
+  	vertical-align: middle;
+  	position: relative;
+}
+
+/* Popular post
+================================================================ */
+#popular-post {
+  margin: auto;
+}
+#popular-post a:hover {
+  text-decoration: none;
+}
+#popular-post .popular-article {
+  margin-top: 1rem;
+}
+
+#popular-post .popular-pic,
+#popular-post .popular-text {
+  display: table-cell;
+  vertical-align: top;
+}
+#popular-post .popular-pic {
+  width: 16%;
+  width: calc(42px - 0.0000001em);
+}
+#popular-post .popular-pic a,
+#popular-post .popular-pic img {
+  display: block;
+}
+#popular-post .popular-pic img {
+  margin-top: 2px;
+  border: none;
+}
+#popular-post .popular-text {
+  width: 70%;
+  width: calc(100% - 46px);
+  padding-left: 0.75rem;
+}
+#popular-post .popular-text p {
+  margin: 0px;
+}
+#popular-post .popularlink strong a {
+  color: #ffffff;
+}
+#popular-post .popularlink strong a:hover {
+  border-color: inherit;
+}
+#twitter-feed .popularlink > a {
+  font-size: 0.95em;
+}
+#popular-post .popular-time {
+  position: relative;
+  top: -1px;
+  text-align: center;
+}
+#popular-post .popular-time a {
+  padding: 0 1px;
+  font-size: 0.75rem;
+  color: white;
+  text-shadow: none;
+}
+
+.main-search form {
+	position: relative;
+}
+.main-search form i.fa-search {
+	position: absolute;
+	right: 4.5em;
+	top: 1em;
+	font-size: 24px;
+	color: #C1C1C1;
+	z-index: 0;
+}
+.main-search [type="submit"] {
+	right: 3em !important;
+	height: 4.5em;
+  width: 3em !important;
+	z-index: 99;
+	background: transparent;
+}
+.main-nav .block-menu > ul > li > a.active, .main-nav .block-menu > ul > li > a.active-trail {
+  	color: white;
+}
+
+#s-contact form input[type=submit] {
+  width: 100%;
+  text-align: center;
+  padding: 0.4em;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 2.4;
+  border: 2px solid transparent;
+  font-family: "Lato", sans-serif;
+}
+.video-bg .hero {
+  background-image: none !important;
+}
+.single-project header.what-we-did {
+  margin-top: 40px;
+}
+.section.stats.row {
+  background-color: #fff;
+  padding: 4em 0;
+}
+body .cp-nav-container .main-search [type="submit"] {
+  top: 30px;
+  border-bottom: none;
+}
+body .cp-nav-container .main-search i {
+  right: 0.5em;
+}
+ /*CSS BLOG */
+ .blog-item .summary:after {
+  content: "...";
+ }
+ .item-list .pager li {
+  float: left;
+  display: inline-block;
+  font-size: 1rem;
+ }
+ .item-list .pager li a {
+  display: block;
+  padding: 0.75em 1em;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
+}
+.item-list .pager li.last a {
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+.item-list .pager li.pager-current {
+  display: block;
+  padding: 0.75em 1em;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+.item-list .pager li.pager-current.last {
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+.item-list .pager {
+  float: right;
+}
+.blog-posts {
+  overflow: hidden;
+}
+.block-comment-block > ul.links {
+  display: none;
+}
+.block-comment-block .comment ul.links {
+  list-style: none;
+}
+.block-comment-block .comment ul.links li a{
+  float: right;
+  margin-top: 1em;
+  margin-left: 1em;
+  font-size: 0.9rem;
+  line-height: 2.2;
+  padding: 0 1em;
+  border-radius: 1.5em;
+  background: #707070;
+  display: inline-block;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-family: "Lato", sans-serif;
+  transition: 0.4s
+ /* Brand Colors */;
+ text-transform: capitalize;
+ font-weight: bold;
+}
+
+.comment .profile img {
+  margin-left: 0 !important;
+}
+.indented {
+  margin-left: 100px;
+}
+
+.new-comment form .form-item textarea {
+  margin-bottom: 20px;
+}
+.new-comment form #edit-preview {
+  display: none;
+}
+.new-comment form input[type=submit] {
+  width: 100%;
+  text-align: center;
+  padding: 0.4em;
+  display: inline-block;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 2.4;
+  border: 2px solid transparent;
+  font-family: "Lato", sans-serif;
+  transition: 0.4s
+ /* Brand Colors */;
+}
+.new-comment form input[type=submit]:hover {
+  background: #127297;
+}
+
+.tabs.primary li {
+  float: left;
+  margin-right: 20px;
+}
+.tabs.primary {
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0;
+}
+.comment-form a.username {
+  margin-left: 100px;
+}
+ul.tags li a {
+  background: none;
+  border: 2px solid #ffffff;
+  display: inline-block;
+  padding: 0 1.25em;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 2.4;
+  font-family: "Lato", sans-serif;
+  border-radius: 1.5em;
+  transition: 0.4s
+ /* Brand Colors */;
+}
+ul.tags li {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+ul.tags {
+  margin-top: 15px !important;
+}
+ul.tags li a:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  font-weight: bold;
+}
+form#user-login label, form#user-register-form label, form#user-pass label {
+  position: relative;
+  color: #000;
+  z-index: 1;
+  left: 0;
+}
+form#user-login .form-item, form#user-register-form .form-item, form#user-pass .form-item {
+  margin-bottom: 20px;
+}
+
+form#user-login input[type=text], form#user-login input[type=password], form#user-register-form input[type=text],
+form#user-register-form input[type=password], form#user-pass input[type=text]
+{
+  padding: 0.5em;
+  border: 1px solid #ddd;
+}
+form#search-form input[type=text]{
+  padding: 0.5em;
+  border:none;
+  float: left;
+}
+.search-result {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+section.hero a.contextual-links-trigger {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+section.hero .contextual-links {
+  top: 60px !important;
+  right: 20px !important;
+}
+.footer-nav .contextual-links {
+  top: -10px !important;
+}
