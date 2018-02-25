@@ -1,0 +1,1528 @@
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-color: #ccc;
+}
+
+.no-gap {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.no-gap-left {
+  padding-left: 0;
+}
+
+.no-gap-right {
+  padding-right: 0;
+}
+
+.center-block {
+  margin: 0 auto;
+  display: block !important;
+}
+
+.no-style-link {
+  color: inherit;
+}
+
+.no-style-link:focus,
+.no-style-link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.no-style-link:hover {
+  color: #919191;
+}
+
+.clear {
+  clear: both;
+}
+
+/* ---- Backgrounds ---- */
+.dark-bg {
+  background: #111;
+}
+
+.dark-bg .subheading {
+  color: #777 !important;
+  font-weight: 400;
+}
+
+.gray-bg {
+  background: #f8f8f8;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+/* ---- White Space ---- */
+.ws-s {
+  padding-bottom: 50px;
+}
+
+.ws-m {
+  padding-bottom: 100px;
+}
+
+.ws-l {
+  padding-bottom: 160px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-75 {
+  margin-bottom: 75px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.section {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+/* ---- Section Headings ---- */
+.sec-heading {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.sec-heading .subheading {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  color: #999;
+  letter-spacing: 2.5px;
+}
+.about 
+{
+	padding-top:50px;
+	margin-top:50px;
+}
+.about h3
+{
+	letter-spacing:3px;
+	text-transform:none;
+	display: block;
+}
+
+.about h2
+{
+	letter-spacing:5px;
+	text-transform:none;
+	display: block;
+	
+}
+.about h4
+{
+	letter-spacing:3px;
+	text-transform:none;
+	display: block;
+	font-size:19px;
+	
+}
+
+.sec-heading-2 {
+  text-align: center;
+}
+
+.sec-heading-2 h1,
+.sec-heading-2 .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .sec-heading-2 .nbr-timer, .sec-heading-2 h2,
+.sec-heading-2 h3,
+.sec-heading-2 .page-title .subheading,
+.page-title .sec-heading-2 .subheading, .sec-heading-2 h4,
+.sec-heading-2 .ft-tabs .tabs-list li a .tab-group .tab-heading,
+.ft-tabs .tabs-list li a .tab-group .sec-heading-2 .tab-heading, .sec-heading-2 .testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item blockquote footer .sec-heading-2 cite, .sec-heading-2 .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .sec-heading-2 cite, .sec-heading-2 .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .sec-heading-2 cite, .sec-heading-2 .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .sec-heading-2 cite, .sec-heading-2 .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .sec-heading-2 cite, .sec-heading-2 .team-3col .t-item .t-info .t-role,
+.team-3col .t-item .t-info .sec-heading-2 .t-role, .sec-heading-2 .team-4col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .sec-heading-2 .t-role, .sec-heading-2 .freelancer-about .t-item .t-info .t-role,
+.freelancer-about .t-item .t-info .sec-heading-2 .t-role, .sec-heading-2 .t-join .t-info .t-role,
+.t-join .t-info .sec-heading-2 .t-role, .sec-heading-2 .login-2 .bg-overlay .form-wrapper .form-content .cards-header,
+.login-2 .bg-overlay .form-wrapper .form-content .sec-heading-2 .cards-header, .sec-heading-2 .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .sec-heading-2 .sc-lead, .sec-heading-2 h5,
+.sec-heading-2 .ft-boxed-hover ul li .hover-content .ft-heading,
+.ft-boxed-hover ul li .hover-content .sec-heading-2 .ft-heading, .sec-heading-2 .ft-tabs .tabs-list li a .tab-group .tab-info,
+.ft-tabs .tabs-list li a .tab-group .sec-heading-2 .tab-info, .sec-heading-2 .sidebar .comments-widget .widget-item span .widget-comm-title,
+.sidebar .comments-widget .widget-item span .sec-heading-2 .widget-comm-title, .sec-heading-2 .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .sec-heading-2 .title-timer, .sec-heading-2 .shop-layout-options span,
+.shop-layout-options .sec-heading-2 span, .sec-heading-2 h6,
+.sec-heading-2 .progress-group .progress-title,
+.progress-group .sec-heading-2 .progress-title,
+.sec-heading-2 .progress-group .progress-value,
+.progress-group .sec-heading-2 .progress-value, .sec-heading-2 .accordions-1 .panel .panel-heading .panel-title,
+.accordions-1 .panel .panel-heading .sec-heading-2 .panel-title, .sec-heading-2 .footer-social-links ul li,
+.footer-social-links ul .sec-heading-2 li, .sec-heading-2 .footer-contact .contact-info .show-info-link,
+.footer-contact .contact-info .sec-heading-2 .show-info-link, .sec-heading-2 .footer-contact .contact-info address ul li .adr-heading,
+.footer-contact .contact-info address ul li .sec-heading-2 .adr-heading, .sec-heading-2 .footer-contact .contact-info address .show-map,
+.footer-contact .contact-info address .sec-heading-2 .show-map, .sec-heading-2 .footer-litle address ul li .adr-group .adr-heading,
+.footer-litle address ul li .adr-group .sec-heading-2 .adr-heading, .sec-heading-2 .ft-cards .ft-item a,
+.ft-cards .ft-item .sec-heading-2 a, .sec-heading-2 .ft-cards-2 .ft-card-item .ft-content .link-btn,
+.ft-cards-2 .ft-card-item .ft-content .sec-heading-2 .link-btn, .sec-heading-2 .ft-boxed-hover ul li .hover-content a,
+.ft-boxed-hover ul li .hover-content .sec-heading-2 a, .sec-heading-2 .circles-counters .circle-item .circle-text,
+.circles-counters .circle-item .sec-heading-2 .circle-text, .sec-heading-2 .circles-counters-dark-bg .circle-item .circle-text,
+.circles-counters-dark-bg .circle-item .sec-heading-2 .circle-text, .sec-heading-2 .number-counters .count-wrapper .count-item .count-text,
+.number-counters .count-wrapper .count-item .sec-heading-2 .count-text, .sec-heading-2 .number-counters-dark-bg .count-wrapper .count-item .count-text,
+.number-counters-dark-bg .count-wrapper .count-item .sec-heading-2 .count-text, .sec-heading-2 .project-nav nav .nav-btns li a,
+.project-nav nav .nav-btns li .sec-heading-2 a, .sec-heading-2 .pricing-tables .p-table .desc,
+.pricing-tables .p-table .sec-heading-2 .desc, .sec-heading-2 .blog-post-nav .prev-btn,
+.blog-post-nav .sec-heading-2 .prev-btn,
+.sec-heading-2 .blog-post-nav .next-btn,
+.blog-post-nav .sec-heading-2 .next-btn, .sec-heading-2 .sidebar .tags-widget .tag-list li a,
+.sidebar .tags-widget .tag-list li .sec-heading-2 a, .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 span, .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 a,
+.sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 p, .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .sec-heading-2 a, .sec-heading-2 .landing-hero .heading-wrapper .cta-btn,
+.landing-hero .heading-wrapper .sec-heading-2 .cta-btn, .sec-heading-2 .shop-sidebar .filter-widget label,
+.shop-sidebar .filter-widget .sec-heading-2 label, .sec-heading-2 .shop-sidebar-vertical .filter-widget label,
+.shop-sidebar-vertical .filter-widget .sec-heading-2 label, .sec-heading-2 .shop-sidebar .tags-widget .tag-list li a,
+.shop-sidebar .tags-widget .tag-list li .sec-heading-2 a, .sec-heading-2 .shop-sidebar-vertical .tags-widget .tag-list li a,
+.shop-sidebar-vertical .tags-widget .tag-list li .sec-heading-2 a, .sec-heading-2 .checkout-table tbody tr td:first-child,
+.checkout-table tbody tr .sec-heading-2 td:first-child, .sec-heading-2 .prod-reviews .tp-review .tpr-name,
+.prod-reviews .tp-review .sec-heading-2 .tpr-name, .sec-heading-2 p,
+.sec-heading-2 span {
+  margin: 0;
+}
+
+.sec-heading-2 h1:first-child,
+.sec-heading-2 .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer:first-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .sec-heading-2 .nbr-timer:first-child, .sec-heading-2 h2:first-child,
+.sec-heading-2 h3:first-child,
+.sec-heading-2 .page-title .subheading:first-child,
+.page-title .sec-heading-2 .subheading:first-child, .sec-heading-2 h4:first-child,
+.sec-heading-2 .ft-tabs .tabs-list li a .tab-group .tab-heading:first-child,
+.ft-tabs .tabs-list li a .tab-group .sec-heading-2 .tab-heading:first-child, .sec-heading-2 .testimonials-3col .t-item blockquote footer cite:first-child,
+.testimonials-3col .t-item blockquote footer .sec-heading-2 cite:first-child, .sec-heading-2 .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:first-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .sec-heading-2 cite:first-child, .sec-heading-2 .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:first-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .sec-heading-2 cite:first-child, .sec-heading-2 .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:first-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .sec-heading-2 cite:first-child, .sec-heading-2 .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:first-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .sec-heading-2 cite:first-child, .sec-heading-2 .team-3col .t-item .t-info .t-role:first-child,
+.team-3col .t-item .t-info .sec-heading-2 .t-role:first-child, .sec-heading-2 .team-4col .t-item .t-info .t-role:first-child,
+.team-4col .t-item .t-info .sec-heading-2 .t-role:first-child, .sec-heading-2 .freelancer-about .t-item .t-info .t-role:first-child,
+.freelancer-about .t-item .t-info .sec-heading-2 .t-role:first-child, .sec-heading-2 .t-join .t-info .t-role:first-child,
+.t-join .t-info .sec-heading-2 .t-role:first-child, .sec-heading-2 .login-2 .bg-overlay .form-wrapper .form-content .cards-header:first-child,
+.login-2 .bg-overlay .form-wrapper .form-content .sec-heading-2 .cards-header:first-child, .sec-heading-2 .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:first-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .sec-heading-2 .sc-lead:first-child, .sec-heading-2 h5:first-child,
+.sec-heading-2 .ft-boxed-hover ul li .hover-content .ft-heading:first-child,
+.ft-boxed-hover ul li .hover-content .sec-heading-2 .ft-heading:first-child, .sec-heading-2 .ft-tabs .tabs-list li a .tab-group .tab-info:first-child,
+.ft-tabs .tabs-list li a .tab-group .sec-heading-2 .tab-info:first-child, .sec-heading-2 .sidebar .comments-widget .widget-item span .widget-comm-title:first-child,
+.sidebar .comments-widget .widget-item span .sec-heading-2 .widget-comm-title:first-child, .sec-heading-2 .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:first-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .sec-heading-2 .title-timer:first-child, .sec-heading-2 .shop-layout-options span:first-child,
+.shop-layout-options .sec-heading-2 span:first-child, .sec-heading-2 h6:first-child,
+.sec-heading-2 .progress-group .progress-title:first-child,
+.progress-group .sec-heading-2 .progress-title:first-child,
+.sec-heading-2 .progress-group .progress-value:first-child,
+.progress-group .sec-heading-2 .progress-value:first-child, .sec-heading-2 .accordions-1 .panel .panel-heading .panel-title:first-child,
+.accordions-1 .panel .panel-heading .sec-heading-2 .panel-title:first-child, .sec-heading-2 .footer-social-links ul li:first-child,
+.footer-social-links ul .sec-heading-2 li:first-child, .sec-heading-2 .footer-contact .contact-info .show-info-link:first-child,
+.footer-contact .contact-info .sec-heading-2 .show-info-link:first-child, .sec-heading-2 .footer-contact .contact-info address ul li .adr-heading:first-child,
+.footer-contact .contact-info address ul li .sec-heading-2 .adr-heading:first-child, .sec-heading-2 .footer-contact .contact-info address .show-map:first-child,
+.footer-contact .contact-info address .sec-heading-2 .show-map:first-child, .sec-heading-2 .footer-litle address ul li .adr-group .adr-heading:first-child,
+.footer-litle address ul li .adr-group .sec-heading-2 .adr-heading:first-child, .sec-heading-2 .ft-cards .ft-item a:first-child,
+.ft-cards .ft-item .sec-heading-2 a:first-child, .sec-heading-2 .ft-cards-2 .ft-card-item .ft-content .link-btn:first-child,
+.ft-cards-2 .ft-card-item .ft-content .sec-heading-2 .link-btn:first-child, .sec-heading-2 .ft-boxed-hover ul li .hover-content a:first-child,
+.ft-boxed-hover ul li .hover-content .sec-heading-2 a:first-child, .sec-heading-2 .circles-counters .circle-item .circle-text:first-child,
+.circles-counters .circle-item .sec-heading-2 .circle-text:first-child, .sec-heading-2 .circles-counters-dark-bg .circle-item .circle-text:first-child,
+.circles-counters-dark-bg .circle-item .sec-heading-2 .circle-text:first-child, .sec-heading-2 .number-counters .count-wrapper .count-item .count-text:first-child,
+.number-counters .count-wrapper .count-item .sec-heading-2 .count-text:first-child, .sec-heading-2 .number-counters-dark-bg .count-wrapper .count-item .count-text:first-child,
+.number-counters-dark-bg .count-wrapper .count-item .sec-heading-2 .count-text:first-child, .sec-heading-2 .project-nav nav .nav-btns li a:first-child,
+.project-nav nav .nav-btns li .sec-heading-2 a:first-child, .sec-heading-2 .pricing-tables .p-table .desc:first-child,
+.pricing-tables .p-table .sec-heading-2 .desc:first-child, .sec-heading-2 .blog-post-nav .prev-btn:first-child,
+.blog-post-nav .sec-heading-2 .prev-btn:first-child,
+.sec-heading-2 .blog-post-nav .next-btn:first-child,
+.blog-post-nav .sec-heading-2 .next-btn:first-child, .sec-heading-2 .sidebar .tags-widget .tag-list li a:first-child,
+.sidebar .tags-widget .tag-list li .sec-heading-2 a:first-child, .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 span:first-child, .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 a:first-child,
+.sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 p:first-child, .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .sec-heading-2 a:first-child, .sec-heading-2 .landing-hero .heading-wrapper .cta-btn:first-child,
+.landing-hero .heading-wrapper .sec-heading-2 .cta-btn:first-child, .sec-heading-2 .shop-sidebar .filter-widget label:first-child,
+.shop-sidebar .filter-widget .sec-heading-2 label:first-child, .sec-heading-2 .shop-sidebar-vertical .filter-widget label:first-child,
+.shop-sidebar-vertical .filter-widget .sec-heading-2 label:first-child, .sec-heading-2 .shop-sidebar .tags-widget .tag-list li a:first-child,
+.shop-sidebar .tags-widget .tag-list li .sec-heading-2 a:first-child, .sec-heading-2 .shop-sidebar-vertical .tags-widget .tag-list li a:first-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .sec-heading-2 a:first-child, .sec-heading-2 .checkout-table tbody tr td:first-child,
+.checkout-table tbody tr .sec-heading-2 td:first-child, .sec-heading-2 .prod-reviews .tp-review .tpr-name:first-child,
+.prod-reviews .tp-review .sec-heading-2 .tpr-name:first-child, .sec-heading-2 p:first-child,
+.sec-heading-2 span:first-child {
+  margin-top: 160px;
+  padding-bottom: 50px;
+}
+.sec-heading-2 h1:nth-child(2),
+.sec-heading-2 .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer:nth-child(2),
+.comingsoon .content-wrapper .content-inner .cs-timer .item .sec-heading-2 .nbr-timer:nth-child(2), .sec-heading-2 h2:nth-child(2),
+.sec-heading-2 h3:nth-child(2),
+.sec-heading-2 .page-title .subheading:nth-child(2),
+.page-title .sec-heading-2 .subheading:nth-child(2), .sec-heading-2 h4:nth-child(2),
+.sec-heading-2 .ft-tabs .tabs-list li a .tab-group .tab-heading:nth-child(2),
+.ft-tabs .tabs-list li a .tab-group .sec-heading-2 .tab-heading:nth-child(2), .sec-heading-2 .testimonials-3col .t-item blockquote footer cite:nth-child(2),
+.testimonials-3col .t-item blockquote footer .sec-heading-2 cite:nth-child(2), .sec-heading-2 .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:nth-child(2),
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .sec-heading-2 cite:nth-child(2), .sec-heading-2 .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:nth-child(2),
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .sec-heading-2 cite:nth-child(2), .sec-heading-2 .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:nth-child(2),
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .sec-heading-2 cite:nth-child(2), .sec-heading-2 .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:nth-child(2),
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .sec-heading-2 cite:nth-child(2), .sec-heading-2 .team-3col .t-item .t-info .t-role:nth-child(2),
+.team-3col .t-item .t-info .sec-heading-2 .t-role:nth-child(2), .sec-heading-2 .team-4col .t-item .t-info .t-role:nth-child(2),
+.team-4col .t-item .t-info .sec-heading-2 .t-role:nth-child(2), .sec-heading-2 .freelancer-about .t-item .t-info .t-role:nth-child(2),
+.freelancer-about .t-item .t-info .sec-heading-2 .t-role:nth-child(2), .sec-heading-2 .t-join .t-info .t-role:nth-child(2),
+.t-join .t-info .sec-heading-2 .t-role:nth-child(2), .sec-heading-2 .login-2 .bg-overlay .form-wrapper .form-content .cards-header:nth-child(2),
+.login-2 .bg-overlay .form-wrapper .form-content .sec-heading-2 .cards-header:nth-child(2), .sec-heading-2 .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:nth-child(2),
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .sec-heading-2 .sc-lead:nth-child(2), .sec-heading-2 h5:nth-child(2),
+.sec-heading-2 .ft-boxed-hover ul li .hover-content .ft-heading:nth-child(2),
+.ft-boxed-hover ul li .hover-content .sec-heading-2 .ft-heading:nth-child(2), .sec-heading-2 .ft-tabs .tabs-list li a .tab-group .tab-info:nth-child(2),
+.ft-tabs .tabs-list li a .tab-group .sec-heading-2 .tab-info:nth-child(2), .sec-heading-2 .sidebar .comments-widget .widget-item span .widget-comm-title:nth-child(2),
+.sidebar .comments-widget .widget-item span .sec-heading-2 .widget-comm-title:nth-child(2), .sec-heading-2 .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:nth-child(2),
+.comingsoon .content-wrapper .content-inner .cs-timer .item .sec-heading-2 .title-timer:nth-child(2), .sec-heading-2 .shop-layout-options span:nth-child(2),
+.shop-layout-options .sec-heading-2 span:nth-child(2), .sec-heading-2 h6:nth-child(2),
+.sec-heading-2 .progress-group .progress-title:nth-child(2),
+.progress-group .sec-heading-2 .progress-title:nth-child(2),
+.sec-heading-2 .progress-group .progress-value:nth-child(2),
+.progress-group .sec-heading-2 .progress-value:nth-child(2), .sec-heading-2 .accordions-1 .panel .panel-heading .panel-title:nth-child(2),
+.accordions-1 .panel .panel-heading .sec-heading-2 .panel-title:nth-child(2), .sec-heading-2 .footer-social-links ul li:nth-child(2),
+.footer-social-links ul .sec-heading-2 li:nth-child(2), .sec-heading-2 .footer-contact .contact-info .show-info-link:nth-child(2),
+.footer-contact .contact-info .sec-heading-2 .show-info-link:nth-child(2), .sec-heading-2 .footer-contact .contact-info address ul li .adr-heading:nth-child(2),
+.footer-contact .contact-info address ul li .sec-heading-2 .adr-heading:nth-child(2), .sec-heading-2 .footer-contact .contact-info address .show-map:nth-child(2),
+.footer-contact .contact-info address .sec-heading-2 .show-map:nth-child(2), .sec-heading-2 .footer-litle address ul li .adr-group .adr-heading:nth-child(2),
+.footer-litle address ul li .adr-group .sec-heading-2 .adr-heading:nth-child(2), .sec-heading-2 .ft-cards .ft-item a:nth-child(2),
+.ft-cards .ft-item .sec-heading-2 a:nth-child(2), .sec-heading-2 .ft-cards-2 .ft-card-item .ft-content .link-btn:nth-child(2),
+.ft-cards-2 .ft-card-item .ft-content .sec-heading-2 .link-btn:nth-child(2), .sec-heading-2 .ft-boxed-hover ul li .hover-content a:nth-child(2),
+.ft-boxed-hover ul li .hover-content .sec-heading-2 a:nth-child(2), .sec-heading-2 .circles-counters .circle-item .circle-text:nth-child(2),
+.circles-counters .circle-item .sec-heading-2 .circle-text:nth-child(2), .sec-heading-2 .circles-counters-dark-bg .circle-item .circle-text:nth-child(2),
+.circles-counters-dark-bg .circle-item .sec-heading-2 .circle-text:nth-child(2), .sec-heading-2 .number-counters .count-wrapper .count-item .count-text:nth-child(2),
+.number-counters .count-wrapper .count-item .sec-heading-2 .count-text:nth-child(2), .sec-heading-2 .number-counters-dark-bg .count-wrapper .count-item .count-text:nth-child(2),
+.number-counters-dark-bg .count-wrapper .count-item .sec-heading-2 .count-text:nth-child(2), .sec-heading-2 .project-nav nav .nav-btns li a:nth-child(2),
+.project-nav nav .nav-btns li .sec-heading-2 a:nth-child(2), .sec-heading-2 .pricing-tables .p-table .desc:nth-child(2),
+.pricing-tables .p-table .sec-heading-2 .desc:nth-child(2), .sec-heading-2 .blog-post-nav .prev-btn:nth-child(2),
+.blog-post-nav .sec-heading-2 .prev-btn:nth-child(2),
+.sec-heading-2 .blog-post-nav .next-btn:nth-child(2),
+.blog-post-nav .sec-heading-2 .next-btn:nth-child(2), .sec-heading-2 .sidebar .tags-widget .tag-list li a:nth-child(2),
+.sidebar .tags-widget .tag-list li .sec-heading-2 a:nth-child(2), .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:nth-child(2),
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 span:nth-child(2), .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:nth-child(2),
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 a:nth-child(2),
+.sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:nth-child(2),
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 p:nth-child(2), .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:nth-child(2),
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .sec-heading-2 a:nth-child(2), .sec-heading-2 .landing-hero .heading-wrapper .cta-btn:nth-child(2),
+.landing-hero .heading-wrapper .sec-heading-2 .cta-btn:nth-child(2), .sec-heading-2 .shop-sidebar .filter-widget label:nth-child(2),
+.shop-sidebar .filter-widget .sec-heading-2 label:nth-child(2), .sec-heading-2 .shop-sidebar-vertical .filter-widget label:nth-child(2),
+.shop-sidebar-vertical .filter-widget .sec-heading-2 label:nth-child(2), .sec-heading-2 .shop-sidebar .tags-widget .tag-list li a:nth-child(2),
+.shop-sidebar .tags-widget .tag-list li .sec-heading-2 a:nth-child(2), .sec-heading-2 .shop-sidebar-vertical .tags-widget .tag-list li a:nth-child(2),
+.shop-sidebar-vertical .tags-widget .tag-list li .sec-heading-2 a:nth-child(2), .sec-heading-2 .checkout-table tbody tr td:nth-child(2):first-child,
+.checkout-table tbody tr .sec-heading-2 td:nth-child(2):first-child, .sec-heading-2 .prod-reviews .tp-review .tpr-name:nth-child(2),
+.prod-reviews .tp-review .sec-heading-2 .tpr-name:nth-child(2), .sec-heading-2 p:nth-child(2),
+.sec-heading-2 span:nth-child(2) {
+  margin-top: 30px;
+}
+.sec-heading-2 h1:last-child,
+.sec-heading-2 .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer:last-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .sec-heading-2 .nbr-timer:last-child, .sec-heading-2 h2:last-child,
+.sec-heading-2 h3:last-child,
+.sec-heading-2 .page-title .subheading:last-child,
+.page-title .sec-heading-2 .subheading:last-child, .sec-heading-2 h4:last-child,
+.sec-heading-2 .ft-tabs .tabs-list li a .tab-group .tab-heading:last-child,
+.ft-tabs .tabs-list li a .tab-group .sec-heading-2 .tab-heading:last-child, .sec-heading-2 .testimonials-3col .t-item blockquote footer cite:last-child,
+.testimonials-3col .t-item blockquote footer .sec-heading-2 cite:last-child, .sec-heading-2 .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:last-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .sec-heading-2 cite:last-child, .sec-heading-2 .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:last-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .sec-heading-2 cite:last-child, .sec-heading-2 .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:last-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .sec-heading-2 cite:last-child, .sec-heading-2 .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:last-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .sec-heading-2 cite:last-child, .sec-heading-2 .team-3col .t-item .t-info .t-role:last-child,
+.team-3col .t-item .t-info .sec-heading-2 .t-role:last-child, .sec-heading-2 .team-4col .t-item .t-info .t-role:last-child,
+.team-4col .t-item .t-info .sec-heading-2 .t-role:last-child, .sec-heading-2 .freelancer-about .t-item .t-info .t-role:last-child,
+.freelancer-about .t-item .t-info .sec-heading-2 .t-role:last-child, .sec-heading-2 .t-join .t-info .t-role:last-child,
+.t-join .t-info .sec-heading-2 .t-role:last-child, .sec-heading-2 .login-2 .bg-overlay .form-wrapper .form-content .cards-header:last-child,
+.login-2 .bg-overlay .form-wrapper .form-content .sec-heading-2 .cards-header:last-child, .sec-heading-2 .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:last-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .sec-heading-2 .sc-lead:last-child, .sec-heading-2 h5:last-child,
+.sec-heading-2 .ft-boxed-hover ul li .hover-content .ft-heading:last-child,
+.ft-boxed-hover ul li .hover-content .sec-heading-2 .ft-heading:last-child, .sec-heading-2 .ft-tabs .tabs-list li a .tab-group .tab-info:last-child,
+.ft-tabs .tabs-list li a .tab-group .sec-heading-2 .tab-info:last-child, .sec-heading-2 .sidebar .comments-widget .widget-item span .widget-comm-title:last-child,
+.sidebar .comments-widget .widget-item span .sec-heading-2 .widget-comm-title:last-child, .sec-heading-2 .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:last-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .sec-heading-2 .title-timer:last-child, .sec-heading-2 .shop-layout-options span:last-child,
+.shop-layout-options .sec-heading-2 span:last-child, .sec-heading-2 h6:last-child,
+.sec-heading-2 .progress-group .progress-title:last-child,
+.progress-group .sec-heading-2 .progress-title:last-child,
+.sec-heading-2 .progress-group .progress-value:last-child,
+.progress-group .sec-heading-2 .progress-value:last-child, .sec-heading-2 .accordions-1 .panel .panel-heading .panel-title:last-child,
+.accordions-1 .panel .panel-heading .sec-heading-2 .panel-title:last-child, .sec-heading-2 .footer-social-links ul li:last-child,
+.footer-social-links ul .sec-heading-2 li:last-child, .sec-heading-2 .footer-contact .contact-info .show-info-link:last-child,
+.footer-contact .contact-info .sec-heading-2 .show-info-link:last-child, .sec-heading-2 .footer-contact .contact-info address ul li .adr-heading:last-child,
+.footer-contact .contact-info address ul li .sec-heading-2 .adr-heading:last-child, .sec-heading-2 .footer-contact .contact-info address .show-map:last-child,
+.footer-contact .contact-info address .sec-heading-2 .show-map:last-child, .sec-heading-2 .footer-litle address ul li .adr-group .adr-heading:last-child,
+.footer-litle address ul li .adr-group .sec-heading-2 .adr-heading:last-child, .sec-heading-2 .ft-cards .ft-item a:last-child,
+.ft-cards .ft-item .sec-heading-2 a:last-child, .sec-heading-2 .ft-cards-2 .ft-card-item .ft-content .link-btn:last-child,
+.ft-cards-2 .ft-card-item .ft-content .sec-heading-2 .link-btn:last-child, .sec-heading-2 .ft-boxed-hover ul li .hover-content a:last-child,
+.ft-boxed-hover ul li .hover-content .sec-heading-2 a:last-child, .sec-heading-2 .circles-counters .circle-item .circle-text:last-child,
+.circles-counters .circle-item .sec-heading-2 .circle-text:last-child, .sec-heading-2 .circles-counters-dark-bg .circle-item .circle-text:last-child,
+.circles-counters-dark-bg .circle-item .sec-heading-2 .circle-text:last-child, .sec-heading-2 .number-counters .count-wrapper .count-item .count-text:last-child,
+.number-counters .count-wrapper .count-item .sec-heading-2 .count-text:last-child, .sec-heading-2 .number-counters-dark-bg .count-wrapper .count-item .count-text:last-child,
+.number-counters-dark-bg .count-wrapper .count-item .sec-heading-2 .count-text:last-child, .sec-heading-2 .project-nav nav .nav-btns li a:last-child,
+.project-nav nav .nav-btns li .sec-heading-2 a:last-child, .sec-heading-2 .pricing-tables .p-table .desc:last-child,
+.pricing-tables .p-table .sec-heading-2 .desc:last-child, .sec-heading-2 .blog-post-nav .prev-btn:last-child,
+.blog-post-nav .sec-heading-2 .prev-btn:last-child,
+.sec-heading-2 .blog-post-nav .next-btn:last-child,
+.blog-post-nav .sec-heading-2 .next-btn:last-child, .sec-heading-2 .sidebar .tags-widget .tag-list li a:last-child,
+.sidebar .tags-widget .tag-list li .sec-heading-2 a:last-child, .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 span:last-child, .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 a:last-child,
+.sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-2 p:last-child, .sec-heading-2 .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .sec-heading-2 a:last-child, .sec-heading-2 .landing-hero .heading-wrapper .cta-btn:last-child,
+.landing-hero .heading-wrapper .sec-heading-2 .cta-btn:last-child, .sec-heading-2 .shop-sidebar .filter-widget label:last-child,
+.shop-sidebar .filter-widget .sec-heading-2 label:last-child, .sec-heading-2 .shop-sidebar-vertical .filter-widget label:last-child,
+.shop-sidebar-vertical .filter-widget .sec-heading-2 label:last-child, .sec-heading-2 .shop-sidebar .tags-widget .tag-list li a:last-child,
+.shop-sidebar .tags-widget .tag-list li .sec-heading-2 a:last-child, .sec-heading-2 .shop-sidebar-vertical .tags-widget .tag-list li a:last-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .sec-heading-2 a:last-child, .sec-heading-2 .checkout-table tbody tr td:last-child:first-child,
+.checkout-table tbody tr .sec-heading-2 td:last-child:first-child, .sec-heading-2 .prod-reviews .tp-review .tpr-name:last-child,
+.prod-reviews .tp-review .sec-heading-2 .tpr-name:last-child, .sec-heading-2 p:last-child,
+.sec-heading-2 span:last-child {
+  margin-bottom: 100px;
+}
+
+.sec-heading-2 .subheading {
+  font-size: 1.3em;
+  color: #999;
+}
+
+.sec-heading-top-m h1:first-child,
+.sec-heading-top-m .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer:first-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .sec-heading-top-m .nbr-timer:first-child, .sec-heading-top-m h2:first-child,
+.sec-heading-top-m h3:first-child,
+.sec-heading-top-m .page-title .subheading:first-child,
+.page-title .sec-heading-top-m .subheading:first-child, .sec-heading-top-m h4:first-child,
+.sec-heading-top-m .ft-tabs .tabs-list li a .tab-group .tab-heading:first-child,
+.ft-tabs .tabs-list li a .tab-group .sec-heading-top-m .tab-heading:first-child, .sec-heading-top-m .testimonials-3col .t-item blockquote footer cite:first-child,
+.testimonials-3col .t-item blockquote footer .sec-heading-top-m cite:first-child, .sec-heading-top-m .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:first-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .sec-heading-top-m cite:first-child, .sec-heading-top-m .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:first-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .sec-heading-top-m cite:first-child, .sec-heading-top-m .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:first-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .sec-heading-top-m cite:first-child, .sec-heading-top-m .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:first-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .sec-heading-top-m cite:first-child, .sec-heading-top-m .team-3col .t-item .t-info .t-role:first-child,
+.team-3col .t-item .t-info .sec-heading-top-m .t-role:first-child, .sec-heading-top-m .team-4col .t-item .t-info .t-role:first-child,
+.team-4col .t-item .t-info .sec-heading-top-m .t-role:first-child, .sec-heading-top-m .freelancer-about .t-item .t-info .t-role:first-child,
+.freelancer-about .t-item .t-info .sec-heading-top-m .t-role:first-child, .sec-heading-top-m .t-join .t-info .t-role:first-child,
+.t-join .t-info .sec-heading-top-m .t-role:first-child, .sec-heading-top-m .login-2 .bg-overlay .form-wrapper .form-content .cards-header:first-child,
+.login-2 .bg-overlay .form-wrapper .form-content .sec-heading-top-m .cards-header:first-child, .sec-heading-top-m .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:first-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .sec-heading-top-m .sc-lead:first-child, .sec-heading-top-m h5:first-child,
+.sec-heading-top-m .ft-boxed-hover ul li .hover-content .ft-heading:first-child,
+.ft-boxed-hover ul li .hover-content .sec-heading-top-m .ft-heading:first-child, .sec-heading-top-m .ft-tabs .tabs-list li a .tab-group .tab-info:first-child,
+.ft-tabs .tabs-list li a .tab-group .sec-heading-top-m .tab-info:first-child, .sec-heading-top-m .sidebar .comments-widget .widget-item span .widget-comm-title:first-child,
+.sidebar .comments-widget .widget-item span .sec-heading-top-m .widget-comm-title:first-child, .sec-heading-top-m .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:first-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .sec-heading-top-m .title-timer:first-child, .sec-heading-top-m .shop-layout-options span:first-child,
+.shop-layout-options .sec-heading-top-m span:first-child, .sec-heading-top-m h6:first-child,
+.sec-heading-top-m .progress-group .progress-title:first-child,
+.progress-group .sec-heading-top-m .progress-title:first-child,
+.sec-heading-top-m .progress-group .progress-value:first-child,
+.progress-group .sec-heading-top-m .progress-value:first-child, .sec-heading-top-m .accordions-1 .panel .panel-heading .panel-title:first-child,
+.accordions-1 .panel .panel-heading .sec-heading-top-m .panel-title:first-child, .sec-heading-top-m .footer-social-links ul li:first-child,
+.footer-social-links ul .sec-heading-top-m li:first-child, .sec-heading-top-m .footer-contact .contact-info .show-info-link:first-child,
+.footer-contact .contact-info .sec-heading-top-m .show-info-link:first-child, .sec-heading-top-m .footer-contact .contact-info address ul li .adr-heading:first-child,
+.footer-contact .contact-info address ul li .sec-heading-top-m .adr-heading:first-child, .sec-heading-top-m .footer-contact .contact-info address .show-map:first-child,
+.footer-contact .contact-info address .sec-heading-top-m .show-map:first-child, .sec-heading-top-m .footer-litle address ul li .adr-group .adr-heading:first-child,
+.footer-litle address ul li .adr-group .sec-heading-top-m .adr-heading:first-child, .sec-heading-top-m .ft-cards .ft-item a:first-child,
+.ft-cards .ft-item .sec-heading-top-m a:first-child, .sec-heading-top-m .ft-cards-2 .ft-card-item .ft-content .link-btn:first-child,
+.ft-cards-2 .ft-card-item .ft-content .sec-heading-top-m .link-btn:first-child, .sec-heading-top-m .ft-boxed-hover ul li .hover-content a:first-child,
+.ft-boxed-hover ul li .hover-content .sec-heading-top-m a:first-child, .sec-heading-top-m .circles-counters .circle-item .circle-text:first-child,
+.circles-counters .circle-item .sec-heading-top-m .circle-text:first-child, .sec-heading-top-m .circles-counters-dark-bg .circle-item .circle-text:first-child,
+.circles-counters-dark-bg .circle-item .sec-heading-top-m .circle-text:first-child, .sec-heading-top-m .number-counters .count-wrapper .count-item .count-text:first-child,
+.number-counters .count-wrapper .count-item .sec-heading-top-m .count-text:first-child, .sec-heading-top-m .number-counters-dark-bg .count-wrapper .count-item .count-text:first-child,
+.number-counters-dark-bg .count-wrapper .count-item .sec-heading-top-m .count-text:first-child, .sec-heading-top-m .project-nav nav .nav-btns li a:first-child,
+.project-nav nav .nav-btns li .sec-heading-top-m a:first-child, .sec-heading-top-m .pricing-tables .p-table .desc:first-child,
+.pricing-tables .p-table .sec-heading-top-m .desc:first-child, .sec-heading-top-m .blog-post-nav .prev-btn:first-child,
+.blog-post-nav .sec-heading-top-m .prev-btn:first-child,
+.sec-heading-top-m .blog-post-nav .next-btn:first-child,
+.blog-post-nav .sec-heading-top-m .next-btn:first-child, .sec-heading-top-m .sidebar .tags-widget .tag-list li a:first-child,
+.sidebar .tags-widget .tag-list li .sec-heading-top-m a:first-child, .sec-heading-top-m .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-top-m span:first-child, .sec-heading-top-m .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-top-m a:first-child,
+.sec-heading-top-m .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .sec-heading-top-m p:first-child, .sec-heading-top-m .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .sec-heading-top-m a:first-child, .sec-heading-top-m .landing-hero .heading-wrapper .cta-btn:first-child,
+.landing-hero .heading-wrapper .sec-heading-top-m .cta-btn:first-child, .sec-heading-top-m .shop-sidebar .filter-widget label:first-child,
+.shop-sidebar .filter-widget .sec-heading-top-m label:first-child, .sec-heading-top-m .shop-sidebar-vertical .filter-widget label:first-child,
+.shop-sidebar-vertical .filter-widget .sec-heading-top-m label:first-child, .sec-heading-top-m .shop-sidebar .tags-widget .tag-list li a:first-child,
+.shop-sidebar .tags-widget .tag-list li .sec-heading-top-m a:first-child, .sec-heading-top-m .shop-sidebar-vertical .tags-widget .tag-list li a:first-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .sec-heading-top-m a:first-child, .sec-heading-top-m .checkout-table tbody tr td:first-child,
+.checkout-table tbody tr .sec-heading-top-m td:first-child, .sec-heading-top-m .prod-reviews .tp-review .tpr-name:first-child,
+.prod-reviews .tp-review .sec-heading-top-m .tpr-name:first-child, .sec-heading-top-m p:first-child,
+.sec-heading-top-m span:first-child {
+  margin-top: 100px;
+}
+
+/* ---- Info Blocks ---- */
+.info-base {
+  position: relative;
+  width: 100%;
+}
+
+.info-base .info-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.info-base .info-overlay .info-wrapper {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  top: 75px;
+  bottom: 75px;
+  background: rgba(17, 17, 17, 0.9);
+}
+
+.info-slider {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.info-slider:hover .slick-prev,
+.info-slider:hover .slick-next {
+  opacity: 1;
+}
+
+.info-slider .slick-prev,
+.info-slider .slick-next {
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  background: none;
+  border: 2px solid #444;
+  color: #444;
+  height: 42px;
+  width: 42px;
+  font-size: 15px;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.info-slider .slick-prev:focus,
+.info-slider .slick-next:focus {
+  outline: none;
+}
+
+.info-slider .slick-prev:hover,
+.info-slider .slick-next:hover {
+  color: #ececec;
+  border-color: #ececec;
+}
+
+.info-slider .slick-prev {
+  left: -75px;
+}
+
+.info-slider .slick-next {
+  right: -75px;
+}
+
+
+/* --------------------------------------------------
+	1.0 Typography
+-------------------------------------------------- */
+mark {
+  background: #cafe48;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #17DA5B;
+}
+
+::selection {
+  color: #fff;
+  background: #17DA5B;
+}
+
+/* ---- 1.1 Text ---- */
+body, .testimonials-3col .t-item blockquote, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  line-height: 1.8em;
+  color: #777;
+}
+
+h1,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer,
+h2,
+h3,
+.page-title .subheading,
+h4,
+.ft-tabs .tabs-list li a .tab-group .tab-heading,
+.testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .team-3col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .t-role, .freelancer-about .t-item .t-info .t-role, .t-join .t-info .t-role,
+.login-2 .bg-overlay .form-wrapper .form-content .cards-header,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
+h5,
+.ft-boxed-hover ul li .hover-content .ft-heading,
+.ft-tabs .tabs-list li a .tab-group .tab-info,
+.sidebar .comments-widget .widget-item span .widget-comm-title,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer,
+.shop-layout-options span,
+h6, .progress-group .progress-title,
+.progress-group .progress-value, .accordions-1 .panel .panel-heading .panel-title, .footer-social-links ul li, .footer-contact .contact-info .show-info-link, .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address .show-map, .footer-litle address ul li .adr-group .adr-heading, .ft-cards .ft-item a, .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-boxed-hover ul li .hover-content a, .circles-counters .circle-item .circle-text, .circles-counters-dark-bg .circle-item .circle-text, .number-counters .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .count-text, .project-nav nav .nav-btns li a, .pricing-tables .p-table .desc, .blog-post-nav .prev-btn,
+.blog-post-nav .next-btn, .sidebar .tags-widget .tag-list li a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .landing-hero .heading-wrapper .cta-btn, .shop-sidebar .filter-widget label, .shop-sidebar-vertical .filter-widget label, .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li a, .checkout-table tbody tr td:first-child, .prod-reviews .tp-review .tpr-name {
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.dropcaps:first-child:first-letter {
+  padding: 6px 13px;
+  margin-right: 3px;
+  background: #ececec;
+  color: #111;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+/* ---- 1.2 Headings ---- */
+h1, .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer {
+  font-size: 1.7em;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 1.5em;
+  letter-spacing: 4px;
+}
+
+h3, .page-title .subheading {
+  font-size: 1.3em;
+  letter-spacing: 3.5px;
+}
+
+h4, .ft-tabs .tabs-list li a .tab-group .tab-heading, .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .team-3col .t-item .t-info .t-role, .team-4col .t-item .t-info .t-role, .freelancer-about .t-item .t-info .t-role, .t-join .t-info .t-role, .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead {
+  font-size: 1.07em;
+  letter-spacing: 3px;
+}
+
+h5, .ft-boxed-hover ul li .hover-content .ft-heading, .ft-tabs .tabs-list li a .tab-group .tab-info, .sidebar .comments-widget .widget-item span .widget-comm-title, .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .shop-layout-options span {
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+h6, .progress-group .progress-title,
+.progress-group .progress-value, .accordions-1 .panel .panel-heading .panel-title, .footer-social-links ul li, .footer-contact .contact-info .show-info-link, .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address .show-map, .footer-litle address ul li .adr-group .adr-heading, .ft-cards .ft-item a, .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-boxed-hover ul li .hover-content a, .circles-counters .circle-item .circle-text, .circles-counters-dark-bg .circle-item .circle-text, .number-counters .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .count-text, .project-nav nav .nav-btns li a, .pricing-tables .p-table .desc, .blog-post-nav .prev-btn,
+.blog-post-nav .next-btn, .sidebar .tags-widget .tag-list li a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .landing-hero .heading-wrapper .cta-btn, .shop-sidebar .filter-widget label, .shop-sidebar-vertical .filter-widget label, .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li a, .checkout-table tbody tr td:first-child, .prod-reviews .tp-review .tpr-name {
+  font-size: 0.85em;
+  letter-spacing: 2px;
+}
+
+.h-alt {
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+/* ---- 1.3 Links ---- */
+a {
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p > a {
+  border-bottom: 1px solid rgba(44, 170, 223, 0);
+}
+
+p > a:visited {
+  color: #1c8cbc;
+  text-decoration: none;
+}
+
+p > a:visited:hover,
+p > a:visited:focus {
+  color: #2caadf;
+  text-decoration: none;
+}
+
+p > a:hover,
+p > a:focus {
+  color: #1c8cbc;
+  text-decoration: none;
+  border-bottom: 1px solid #2caadf;
+}
+
+/* ---- 1.4 Blockquotes ---- */
+blockquote, .wrapper-404 .content-wrapper .info-wrapper .info-404, .bg-maintenance .content-wrapper .content-inner p {
+  border: none;
+  padding: 0;
+  font-size: 1.3em;
+  letter-spacing: .5px;
+}
+
+blockquote footer, .wrapper-404 .content-wrapper .info-wrapper .info-404 footer, .bg-maintenance .content-wrapper .content-inner p footer {
+  padding-top: 25px;
+}
+
+blockquote footer:before, .wrapper-404 .content-wrapper .info-wrapper .info-404 footer:before, .bg-maintenance .content-wrapper .content-inner p footer:before {
+  content: '-';
+}
+
+blockquote footer cite, .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .bg-maintenance .content-wrapper .content-inner p footer cite {
+  text-transform: uppercase;
+  color: #999;
+  font-style: normal;
+  font-size: .85em;
+  letter-spacing: 2px;
+}
+
+.alt-blockquote {
+  padding: 50px;
+  background: #f4f4f4;
+}
+
+/* ---- 1.5 Lists ---- */
+.flat-list {
+  list-style: none;
+}
+
+.flat-list li {
+  margin-bottom: 10px;
+}
+
+.flat-list li i:before {
+  padding-right: 15px;
+}
+
+/* ---- 1.6 PAGE - Typography ---- */
+.headings-example ul {
+  list-style: none;
+}
+
+.headings-example ul li {
+  padding-bottom: 30px;
+}
+
+.headings-example ul li:last-child {
+  padding-bottom: 0;
+}
+
+.headings-example ul li h1,
+.headings-example ul li .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .headings-example ul li .nbr-timer, .headings-example ul li h2,
+.headings-example ul li h3,
+.headings-example ul li .page-title .subheading,
+.page-title .headings-example ul li .subheading, .headings-example ul li h4,
+.headings-example ul .ft-tabs .tabs-list li a .tab-group .tab-heading,
+.ft-tabs .tabs-list .headings-example ul li a .tab-group .tab-heading, .headings-example ul li .testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item blockquote footer .headings-example ul li cite, .headings-example ul li .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .headings-example ul li cite, .headings-example ul li .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .headings-example ul li cite, .headings-example ul li .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .headings-example ul li cite, .headings-example ul li .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .headings-example ul li cite, .headings-example ul li .team-3col .t-item .t-info .t-role,
+.team-3col .t-item .t-info .headings-example ul li .t-role, .headings-example ul li .team-4col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .headings-example ul li .t-role, .headings-example ul li .freelancer-about .t-item .t-info .t-role,
+.freelancer-about .t-item .t-info .headings-example ul li .t-role, .headings-example ul li .t-join .t-info .t-role,
+.t-join .t-info .headings-example ul li .t-role, .headings-example ul li .login-2 .bg-overlay .form-wrapper .form-content .cards-header,
+.login-2 .bg-overlay .form-wrapper .form-content .headings-example ul li .cards-header, .headings-example ul li .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .headings-example ul li .sc-lead, .headings-example ul li h5,
+.headings-example .ft-boxed-hover ul li .hover-content .ft-heading,
+.ft-boxed-hover .headings-example ul li .hover-content .ft-heading, .headings-example ul .ft-tabs .tabs-list li a .tab-group .tab-info,
+.ft-tabs .tabs-list .headings-example ul li a .tab-group .tab-info, .headings-example ul li .sidebar .comments-widget .widget-item span .widget-comm-title,
+.sidebar .comments-widget .widget-item span .headings-example ul li .widget-comm-title, .headings-example ul li .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .headings-example ul li .title-timer, .headings-example ul li .shop-layout-options span,
+.shop-layout-options .headings-example ul li span, .headings-example ul li h6, .headings-example ul li .progress-group .progress-title, .progress-group .headings-example ul li .progress-title,
+.headings-example ul li .progress-group .progress-value, .progress-group .headings-example ul li .progress-value, .headings-example ul li .accordions-1 .panel .panel-heading .panel-title, .accordions-1 .panel .panel-heading .headings-example ul li .panel-title, .headings-example .footer-social-links ul li li, .footer-social-links .headings-example ul li li, .headings-example ul li .footer-contact .contact-info .show-info-link, .footer-contact .contact-info .headings-example ul li .show-info-link, .headings-example .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address .headings-example ul li .adr-heading, .headings-example ul li .footer-contact .contact-info address .show-map, .footer-contact .contact-info address .headings-example ul li .show-map, .headings-example .footer-litle address ul li .adr-group .adr-heading, .footer-litle address .headings-example ul li .adr-group .adr-heading, .headings-example ul li .ft-cards .ft-item a, .ft-cards .ft-item .headings-example ul li a, .headings-example ul li .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-cards-2 .ft-card-item .ft-content .headings-example ul li .link-btn, .headings-example .ft-boxed-hover ul li .hover-content a, .ft-boxed-hover .headings-example ul li .hover-content a, .headings-example ul li .circles-counters .circle-item .circle-text, .circles-counters .circle-item .headings-example ul li .circle-text, .headings-example ul li .circles-counters-dark-bg .circle-item .circle-text, .circles-counters-dark-bg .circle-item .headings-example ul li .circle-text, .headings-example ul li .number-counters .count-wrapper .count-item .count-text, .number-counters .count-wrapper .count-item .headings-example ul li .count-text, .headings-example ul li .number-counters-dark-bg .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .headings-example ul li .count-text, .headings-example ul .project-nav nav .nav-btns li a, .project-nav nav .nav-btns .headings-example ul li a, .headings-example ul li .pricing-tables .p-table .desc, .pricing-tables .p-table .headings-example ul li .desc, .headings-example ul li .blog-post-nav .prev-btn, .blog-post-nav .headings-example ul li .prev-btn,
+.headings-example ul li .blog-post-nav .next-btn, .blog-post-nav .headings-example ul li .next-btn, .headings-example ul .sidebar .tags-widget .tag-list li a, .sidebar .tags-widget .tag-list .headings-example ul li a, .headings-example ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .headings-example ul li span, .headings-example ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .headings-example ul li a,
+.headings-example ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .headings-example ul li p, .headings-example ul li .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .headings-example ul li a, .headings-example ul li .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .headings-example ul li .cta-btn, .headings-example ul li .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .headings-example ul li label, .headings-example ul li .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .headings-example ul li label, .headings-example ul .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list .headings-example ul li a, .headings-example ul .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list .headings-example ul li a, .headings-example ul li .checkout-table tbody tr td:first-child, .checkout-table tbody tr .headings-example ul li td:first-child, .headings-example ul li .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .headings-example ul li .tpr-name {
+  margin: 0;
+}
+
+/* --------------------------------------------------
+	2.0 Buttons
+-------------------------------------------------- */
+/* ---- 2.1 Defualt Buttons ---- */
+.btn, .btn-ghost, .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .btn-text, .btn-text-light, .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light {
+  position: relative;
+  display: inline-block;
+  padding: 8px 38px;
+  background: #111;
+  color: #ececec;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 0.9em;
+  line-height: 1.8em;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.btn:visited, .btn-ghost:visited, .btn-ghost-light:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited, .btn-text:visited, .btn-text-light:visited, .btn-light:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:visited, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:visited {
+  color: #ececec;
+  background: #111;
+}
+
+.btn:visited:hover, .btn-ghost:visited:hover, .btn-ghost-light:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:visited:hover, .btn-text:visited:hover, .btn-text-light:visited:hover, .btn-light:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:visited:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:visited:hover {
+  color: #ececec;
+  background: #3f3f3f;
+}
+
+.btn:hover, .btn-ghost:hover, .btn-ghost-light:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:hover, .btn-text:hover, .btn-text-light:hover, .btn-light:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:hover, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:hover {
+  color: #ececec;
+  background: #3f3f3f;
+}
+
+.btn:focus, .btn-ghost:focus, .btn-ghost-light:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light:focus, .btn-text:focus, .btn-text-light:focus, .btn-light:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost:focus, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light:focus {
+  color: #ececec;
+  outline: none;
+}
+
+/* ---- 2.2 Ghost Buttons ---- */
+/* ---- 2.3 Buttons Rounded ---- */
+.btn-round {
+  border-radius: 25px;
+}
+
+/* ---- 2.4 Text Buttons ---- */
+
+/* ---- 2.5 Button Sizes ---- */
+.btn-large {
+  padding: 10px 54px;
+  font-size: 1.1em;
+  letter-spacing: 3px;
+}
+
+.btn-small {
+  padding: 6px 33px;
+  font-size: 0.75em;
+}
+
+/* ---- 2.6 Light Buttons ---- */
+
+/* ---- 2.7 Pagination ---- */
+/* ---- 2.7 PAGE - Buttons ---- */
+.btn-example {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+/* --------------------------------------------------
+	3.0 Forms
+-------------------------------------------------- */
+.form-control {
+  height: 40px;
+  padding-left: 20px;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  box-shadow: none;
+  line-height: 22px;
+  letter-spacing: .5px;
+  -webkit-transition: border-color 0.5s;
+          transition: border-color 0.5s;
+}
+
+.form-control:focus,
+.form-control:hover {
+  outline: none;
+  box-shadow: none;
+  border-color: #777;
+}
+
+input[type="file"] {
+  background: #f9f9f9;
+}
+
+input[type="file"]:focus,
+input[type="file"]:hover {
+  outline: none;
+  box-shadow: none;
+  border-color: #ddd !important;
+}
+
+.form-control[disabled],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+  border-color: #ddd;
+}
+
+.form-control[disabled]:focus,
+.form-control[disabled]:hover,
+fieldset[disabled] .form-control:focus,
+fieldset[disabled] .form-control:hover {
+  border-color: #ddd !important;
+}
+
+.form-group label {
+  font-size: .8em;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #111;
+}
+
+/* --------------------------------------------------
+	X.0 Progress Bars
+-------------------------------------------------- */
+.progress {
+  height: 25px;
+  margin-bottom: 5px;
+  border-radius: 0;
+  box-shadow: none;
+  background: #ececec;
+}
+
+.progress .progress-bar {
+  background: #111;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.9em;
+  letter-spacing: 1px;
+}
+
+.progress-thin {
+  height: 3px;
+}
+
+.progress-group {
+  margin-bottom: 20px;
+}
+
+.progress-group .progress-title,
+.progress-group .progress-value {
+  display: inline-block;
+  margin: 0;
+}
+
+.progress-group .progress-value {
+  text-align: right;
+  right: 0;
+  float: right;
+}
+
+/* --------------------------------------------------
+	6.0 FAQ - Accordions
+-------------------------------------------------- */
+
+/* --------------------------------------------------
+	5.0 Alerts
+-------------------------------------------------- */
+.alert {
+  padding-left: 25px;
+  border-radius: 0;
+  border: none;
+  border-left: 3px solid #ccc;
+}
+
+.alert h4,
+.alert .ft-tabs .tabs-list li a .tab-group .tab-heading,
+.ft-tabs .tabs-list li a .tab-group .alert .tab-heading, .alert .testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item blockquote footer .alert cite, .alert .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .alert cite, .alert .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .alert cite, .alert .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .alert cite, .alert .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .alert cite, .alert .team-3col .t-item .t-info .t-role,
+.team-3col .t-item .t-info .alert .t-role, .alert .team-4col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .alert .t-role, .alert .freelancer-about .t-item .t-info .t-role,
+.freelancer-about .t-item .t-info .alert .t-role, .alert .t-join .t-info .t-role,
+.t-join .t-info .alert .t-role, .alert .login-2 .bg-overlay .form-wrapper .form-content .cards-header,
+.login-2 .bg-overlay .form-wrapper .form-content .alert .cards-header, .alert .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .alert .sc-lead, .alert h5,
+.alert .ft-boxed-hover ul li .hover-content .ft-heading,
+.ft-boxed-hover ul li .hover-content .alert .ft-heading, .alert .ft-tabs .tabs-list li a .tab-group .tab-info,
+.ft-tabs .tabs-list li a .tab-group .alert .tab-info, .alert .sidebar .comments-widget .widget-item span .widget-comm-title,
+.sidebar .comments-widget .widget-item span .alert .widget-comm-title, .alert .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .alert .title-timer, .alert .shop-layout-options span,
+.shop-layout-options .alert span, .alert h6, .alert .progress-group .progress-title, .progress-group .alert .progress-title,
+.alert .progress-group .progress-value, .progress-group .alert .progress-value, .alert .accordions-1 .panel .panel-heading .panel-title, .accordions-1 .panel .panel-heading .alert .panel-title, .alert .footer-social-links ul li, .footer-social-links ul .alert li, .alert .footer-contact .contact-info .show-info-link, .footer-contact .contact-info .alert .show-info-link, .alert .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address ul li .alert .adr-heading, .alert .footer-contact .contact-info address .show-map, .footer-contact .contact-info address .alert .show-map, .alert .footer-litle address ul li .adr-group .adr-heading, .footer-litle address ul li .adr-group .alert .adr-heading, .alert .ft-cards .ft-item a, .ft-cards .ft-item .alert a, .alert .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-cards-2 .ft-card-item .ft-content .alert .link-btn, .alert .ft-boxed-hover ul li .hover-content a, .ft-boxed-hover ul li .hover-content .alert a, .alert .circles-counters .circle-item .circle-text, .circles-counters .circle-item .alert .circle-text, .alert .circles-counters-dark-bg .circle-item .circle-text, .circles-counters-dark-bg .circle-item .alert .circle-text, .alert .number-counters .count-wrapper .count-item .count-text, .number-counters .count-wrapper .count-item .alert .count-text, .alert .number-counters-dark-bg .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .alert .count-text, .alert .project-nav nav .nav-btns li a, .project-nav nav .nav-btns li .alert a, .alert .pricing-tables .p-table .desc, .pricing-tables .p-table .alert .desc, .alert .blog-post-nav .prev-btn, .blog-post-nav .alert .prev-btn,
+.alert .blog-post-nav .next-btn, .blog-post-nav .alert .next-btn, .alert .sidebar .tags-widget .tag-list li a, .sidebar .tags-widget .tag-list li .alert a, .alert .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .alert span, .alert .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .alert a,
+.alert .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .alert p, .alert .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .alert a, .alert .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .alert .cta-btn, .alert .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .alert label, .alert .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .alert label, .alert .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list li .alert a, .alert .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li .alert a, .alert .checkout-table tbody tr td:first-child, .checkout-table tbody tr .alert td:first-child, .alert .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .alert .tpr-name {
+  color: inherit !important;
+}
+
+.alert-success {
+  border-color: #3c763d;
+  background: rgba(93, 235, 49, 0.25);
+}
+
+.alert-info {
+  border-color: #31708f;
+  background: rgba(49, 215, 235, 0.25);
+}
+
+.alert-warning {
+  border-color: #ba8f45;
+  background: rgba(246, 221, 51, 0.25);
+}
+
+.alert-danger {
+  border-color: #a94442;
+  background: rgba(235, 84, 49, 0.25);
+}
+
+/* --------------------------------------------------
+	4.0 Headers/Page Titles
+-------------------------------------------------- */
+/* ---- 4.1 Breadcrumbs ---- */
+.breadcrumb {
+  bottom: 7px;
+  margin-bottom: 0;
+  background: none;
+  text-transform: uppercase;
+  font-size: .85em;
+  letter-spacing: 2px;
+}
+
+.breadcrumb li a {
+  color: #999;
+}
+
+.breadcrumb li a:focus {
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  color: #ececec;
+}
+
+.breadcrumb li + li:before {
+  color: #777;
+}
+
+.breadcrumb .active {
+  color: #777;
+}
+
+/* ---- 4.2 Header/Page Title ---- */
+.page-title {
+  position: relative;
+  background: #f4f4f4;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.page-title h1, .page-title .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .page-title .nbr-timer {
+  margin: 0;
+}
+
+.page-title .subheading {
+  display: block;
+  margin: 20px 0 0 0;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  color: #777;
+}
+
+.page-title .breadcrumb li a {
+  color: #777;
+}
+
+.page-title .breadcrumb li a:hover {
+  color: #111;
+}
+
+.page-title .breadcrumb .active {
+  color: #999;
+}
+
+/* ---- 4.3 Header/Page Title Styles ---- */
+.pt-dark {
+  background: #111;
+}
+
+.pt-dark h1, .pt-dark .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .pt-dark .nbr-timer {
+  color: #ececec;
+}
+
+.pt-dark .breadcrumb li a {
+  color: #999;
+}
+
+.pt-dark .breadcrumb li a:hover {
+  color: #ececec;
+}
+
+.pt-dark .breadcrumb .active {
+  color: #777;
+}
+
+/* ---- 4.4 Header/Page Title Sizes ---- */
+.pt-small {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pt-small h1, .pt-small .comingsoon .content-wrapper .content-inner .cs-timer .item .nbr-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .pt-small .nbr-timer {
+  margin: 0;
+  padding: 0;
+}
+
+.pt-small .breadcrumb {
+  padding: 0;
+}
+
+.pt-large {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+/* ---- 4.5 Header/Page Title Parallax ---- */
+.pt-plax-md-dark {
+  background: url(../images/pt-bg-1.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.pt-plax-md-dark:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.55);
+}
+
+.pt-plax-md-light {
+  background: url(../images/pt-bg-2.jpg);
+  background-size: cover;
+}
+
+.pt-plax-md-light:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(244, 244, 244, 0.85);
+}
+
+.pt-plax-lg-dark {
+  background: url(../images/pt-bg-3.jpg);
+  background-size: cover;
+}
+
+.pt-plax-lg-dark:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.83);
+}
+
+.pt-plax-lg-light {
+  background: url(../images/pt-bg-3.jpg);
+  background-size: cover;
+}
+
+.pt-plax-lg-light:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(244, 244, 244, 0.83);
+}
+
+/* --------------------------------------------------
+	7.0 Footers
+-------------------------------------------------- */
+
+.copyright {
+  color: #777;
+}
+.copyright a
+{
+	font-size:15px;
+	text-transform:uppercase;
+}
+
+
+.copyright i {
+  padding-left: 7px;
+  font-size: 21px;
+  vertical-align: top;
+}
+
+
+
+/* --------------------------------------------------
+	8.0 Navigation
+-------------------------------------------------- */
+.navbar {
+  margin-bottom: 0;
+  min-height: 110px;
+  border-bottom: 1px solid #ececec;
+  border-radius: 0;
+  background:/*black;*/#fff;
+}
+
+.navbar .navbar-header {
+  width: 27%;
+  margin-top: 6px;
+}
+
+.navbar .navbar-header .navbar-brand {
+  padding: 10px 10px;
+  margin-left: 0;
+}
+
+.navbar .navbar-nav {
+  margin-top: 20px;
+}
+
+.navbar .navbar-nav li a {
+  text-transform: uppercase;
+  font-size: 15px;/*0.8em;*/
+  font-weight: 400;
+  letter-spacing: 2px;
+  color:black/*#999*/;
+  -webkit-transition: color 0.5s;
+          transition: color 0.5s;
+}
+
+.navbar .navbar-nav li a:focus {
+  color: inherit;
+}
+
+.navbar .navbar-nav li a:hover {
+  background: none;
+  color: blue/*#111;*/
+}
+
+
+.navbar .navbar-nav .active a {
+  background: none;
+  color: #111;
+  -webkit-transition: color 0.5s;
+          transition: color 0.5s;
+}
+
+.navbar .navbar-nav .active a:hover,
+.navbar .navbar-nav .active a:focus,
+.navbar .navbar-nav .active a:visited {
+  background: none;
+}
+
+
+/* ---- Navbar Utility ---- */
+.navbar-trans {
+  border-bottom:none;
+  background: transparent;/*black;*/
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+		  min-height:110px;
+}
+
+.navbar-trans .navbar-logo {
+  content: url(../images/csilogo.png);
+}
+
+.navbar-trans .navbar-logo-dark {
+  content: url(../images/logo.png);
+}
+
+
+
+/* ---- Navbar Utility ---- */
+.bg-solid-white {
+  background: #fff !important;
+}
+
+.bg-solid-dark {
+  background: #111;
+}
+.nav-tabs {
+  border-top: 1px solid #c1c1c1;
+  border-bottom: none;
+}
+
+.nav-tabs li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.nav-tabs li a {
+  padding: 20px 25px 30px 25px;
+  border-radius: 0;
+  border: none;
+  border-top: 1px solid transparent;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: #999;
+  text-transform: uppercase;
+}
+
+.nav-tabs li a:hover {
+  background: none;
+  border: none;
+  border-top: 1px solid #444444;
+}
+
+.nav-tabs li a:focus {
+  background: none;
+  border: none;
+}
+
+.nav-tabs .active a {
+  border: none !important;
+  border-top: 1px solid #111 !important;
+  color: #111;
+}
+
+/* ---- 9.16 Utiliy Classes ---- */
+.ft-icon-white {
+  color: #ececec;
+}
+
+.ft-icon-gray {
+  color: #999;
+}
+
+.ft-icon-dark {
+  color: #111;
+}
+
+/* ---- 10.2 Counters - Numbers ---- */
+.number-counters, .number-counters-dark-bg {
+  position: relative;
+  background: url(../images/Deadquad.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+.number-counters:before, .number-counters-dark-bg:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.65);
+}
+
+.number-counters .count-wrapper, .number-counters-dark-bg .count-wrapper {
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.number-counters .count-wrapper .count-item, .number-counters-dark-bg .count-wrapper .count-item {
+  display: block;
+  text-align: center;
+}
+
+.number-counters .count-wrapper .count-item .count-nbr, .number-counters-dark-bg .count-wrapper .count-item .count-nbr {
+  display: block;
+  margin-bottom: 30px;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 65px;
+  font-weight: lighter;
+  color: #ececec;
+}
+
+.number-counters .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .count-text {
+  color: #ececec;
+}
+
+.number-counters-dark-bg {
+  background: #111;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #111;
+  z-index: 9999;
+}
+
+.preloader img {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+
+/* ---- 20.1 Main Onepage ---- */
+.main-demo-hero, .fs-video-hero, .fw-video-hero, .text-slider-hero, .freelancer-hero, .agency2-hero, .animated-hero, .web-app-hero {
+  position: relative;
+  width: 100%;
+  height: 115vh;
+  background: url(../images/hero/fog.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-demo-hero .bg-overlay, .fs-video-hero .bg-overlay, .fw-video-hero .bg-overlay, .text-slider-hero .bg-overlay, .freelancer-hero .bg-overlay, .agency2-hero .bg-overlay, .animated-hero .bg-overlay, .web-app-hero .bg-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(236, 236, 236, 0.6);
+}
+
+
+
+.main-demo-hero .hero-content-wrapper, .fs-video-hero .hero-content-wrapper, .fw-video-hero .hero-content-wrapper, .text-slider-hero .hero-content-wrapper, .freelancer-hero .hero-content-wrapper, .agency2-hero .hero-content-wrapper, .animated-hero .hero-content-wrapper, .web-app-hero .hero-content-wrapper {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding-left: 10%;
+}
+
+.main-demo-hero .hero-content-wrapper .hero-content, .fs-video-hero .hero-content-wrapper .hero-content, .fw-video-hero .hero-content-wrapper .hero-content, .text-slider-hero .hero-content-wrapper .hero-content, .freelancer-hero .hero-content-wrapper .hero-content, .agency2-hero .hero-content-wrapper .hero-content, .animated-hero .hero-content-wrapper .hero-content, .web-app-hero .hero-content-wrapper .hero-content {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.main-demo-hero .hero-content-wrapper .hero-content .hero-lead, .fs-video-hero .hero-content-wrapper .hero-content .hero-lead, .fw-video-hero .hero-content-wrapper .hero-content .hero-lead, .text-slider-hero .hero-content-wrapper .hero-content .hero-lead, .freelancer-hero .hero-content-wrapper .hero-content .hero-lead, .agency2-hero .hero-content-wrapper .hero-content .hero-lead, .animated-hero .hero-content-wrapper .hero-content .hero-lead, .web-app-hero .hero-content-wrapper .hero-content .hero-lead {
+  font-size: 6em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.main-demo-hero .hero-content-wrapper .hero-content .hero-subheading, .fs-video-hero .hero-content-wrapper .hero-content .hero-subheading, .fw-video-hero .hero-content-wrapper .hero-content .hero-subheading, .text-slider-hero .hero-content-wrapper .hero-content .hero-subheading, .freelancer-hero .hero-content-wrapper .hero-content .hero-subheading, .agency2-hero .hero-content-wrapper .hero-content .hero-subheading, .animated-hero .hero-content-wrapper .hero-content .hero-subheading, .web-app-hero .hero-content-wrapper .hero-content .hero-subheading {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #999;
+}
+
+/* ---- 20.2 Full Screen Slider ---- */
+
+/* ---- 20.3 Full Width Slider ---- */
+/* ---- 20.4 Full Screen Video ---- */
+.fs-video-hero, .fw-video-hero {
+  background: url(../images/hero/edge.jpg);
+  background-size: cover;
+}
+
+.fs-video-hero .bg-overlay, .fw-video-hero .bg-overlay {
+  background: rgba(17, 17, 17, 0.4);
+}
+
+.fs-video-hero .hero-content-wrapper .hero-content .hero-lead, .fw-video-hero .hero-content-wrapper .hero-content .hero-lead {
+  color: #ececec;
+}
+
+.fs-video-hero .hero-content-wrapper .hero-content .hero-subheading, .fw-video-hero .hero-content-wrapper .hero-content .hero-subheading {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/* ---- 20.8 Agency ---- */
+
+.agency2-hero {
+  background: url(../images/hero/tri.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+.agency2-hero .bg-overlay {
+  background: rgba(17, 17, 17, 0.5);
+}
+
+.agency2-hero .large-header .demo-canvas {
+  max-width: 100%;
+}
+
+.agency2-hero .hero-content-wrapper {
+  padding-left: 0;
+}
+
+.agency2-hero .hero-content-wrapper .hero-content {
+  text-align: center;
+}
+.agency2-hero .hero-content-wrapper .hero-content .hero-lead {
+  margin-top: 0;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 4em;
+  font-weight: 400;
+  letter-spacing: 10px;
+  color: #ececec;
+}
+
+.agency2-hero .hero-content-wrapper .hero-content .hero-secondary {
+  letter-spacing: 10px;
+}
+
+.agency2-hero .hero-content-wrapper .hero-content .btn, .agency2-hero .hero-content-wrapper .hero-content .btn-ghost, .agency2-hero .hero-content-wrapper .hero-content .btn-ghost-light, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost-light, .agency2-hero .hero-content-wrapper .hero-content .btn-text, .agency2-hero .hero-content-wrapper .hero-content .btn-text-light, .agency2-hero .hero-content-wrapper .hero-content .btn-light, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-ghost, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-ghost, .agency2-hero .hero-content-wrapper .hero-content .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .btn-light, .navbar .navbar-nav .dropdown .cart-dropdown .cart-btns .agency2-hero .hero-content-wrapper .hero-content .btn-light {
+  margin-top: 30px;
+}
+
+.agency2-hero .hero-content-wrapper .hero-content img {
+  margin-bottom: 50px;
+}
+
+/* ---- 20.9 Animated Heading ---- */
+
+.animated-hero .hero-content-wrapper .hero-content {
+  text-align: center;
+}
+
+.animated-hero .hero-content-wrapper .hero-content .hero-lead {
+  font-size: 6.5em;
+  font-weight: 700;
+  letter-spacing: 20px;
+  color: #ececec;
+}
+
+.animated-hero .hero-content-wrapper .hero-content .hero-lead span {
+  text-align: center;
+}
+
+.animated-hero .hero-content-wrapper .hero-content .hero-subheading {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #999;
+}
+.number-counters
+{
+	position:relative;
+	display:block;
+}
+.primary 
+{
+	margin-top:50px;
+	padding-top:50px;
+}
+
+
+

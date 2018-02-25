@@ -1,0 +1,385 @@
+.testimonials-parallax, .testimonials-dark {
+  background: url(../images/CSI.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+.testimonials-parallax .bg-overlay, .testimonials-dark .bg-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.5);
+}
+
+.testimonials-parallax .t-wrapper, .testimonials-dark .t-wrapper {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.testimonials-parallax .t-wrapper:hover .t-slider-nav, .testimonials-dark .t-wrapper:hover .t-slider-nav {
+  opacity: 1;
+}
+
+.testimonials-parallax .t-wrapper blockquote, .testimonials-dark .t-wrapper blockquote, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p {
+  margin-bottom: 0;
+  font-size: 1.4em;
+  line-height: 1.6em;
+  color: #ececec;
+}
+
+.testimonials-parallax .t-wrapper blockquote .t-type, .testimonials-dark .t-wrapper blockquote .t-type, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 .t-type, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 .t-type, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 .t-type, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 .t-type, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p .t-type, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p .t-type, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p .t-type, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p .t-type {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 34px;
+}
+
+.testimonials-parallax .t-wrapper blockquote footer, .testimonials-dark .t-wrapper blockquote footer, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer {
+  padding-top: 0;
+}
+
+.testimonials-parallax .t-wrapper blockquote footer:before, .testimonials-dark .t-wrapper blockquote footer:before, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer:before, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer:before, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer:before, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer:before, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer:before, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer:before, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer:before, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer:before {
+  content: none;
+}
+
+.testimonials-parallax .t-wrapper blockquote footer cite h5, .testimonials-dark .t-wrapper blockquote footer cite h5, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite h5, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite h5, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite h5, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite h5, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite h5, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite h5, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite h5, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite h5, .testimonials-parallax .t-wrapper blockquote footer cite .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .testimonials-parallax .t-wrapper blockquote footer cite .ft-heading, .testimonials-dark .t-wrapper blockquote footer cite .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .testimonials-dark .t-wrapper blockquote footer cite .ft-heading, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-heading, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .ft-heading, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-heading, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .ft-heading, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-heading, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .ft-heading, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-heading, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .ft-heading, .testimonials-parallax .t-wrapper blockquote footer cite .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .testimonials-parallax .t-wrapper blockquote footer cite .tab-info, .testimonials-dark .t-wrapper blockquote footer cite .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .testimonials-dark .t-wrapper blockquote footer cite .tab-info, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .tab-info, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .tab-info, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .tab-info, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .tab-info, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .tab-info, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .tab-info, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .tab-info, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .tab-info, .testimonials-parallax .t-wrapper blockquote footer cite .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .testimonials-parallax .t-wrapper blockquote footer cite .widget-comm-title, .testimonials-dark .t-wrapper blockquote footer cite .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .testimonials-dark .t-wrapper blockquote footer cite .widget-comm-title, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .widget-comm-title, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .widget-comm-title, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .widget-comm-title, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .widget-comm-title, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .widget-comm-title, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .widget-comm-title, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .widget-comm-title, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .widget-comm-title, .testimonials-parallax .t-wrapper blockquote footer cite .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .testimonials-parallax .t-wrapper blockquote footer cite .title-timer, .testimonials-dark .t-wrapper blockquote footer cite .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .testimonials-dark .t-wrapper blockquote footer cite .title-timer, .testimonials-parallax .t-wrapper .wrapper-404 .comingsoon .content-wrapper .info-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer, .comingsoon .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer, .testimonials-parallax .t-wrapper .wrapper-404 .comingsoon .content-wrapper .content-inner .cs-timer .item .info-wrapper .info-404 footer cite .title-timer, .comingsoon .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .content-inner .cs-timer .item .info-wrapper .info-404 footer cite .title-timer, .wrapper-404 .comingsoon .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer, .comingsoon .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer, .wrapper-404 .comingsoon .content-wrapper .content-inner .cs-timer .item .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .title-timer, .comingsoon .wrapper-404 .content-wrapper .content-inner .cs-timer .item .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .title-timer, .testimonials-dark .t-wrapper .wrapper-404 .comingsoon .content-wrapper .info-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer, .comingsoon .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer, .testimonials-dark .t-wrapper .wrapper-404 .comingsoon .content-wrapper .content-inner .cs-timer .item .info-wrapper .info-404 footer cite .title-timer, .comingsoon .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .content-inner .cs-timer .item .info-wrapper .info-404 footer cite .title-timer, .wrapper-404 .comingsoon .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer, .comingsoon .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer, .wrapper-404 .comingsoon .content-wrapper .content-inner .cs-timer .item .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .title-timer, .comingsoon .wrapper-404 .content-wrapper .content-inner .cs-timer .item .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .title-timer, .testimonials-parallax .t-wrapper .bg-maintenance .comingsoon .content-wrapper .content-inner p footer cite .cs-timer .item .title-timer, .comingsoon .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .cs-timer .item .title-timer, .testimonials-parallax .t-wrapper .bg-maintenance .comingsoon .content-wrapper .content-inner .cs-timer .item p footer cite .title-timer, .comingsoon .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner .cs-timer .item p footer cite .title-timer, .bg-maintenance .comingsoon .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .cs-timer .item .title-timer, .comingsoon .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .cs-timer .item .title-timer, .bg-maintenance .comingsoon .content-wrapper .content-inner .cs-timer .item .testimonials-parallax .t-wrapper p footer cite .title-timer, .comingsoon .bg-maintenance .content-wrapper .content-inner .cs-timer .item .testimonials-parallax .t-wrapper p footer cite .title-timer, .testimonials-dark .t-wrapper .bg-maintenance .comingsoon .content-wrapper .content-inner p footer cite .cs-timer .item .title-timer, .comingsoon .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .cs-timer .item .title-timer, .testimonials-dark .t-wrapper .bg-maintenance .comingsoon .content-wrapper .content-inner .cs-timer .item p footer cite .title-timer, .comingsoon .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner .cs-timer .item p footer cite .title-timer, .bg-maintenance .comingsoon .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .cs-timer .item .title-timer, .comingsoon .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .cs-timer .item .title-timer, .bg-maintenance .comingsoon .content-wrapper .content-inner .cs-timer .item .testimonials-dark .t-wrapper p footer cite .title-timer, .comingsoon .bg-maintenance .content-wrapper .content-inner .cs-timer .item .testimonials-dark .t-wrapper p footer cite .title-timer, .testimonials-parallax .t-wrapper blockquote footer cite .shop-layout-options span, .shop-layout-options .testimonials-parallax .t-wrapper blockquote footer cite span, .testimonials-dark .t-wrapper blockquote footer cite .shop-layout-options span, .shop-layout-options .testimonials-dark .t-wrapper blockquote footer cite span, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .shop-layout-options span, .shop-layout-options .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite span, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .shop-layout-options span, .shop-layout-options .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite span, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .shop-layout-options span, .shop-layout-options .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite span, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .shop-layout-options span, .shop-layout-options .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite span, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .shop-layout-options span, .shop-layout-options .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite span, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .shop-layout-options span, .shop-layout-options .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite span, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .shop-layout-options span, .shop-layout-options .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite span, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .shop-layout-options span, .shop-layout-options .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite span {
+  margin: 0;
+  color: #ececec;
+}
+
+.testimonials-parallax .t-wrapper blockquote footer cite h5:first-child, .testimonials-dark .t-wrapper blockquote footer cite h5:first-child, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite h5:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite h5:first-child, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite h5:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite h5:first-child, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite h5:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite h5:first-child, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite h5:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite h5:first-child, .testimonials-parallax .t-wrapper blockquote footer cite .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .testimonials-parallax .t-wrapper blockquote footer cite .ft-heading:first-child, .testimonials-dark .t-wrapper blockquote footer cite .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .testimonials-dark .t-wrapper blockquote footer cite .ft-heading:first-child, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-heading:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .ft-heading:first-child, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-heading:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .ft-heading:first-child, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-heading:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .ft-heading:first-child, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-heading:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .ft-heading:first-child, .testimonials-parallax .t-wrapper blockquote footer cite .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .testimonials-parallax .t-wrapper blockquote footer cite .tab-info:first-child, .testimonials-dark .t-wrapper blockquote footer cite .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .testimonials-dark .t-wrapper blockquote footer cite .tab-info:first-child, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .tab-info:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .tab-info:first-child, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .tab-info:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .tab-info:first-child, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .tab-info:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .tab-info:first-child, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .tab-info:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .tab-info:first-child, .testimonials-parallax .t-wrapper blockquote footer cite .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .testimonials-parallax .t-wrapper blockquote footer cite .widget-comm-title:first-child, .testimonials-dark .t-wrapper blockquote footer cite .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .testimonials-dark .t-wrapper blockquote footer cite .widget-comm-title:first-child, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .widget-comm-title:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .widget-comm-title:first-child, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .widget-comm-title:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .widget-comm-title:first-child, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .widget-comm-title:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .widget-comm-title:first-child, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .widget-comm-title:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .widget-comm-title:first-child, .testimonials-parallax .t-wrapper blockquote footer cite .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:first-child, .comingsoon .content-wrapper .content-inner .cs-timer .item .testimonials-parallax .t-wrapper blockquote footer cite .title-timer:first-child, .testimonials-dark .t-wrapper blockquote footer cite .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:first-child, .comingsoon .content-wrapper .content-inner .cs-timer .item .testimonials-dark .t-wrapper blockquote footer cite .title-timer:first-child, .testimonials-parallax .t-wrapper .wrapper-404 .comingsoon .content-wrapper .info-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer:first-child, .comingsoon .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer:first-child, .testimonials-parallax .t-wrapper .wrapper-404 .comingsoon .content-wrapper .content-inner .cs-timer .item .info-wrapper .info-404 footer cite .title-timer:first-child, .comingsoon .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .content-inner .cs-timer .item .info-wrapper .info-404 footer cite .title-timer:first-child, .wrapper-404 .comingsoon .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer:first-child, .comingsoon .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer:first-child, .wrapper-404 .comingsoon .content-wrapper .content-inner .cs-timer .item .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .title-timer:first-child, .comingsoon .wrapper-404 .content-wrapper .content-inner .cs-timer .item .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .title-timer:first-child, .testimonials-dark .t-wrapper .wrapper-404 .comingsoon .content-wrapper .info-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer:first-child, .comingsoon .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer:first-child, .testimonials-dark .t-wrapper .wrapper-404 .comingsoon .content-wrapper .content-inner .cs-timer .item .info-wrapper .info-404 footer cite .title-timer:first-child, .comingsoon .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .content-inner .cs-timer .item .info-wrapper .info-404 footer cite .title-timer:first-child, .wrapper-404 .comingsoon .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer:first-child, .comingsoon .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .content-inner .cs-timer .item .title-timer:first-child, .wrapper-404 .comingsoon .content-wrapper .content-inner .cs-timer .item .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .title-timer:first-child, .comingsoon .wrapper-404 .content-wrapper .content-inner .cs-timer .item .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .title-timer:first-child, .testimonials-parallax .t-wrapper .bg-maintenance .comingsoon .content-wrapper .content-inner p footer cite .cs-timer .item .title-timer:first-child, .comingsoon .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .cs-timer .item .title-timer:first-child, .testimonials-parallax .t-wrapper .bg-maintenance .comingsoon .content-wrapper .content-inner .cs-timer .item p footer cite .title-timer:first-child, .comingsoon .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner .cs-timer .item p footer cite .title-timer:first-child, .bg-maintenance .comingsoon .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .cs-timer .item .title-timer:first-child, .comingsoon .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .cs-timer .item .title-timer:first-child, .bg-maintenance .comingsoon .content-wrapper .content-inner .cs-timer .item .testimonials-parallax .t-wrapper p footer cite .title-timer:first-child, .comingsoon .bg-maintenance .content-wrapper .content-inner .cs-timer .item .testimonials-parallax .t-wrapper p footer cite .title-timer:first-child, .testimonials-dark .t-wrapper .bg-maintenance .comingsoon .content-wrapper .content-inner p footer cite .cs-timer .item .title-timer:first-child, .comingsoon .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .cs-timer .item .title-timer:first-child, .testimonials-dark .t-wrapper .bg-maintenance .comingsoon .content-wrapper .content-inner .cs-timer .item p footer cite .title-timer:first-child, .comingsoon .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner .cs-timer .item p footer cite .title-timer:first-child, .bg-maintenance .comingsoon .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .cs-timer .item .title-timer:first-child, .comingsoon .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .cs-timer .item .title-timer:first-child, .bg-maintenance .comingsoon .content-wrapper .content-inner .cs-timer .item .testimonials-dark .t-wrapper p footer cite .title-timer:first-child, .comingsoon .bg-maintenance .content-wrapper .content-inner .cs-timer .item .testimonials-dark .t-wrapper p footer cite .title-timer:first-child, .testimonials-parallax .t-wrapper blockquote footer cite .shop-layout-options span:first-child, .shop-layout-options .testimonials-parallax .t-wrapper blockquote footer cite span:first-child, .testimonials-dark .t-wrapper blockquote footer cite .shop-layout-options span:first-child, .shop-layout-options .testimonials-dark .t-wrapper blockquote footer cite span:first-child, .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .shop-layout-options span:first-child, .shop-layout-options .testimonials-parallax .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite span:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite .shop-layout-options span:first-child, .shop-layout-options .wrapper-404 .content-wrapper .info-wrapper .testimonials-parallax .t-wrapper .info-404 footer cite span:first-child, .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite .shop-layout-options span:first-child, .shop-layout-options .testimonials-dark .t-wrapper .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite span:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite .shop-layout-options span:first-child, .shop-layout-options .wrapper-404 .content-wrapper .info-wrapper .testimonials-dark .t-wrapper .info-404 footer cite span:first-child, .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .shop-layout-options span:first-child, .shop-layout-options .testimonials-parallax .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite span:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite .shop-layout-options span:first-child, .shop-layout-options .bg-maintenance .content-wrapper .content-inner .testimonials-parallax .t-wrapper p footer cite span:first-child, .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite .shop-layout-options span:first-child, .shop-layout-options .testimonials-dark .t-wrapper .bg-maintenance .content-wrapper .content-inner p footer cite span:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite .shop-layout-options span:first-child, .shop-layout-options .bg-maintenance .content-wrapper .content-inner .testimonials-dark .t-wrapper p footer cite span:first-child {
+  margin-bottom: 10px;
+}
+
+.testimonials-parallax .t-wrapper .t-slider-nav, .testimonials-dark .t-wrapper .t-slider-nav {
+  display: inline-block;
+  position: absolute;
+  padding: 7px 7px 0 7px;
+  top: 160px;
+  border: 2px solid #ececec;
+  background: none;
+  opacity: 0;
+  -webkit-transition: background 0.4s, opacity 0.6s;
+          transition: background 0.4s, opacity 0.6s;
+}
+
+.testimonials-parallax .t-wrapper .t-slider-nav span, .testimonials-dark .t-wrapper .t-slider-nav span {
+  color: #ececec;
+  font-size: 28px;
+  -webkit-transition: color 0.4s;
+          transition: color 0.4s;
+}
+
+.testimonials-parallax .t-wrapper .t-slider-nav:hover, .testimonials-dark .t-wrapper .t-slider-nav:hover {
+  background: #ececec;
+}
+
+.testimonials-parallax .t-wrapper .t-slider-nav:hover span, .testimonials-dark .t-wrapper .t-slider-nav:hover span {
+  color: #111;
+}
+
+.testimonials-parallax .t-wrapper .t-slider-nav:focus, .testimonials-dark .t-wrapper .t-slider-nav:focus {
+  outline: none;
+}
+
+.testimonials-parallax .t-wrapper .slick-prev, .testimonials-dark .t-wrapper .slick-prev {
+  left: 0;
+  margin-left: -100px;
+}
+
+.testimonials-parallax .t-wrapper .slick-next, .testimonials-dark .t-wrapper .slick-next {
+  right: 0;
+  margin-right: -100px;
+}
+
+.testimonials-parallax .t-clients, .testimonials-dark .t-clients {
+  display: block;
+  list-style: none;
+  margin: 0 auto 100px auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  z-index: 2;
+}
+
+.testimonials-parallax .t-clients li, .testimonials-dark .t-clients li {
+  display: inline-block;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.testimonials-bg-2 {
+  background: url(../images/testimonials-bg-2.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+}
+
+.testimonials-bg-2 .bg-overlay {
+  background: rgba(17, 17, 17, 0.65);
+}
+
+.testimonials-dark {
+  background: #111;
+}
+
+/* ---- 12.2 Testimonials - 3 Columns Cards ---- */
+.testimonials-3col .t-item {
+  padding: 40px 50px 50px 50px;
+  border-top: 1px solid #f8f8f8;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.testimonials-3col .t-item:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.testimonials-3col .t-item img {
+  margin-bottom: 30px;
+  border: 8px solid #ececec;
+  border-radius: 100px;
+}
+
+.testimonials-3col .t-item blockquote, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p {
+  color: #999;
+}
+
+.testimonials-3col .t-item blockquote p, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 p, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 p, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p p, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p p {
+  margin: 0;
+  border-width: 80%;
+}
+
+.testimonials-3col .t-item blockquote p:before, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 p:before, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 p:before, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p p:before, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p p:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 0 auto 30px auto;
+  border-top: 1px solid #ccc;
+}
+
+.testimonials-3col .t-item blockquote p:after, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 p:after, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 p:after, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p p:after, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p p:after {
+  content: '';
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 30px auto 0 auto;
+  border-bottom: 1px solid #ccc;
+}
+
+.testimonials-3col .t-item blockquote footer:before, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer:before, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer:before, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer:before, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer:before {
+  content: none;
+}
+
+.testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite {
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777;
+}
+
+.testimonials-3col .t-item blockquote footer cite span, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite span, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite span, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite span, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite span {
+  display: block;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 2px;
+  color: #111;
+}
+
+.testimonials-3col .t-item .t-icon {
+  font-size: 32px;
+  color: #999;
+}
+
+.testimonials-3col .t-clients {
+  padding-left: 0;
+}
+
+.testimonials-3col .t-clients li a img {
+  margin: auto;
+}
+
+/* ---- 12.3 Clients List ---- */
+.clients-list-parallax, .clients-list-minimal, .clients-list-gray {
+  background: url(../images/street.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.clients-list-parallax .bg-overlay, .clients-list-minimal .bg-overlay, .clients-list-gray .bg-overlay {
+  background: rgba(17, 17, 17, 0.5);
+}
+
+.clients-list-parallax .c-wrapper, .clients-list-minimal .c-wrapper, .clients-list-gray .c-wrapper {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  padding: 70px 100px;
+  text-align: center;
+  background: rgba(17, 17, 17, 0.9);
+}
+
+.clients-list-parallax .c-wrapper:hover .clients-slider-nav, .clients-list-minimal .c-wrapper:hover .clients-slider-nav, .clients-list-gray .c-wrapper:hover .clients-slider-nav {
+  opacity: 1;
+}
+
+.clients-list-parallax .c-wrapper a, .clients-list-minimal .c-wrapper a, .clients-list-gray .c-wrapper a {
+  display: inline-block;
+}
+
+.clients-list-parallax .c-wrapper a img, .clients-list-minimal .c-wrapper a img, .clients-list-gray .c-wrapper a img {
+  margin: auto;
+}
+
+.clients-list-parallax .c-wrapper .clients-slider-nav, .clients-list-minimal .c-wrapper .clients-slider-nav, .clients-list-gray .c-wrapper .clients-slider-nav {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #777;
+  background: none;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.clients-list-parallax .c-wrapper .clients-slider-nav:hover, .clients-list-minimal .c-wrapper .clients-slider-nav:hover, .clients-list-gray .c-wrapper .clients-slider-nav:hover {
+  color: #111;
+  border-color: #ececec;
+  background: #ececec;
+}
+
+.clients-list-parallax .c-wrapper .clients-slider-nav:focus, .clients-list-minimal .c-wrapper .clients-slider-nav:focus, .clients-list-gray .c-wrapper .clients-slider-nav:focus {
+  outline: none;
+}
+
+.clients-list-parallax .c-wrapper .slick-prev, .clients-list-minimal .c-wrapper .slick-prev, .clients-list-gray .c-wrapper .slick-prev {
+  left: 35px;
+}
+
+.clients-list-parallax .c-wrapper .slick-next, .clients-list-minimal .c-wrapper .slick-next, .clients-list-gray .c-wrapper .slick-next {
+  right: 35px;
+}
+
+.clients-list-minimal {
+  background: #111;
+  text-align: center;
+}
+
+.clients-list-minimal .c-wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.clients-list-minimal .c-heading {
+  padding-top: 75px;
+  color: #ececec;
+  text-align: center;
+}
+
+.clients-list-minimal .clients-slider .slick-prev {
+  left: 0;
+  margin-left: -35px;
+}
+
+.clients-list-minimal .clients-slider .slick-next {
+  right: 0;
+  margin-right: -35px;
+}
+
+.clients-list-gray {
+  background: #ececec;
+}
+
+.clients-list-gray .c-wrapper {
+  padding: 0;
+  background: none;
+}
+
+.clients-list-gray .c-wrapper .clients-slider-nav {
+  border: 2px solid #777;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.clients-list-gray .c-wrapper .clients-slider-nav:hover {
+  color: #ececec;
+  border-color: #111;
+  background: #111;
+}
+
+.clients-list-gray .c-wrapper .slick-prev {
+  left: 0;
+  margin-left: -35px;
+}
+
+.clients-list-gray .c-wrapper .slick-next {
+  right: 0;
+  margin-right: -35px;
+}
+
+/* --------------------------------------------------
+	13.0 Clients Layout
+-------------------------------------------------- */
+.clients-layout .client-item {
+  background: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.clients-layout .client-item:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.clients-layout .client-item .item-content {
+  padding: 50px;
+}
+
+.clients-layout .client-item h2,
+.clients-layout .client-item h3,
+.clients-layout .client-item .page-title .subheading,
+.page-title .clients-layout .client-item .subheading, .clients-layout .client-item h4,
+.clients-layout .client-item .ft-tabs .tabs-list li a .tab-group .tab-heading,
+.ft-tabs .tabs-list li a .tab-group .clients-layout .client-item .tab-heading, .clients-layout .client-item .testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item blockquote footer .clients-layout .client-item cite, .clients-layout .client-item .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .clients-layout .client-item cite, .clients-layout .client-item .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .clients-layout .client-item cite, .clients-layout .client-item .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .clients-layout .client-item cite, .clients-layout .client-item .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .clients-layout .client-item cite, .clients-layout .client-item .team-3col .t-item .t-info .t-role,
+.team-3col .t-item .t-info .clients-layout .client-item .t-role, .clients-layout .client-item .team-4col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .clients-layout .client-item .t-role, .clients-layout .client-item .freelancer-about .t-item .t-info .t-role,
+.freelancer-about .t-item .t-info .clients-layout .client-item .t-role, .clients-layout .client-item .t-join .t-info .t-role,
+.t-join .t-info .clients-layout .client-item .t-role, .clients-layout .client-item .login-2 .bg-overlay .form-wrapper .form-content .cards-header,
+.login-2 .bg-overlay .form-wrapper .form-content .clients-layout .client-item .cards-header, .clients-layout .client-item .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .clients-layout .client-item .sc-lead, .clients-layout .client-item h5,
+.clients-layout .client-item .ft-boxed-hover ul li .hover-content .ft-heading,
+.ft-boxed-hover ul li .hover-content .clients-layout .client-item .ft-heading, .clients-layout .client-item .ft-tabs .tabs-list li a .tab-group .tab-info,
+.ft-tabs .tabs-list li a .tab-group .clients-layout .client-item .tab-info, .clients-layout .client-item .sidebar .comments-widget .widget-item span .widget-comm-title,
+.sidebar .comments-widget .widget-item span .clients-layout .client-item .widget-comm-title, .clients-layout .client-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .clients-layout .client-item .title-timer, .clients-layout .client-item .shop-layout-options span,
+.shop-layout-options .clients-layout .client-item span, .clients-layout .client-item h6, .clients-layout .client-item .progress-group .progress-title, .progress-group .clients-layout .client-item .progress-title,
+.clients-layout .client-item .progress-group .progress-value, .progress-group .clients-layout .client-item .progress-value, .clients-layout .client-item .accordions-1 .panel .panel-heading .panel-title, .accordions-1 .panel .panel-heading .clients-layout .client-item .panel-title, .clients-layout .client-item .footer-social-links ul li, .footer-social-links ul .clients-layout .client-item li, .clients-layout .client-item .footer-contact .contact-info .show-info-link, .footer-contact .contact-info .clients-layout .client-item .show-info-link, .clients-layout .client-item .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address ul li .clients-layout .client-item .adr-heading, .clients-layout .client-item .footer-contact .contact-info address .show-map, .footer-contact .contact-info address .clients-layout .client-item .show-map, .clients-layout .client-item .footer-litle address ul li .adr-group .adr-heading, .footer-litle address ul li .adr-group .clients-layout .client-item .adr-heading, .clients-layout .client-item .ft-cards .ft-item a, .ft-cards .ft-item .clients-layout .client-item a, .clients-layout .client-item .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-cards-2 .ft-card-item .ft-content .clients-layout .client-item .link-btn, .clients-layout .client-item .ft-boxed-hover ul li .hover-content a, .ft-boxed-hover ul li .hover-content .clients-layout .client-item a, .clients-layout .client-item .circles-counters .circle-item .circle-text, .circles-counters .circle-item .clients-layout .client-item .circle-text, .clients-layout .client-item .circles-counters-dark-bg .circle-item .circle-text, .circles-counters-dark-bg .circle-item .clients-layout .client-item .circle-text, .clients-layout .client-item .number-counters .count-wrapper .count-item .count-text, .number-counters .count-wrapper .count-item .clients-layout .client-item .count-text, .clients-layout .client-item .number-counters-dark-bg .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .clients-layout .client-item .count-text, .clients-layout .client-item .project-nav nav .nav-btns li a, .project-nav nav .nav-btns li .clients-layout .client-item a, .clients-layout .client-item .pricing-tables .p-table .desc, .pricing-tables .p-table .clients-layout .client-item .desc, .clients-layout .client-item .blog-post-nav .prev-btn, .blog-post-nav .clients-layout .client-item .prev-btn,
+.clients-layout .client-item .blog-post-nav .next-btn, .blog-post-nav .clients-layout .client-item .next-btn, .clients-layout .client-item .sidebar .tags-widget .tag-list li a, .sidebar .tags-widget .tag-list li .clients-layout .client-item a, .clients-layout .client-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .clients-layout .client-item span, .clients-layout .client-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .clients-layout .client-item a,
+.clients-layout .client-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .clients-layout .client-item p, .clients-layout .client-item .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .clients-layout .client-item a, .clients-layout .client-item .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .clients-layout .client-item .cta-btn, .clients-layout .client-item .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .clients-layout .client-item label, .clients-layout .client-item .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .clients-layout .client-item label, .clients-layout .client-item .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list li .clients-layout .client-item a, .clients-layout .client-item .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li .clients-layout .client-item a, .clients-layout .client-item .checkout-table tbody tr td:first-child, .checkout-table tbody tr .clients-layout .client-item td:first-child, .clients-layout .client-item .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .clients-layout .client-item .tpr-name {
+  margin: 0 0 27px 0;
+}
+
+.clients-layout .client-item p {
+  margin: 0;
+}
+
+.clients-layout .client-item .cli-btn {
+  margin-top: 30px;
+}

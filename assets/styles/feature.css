@@ -1,0 +1,358 @@
+.ft-cards .ft-item {
+  padding: 50px 40px;
+  border: 1px solid #f8f8f8;
+  background: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-cards .ft-item:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.ft-cards .ft-item span {
+  font-size: 64px;
+  color: #111;
+}
+
+.ft-cards .ft-item h4, .ft-cards .ft-item .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .ft-cards .ft-item .tab-heading, .ft-cards .ft-item .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item blockquote footer .ft-cards .ft-item cite, .ft-cards .ft-item .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .ft-cards .ft-item cite, .ft-cards .ft-item .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .ft-cards .ft-item cite, .ft-cards .ft-item .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .ft-cards .ft-item cite, .ft-cards .ft-item .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .ft-cards .ft-item cite, .ft-cards .ft-item .team-3col .t-item .t-info .t-role, .team-3col .t-item .t-info .ft-cards .ft-item .t-role, .ft-cards .ft-item .team-4col .t-item .t-info .t-role, .team-4col .t-item .t-info .ft-cards .ft-item .t-role, .ft-cards .ft-item .freelancer-about .t-item .t-info .t-role, .freelancer-about .t-item .t-info .ft-cards .ft-item .t-role, .ft-cards .ft-item .t-join .t-info .t-role, .t-join .t-info .ft-cards .ft-item .t-role, .ft-cards .ft-item .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .ft-cards .ft-item .cards-header, .ft-cards .ft-item .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .ft-cards .ft-item .sc-lead {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.ft-cards .ft-item p {
+  padding: 0;
+  margin: 0;
+}
+
+.ft-cards .ft-item a {
+  padding-top: 50px;
+  display: block;
+  text-align: right;
+  color: #999;
+}
+
+.ft-cards .ft-item a:hover {
+  color: #111;
+}
+
+.ft-cards .ft-item a:focus {
+  text-decoration: none;
+}
+
+.ft-cards .ft-item a span {
+  display: inline-block;
+  font-size: 25px;
+  vertical-align: top;
+  color: inherit;
+}
+
+/* ---- 9.2 Feature - Cards 2 ---- */
+.ft-cards-2 .ft-card-item {
+  margin-bottom: 50px;
+  height: 254px;
+  background: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-cards-2 .ft-card-item:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.ft-cards-2 .ft-card-item img {
+  display: inline-block;
+  max-width: 240px;
+  float: left;
+}
+
+.ft-cards-2 .ft-card-item .ft-content {
+  display: inline-block;
+  padding: 50px 40px;
+  width: 56%;
+}
+
+.ft-cards-2 .ft-card-item .ft-content h5, .ft-cards-2 .ft-card-item .ft-content .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-cards-2 .ft-card-item .ft-content .ft-heading, .ft-cards-2 .ft-card-item .ft-content .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-cards-2 .ft-card-item .ft-content .tab-info, .ft-cards-2 .ft-card-item .ft-content .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-cards-2 .ft-card-item .ft-content .widget-comm-title, .ft-cards-2 .ft-card-item .ft-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-cards-2 .ft-card-item .ft-content .title-timer, .ft-cards-2 .ft-card-item .ft-content .shop-layout-options span, .shop-layout-options .ft-cards-2 .ft-card-item .ft-content span {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.ft-cards-2 .ft-card-item .ft-content p {
+  margin: 0;
+  color: #999;
+}
+
+.ft-cards-2 .ft-card-item .ft-content .link-btn {
+  display: inline-block;
+  margin-top: 30px;
+  float: right;
+  color: #777;
+  -webkit-transform: translateX(30px);
+      -ms-transform: translateX(30px);
+          transform: translateX(30px);
+  -webkit-transition: -webkit-transform 0.4s;
+          transition: transform 0.4s;
+}
+
+.ft-cards-2 .ft-card-item .ft-content .link-btn span {
+  display: inline-block;
+  font-size: 23px;
+  vertical-align: top;
+  -webkit-transform: translateX(-30px);
+      -ms-transform: translateX(-30px);
+          transform: translateX(-30px);
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+          transition: all 0.4s;
+}
+
+.ft-cards-2 .ft-card-item .ft-content .link-btn:hover {
+  color: #111;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.ft-cards-2 .ft-card-item .ft-content .link-btn:hover span {
+  opacity: 1;
+  -webkit-transform: translateX(5px);
+      -ms-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+.ft-cards-2 .ft-card-item .ft-content .link-btn:focus {
+  text-decoration: none;
+}
+
+/* ---- 9.3 Feature - Steps Numbers ---- */
+.ft-steps-numbers .ft-item {
+  display: block;
+  position: relative;
+}
+
+.ft-steps-numbers .ft-item .ft-nbr {
+  display: inline-block;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  color: rgba(204, 204, 204, 0.4);
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 165px;
+}
+
+.ft-steps-numbers .ft-item h4, .ft-steps-numbers .ft-item .ft-tabs .tabs-list li a .tab-group .tab-heading, .ft-tabs .tabs-list li a .tab-group .ft-steps-numbers .ft-item .tab-heading, .ft-steps-numbers .ft-item .testimonials-3col .t-item blockquote footer cite, .testimonials-3col .t-item blockquote footer .ft-steps-numbers .ft-item cite, .ft-steps-numbers .ft-item .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .ft-steps-numbers .ft-item cite, .ft-steps-numbers .ft-item .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .ft-steps-numbers .ft-item cite, .ft-steps-numbers .ft-item .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .ft-steps-numbers .ft-item cite, .ft-steps-numbers .ft-item .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .ft-steps-numbers .ft-item cite, .ft-steps-numbers .ft-item .team-3col .t-item .t-info .t-role, .team-3col .t-item .t-info .ft-steps-numbers .ft-item .t-role, .ft-steps-numbers .ft-item .team-4col .t-item .t-info .t-role, .team-4col .t-item .t-info .ft-steps-numbers .ft-item .t-role, .ft-steps-numbers .ft-item .freelancer-about .t-item .t-info .t-role, .freelancer-about .t-item .t-info .ft-steps-numbers .ft-item .t-role, .ft-steps-numbers .ft-item .t-join .t-info .t-role, .t-join .t-info .ft-steps-numbers .ft-item .t-role, .ft-steps-numbers .ft-item .login-2 .bg-overlay .form-wrapper .form-content .cards-header, .login-2 .bg-overlay .form-wrapper .form-content .ft-steps-numbers .ft-item .cards-header, .ft-steps-numbers .ft-item .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .ft-steps-numbers .ft-item .sc-lead {
+  margin: 0;
+  padding-bottom: 20px;
+  padding-left: 85px;
+}
+
+.ft-steps-numbers .ft-item p {
+  margin: 0;
+  padding-left: 85px;
+}
+
+/* ---- 9.4 Feature - Centered ---- */
+.ft-centered .ft-item, .ft-x .ft-item, .ft-y .ft-item {
+  text-align: center;
+}
+
+.ft-centered .ft-item h5, .ft-x .ft-item h5, .ft-y .ft-item h5, .ft-centered .ft-item .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-centered .ft-item .ft-heading, .ft-x .ft-item .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-x .ft-item .ft-heading, .ft-y .ft-item .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .ft-y .ft-item .ft-heading, .ft-centered .ft-item .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-centered .ft-item .tab-info, .ft-x .ft-item .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-x .ft-item .tab-info, .ft-y .ft-item .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .ft-y .ft-item .tab-info, .ft-centered .ft-item .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-centered .ft-item .widget-comm-title, .ft-x .ft-item .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-x .ft-item .widget-comm-title, .ft-y .ft-item .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .ft-y .ft-item .widget-comm-title, .ft-centered .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-centered .ft-item .title-timer, .ft-x .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-x .ft-item .title-timer, .ft-y .ft-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .ft-y .ft-item .title-timer, .ft-centered .ft-item .shop-layout-options span, .shop-layout-options .ft-centered .ft-item span, .ft-x .ft-item .shop-layout-options span, .shop-layout-options .ft-x .ft-item span, .ft-y .ft-item .shop-layout-options span, .shop-layout-options .ft-y .ft-item span {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.ft-centered .ft-item span, .ft-x .ft-item span, .ft-y .ft-item span {
+  padding: 0;
+  width: 110px;
+  height: 110px;
+  font-size: 45px;
+  line-height: 109px;
+}
+
+.ft-centered .ft-material:hover span,
+.ft-x .ft-material:hover span,
+.ft-y .ft-material:hover span, .ft-centered .ft-material:hover i, .ft-x .ft-material:hover i, .ft-y .ft-material:hover i {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.ft-centered .ft-material span,
+.ft-x .ft-material span,
+.ft-y .ft-material span, .ft-centered .ft-material i, .ft-x .ft-material i, .ft-y .ft-material i {
+  display: inline-block;
+  border: 1px solid #f8f8f8;
+  border-radius: 100px;
+  background: #fff;
+  color: #777;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-centered .ft-diagonal span,
+.ft-x .ft-diagonal span,
+.ft-y .ft-diagonal span, .ft-centered .ft-diagonal i, .ft-x .ft-diagonal i, .ft-y .ft-diagonal i {
+  display: inline-block;
+  color: #111;
+  background: url(../images/pat-diagonal.png) 100% repeat;
+  border-radius: 100px;
+}
+
+.ft-centered .ft-circle-frame:hover span,
+.ft-x .ft-circle-frame:hover span,
+.ft-y .ft-circle-frame:hover span, .ft-centered .ft-square-frame:hover span, .ft-x .ft-square-frame:hover span, .ft-y .ft-square-frame:hover span, .ft-centered .ft-circle-frame-dark:hover span, .ft-x .ft-circle-frame-dark:hover span, .ft-y .ft-circle-frame-dark:hover span, .ft-centered .ft-square-frame-dark:hover span, .ft-x .ft-square-frame-dark:hover span, .ft-y .ft-square-frame-dark:hover span, .ft-centered .ft-circle-frame:hover i, .ft-x .ft-circle-frame:hover i, .ft-y .ft-circle-frame:hover i, .ft-centered .ft-square-frame:hover i, .ft-x .ft-square-frame:hover i, .ft-y .ft-square-frame:hover i, .ft-centered .ft-circle-frame-dark:hover i, .ft-x .ft-circle-frame-dark:hover i, .ft-y .ft-circle-frame-dark:hover i, .ft-centered .ft-square-frame-dark:hover i, .ft-x .ft-square-frame-dark:hover i, .ft-y .ft-square-frame-dark:hover i {
+  border-color: #ececec;
+  box-shadow: 0 0 0 0 #ececec;
+}
+
+.ft-centered .ft-circle-frame span,
+.ft-x .ft-circle-frame span,
+.ft-y .ft-circle-frame span, .ft-centered .ft-square-frame span, .ft-x .ft-square-frame span, .ft-y .ft-square-frame span, .ft-centered .ft-circle-frame-dark span, .ft-x .ft-circle-frame-dark span, .ft-y .ft-circle-frame-dark span, .ft-centered .ft-square-frame-dark span, .ft-x .ft-square-frame-dark span, .ft-y .ft-square-frame-dark span, .ft-centered .ft-circle-frame i, .ft-x .ft-circle-frame i, .ft-y .ft-circle-frame i, .ft-centered .ft-square-frame i, .ft-x .ft-square-frame i, .ft-y .ft-square-frame i, .ft-centered .ft-circle-frame-dark i, .ft-x .ft-circle-frame-dark i, .ft-y .ft-circle-frame-dark i, .ft-centered .ft-square-frame-dark i, .ft-x .ft-square-frame-dark i, .ft-y .ft-square-frame-dark i {
+  display: inline-block;
+  color: #111;
+  background: #ececec;
+  border: 5px solid white;
+  box-shadow: 0 0 0 1px #ececec;
+  border-radius: 100px;
+  line-height: 102px;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.ft-centered .ft-square-frame span,
+.ft-x .ft-square-frame span,
+.ft-y .ft-square-frame span, .ft-centered .ft-square-frame i, .ft-x .ft-square-frame i, .ft-y .ft-square-frame i {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  font-size: 45px;
+  text-align: center;
+  line-height: 90px;
+}
+
+.ft-centered .ft-dark-spin:hover span,
+.ft-x .ft-dark-spin:hover span,
+.ft-y .ft-dark-spin:hover span, .ft-centered .ft-dark-spin:hover i, .ft-x .ft-dark-spin:hover i, .ft-y .ft-dark-spin:hover i {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  border: 1px solid #cccccc;
+  background: #fff;
+  color: #111;
+}
+
+.ft-centered .ft-dark-spin span,
+.ft-x .ft-dark-spin span,
+.ft-y .ft-dark-spin span, .ft-centered .ft-dark-spin i, .ft-x .ft-dark-spin i, .ft-y .ft-dark-spin i {
+  display: inline-block;
+  color: #f8f8f8;
+  border: 1px solid rgba(17, 17, 17, 0);
+  background: #111;
+  border-radius: 100px;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-centered .ft-circle-frame-dark:hover span,
+.ft-x .ft-circle-frame-dark:hover span,
+.ft-y .ft-circle-frame-dark:hover span, .ft-centered .ft-square-frame-dark:hover span, .ft-x .ft-square-frame-dark:hover span, .ft-y .ft-square-frame-dark:hover span, .ft-centered .ft-circle-frame-dark:hover i, .ft-x .ft-circle-frame-dark:hover i, .ft-y .ft-circle-frame-dark:hover i, .ft-centered .ft-square-frame-dark:hover i, .ft-x .ft-square-frame-dark:hover i, .ft-y .ft-square-frame-dark:hover i {
+  border-color: #111111;
+}
+
+.ft-centered .ft-circle-frame-dark span,
+.ft-x .ft-circle-frame-dark span,
+.ft-y .ft-circle-frame-dark span, .ft-centered .ft-square-frame-dark span, .ft-x .ft-square-frame-dark span, .ft-y .ft-square-frame-dark span, .ft-centered .ft-circle-frame-dark i, .ft-x .ft-circle-frame-dark i, .ft-y .ft-circle-frame-dark i, .ft-centered .ft-square-frame-dark i, .ft-x .ft-square-frame-dark i, .ft-y .ft-square-frame-dark i {
+  color: #f8f8f8;
+  background: #111;
+  border: 5px solid white;
+  box-shadow: 0 0 0 1px #111;
+}
+
+.ft-centered .ft-square-frame-dark span,
+.ft-x .ft-square-frame-dark span,
+.ft-y .ft-square-frame-dark span, .ft-centered .ft-square-frame-dark i, .ft-x .ft-square-frame-dark i, .ft-y .ft-square-frame-dark i {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  font-size: 45px;
+  text-align: center;
+  line-height: 90px;
+}
+
+.ft-centered .ft-small-card, .ft-x .ft-small-card, .ft-y .ft-small-card {
+  padding: 50px 30px;
+  background: #f8f8f8;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-centered .ft-small-card:hover, .ft-x .ft-small-card:hover, .ft-y .ft-small-card:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.ft-centered .ft-small-card:hover span,
+.ft-x .ft-small-card:hover span,
+.ft-y .ft-small-card:hover span, .ft-centered .ft-small-card:hover i, .ft-x .ft-small-card:hover i, .ft-y .ft-small-card:hover i {
+  color: #111;
+}
+
+.ft-centered .ft-small-card span,
+.ft-x .ft-small-card span,
+.ft-y .ft-small-card span, .ft-centered .ft-small-card i, .ft-x .ft-small-card i, .ft-y .ft-small-card i {
+  display: block;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  width: auto;
+  height: auto;
+  line-height: 0;
+  font-size: 64px;
+  color: #777;
+  -webkit-transition: color 0.7s;
+          transition: color 0.7s;
+}
+
+.ft-centered .ft-circle-overlay:hover span,
+.ft-x .ft-circle-overlay:hover span,
+.ft-y .ft-circle-overlay:hover span, .ft-centered .ft-square-overlay:hover span, .ft-x .ft-square-overlay:hover span, .ft-y .ft-square-overlay:hover span, .ft-centered .ft-circle-overlay:hover i, .ft-x .ft-circle-overlay:hover i, .ft-y .ft-circle-overlay:hover i, .ft-centered .ft-square-overlay:hover i, .ft-x .ft-square-overlay:hover i, .ft-y .ft-square-overlay:hover i {
+  background: #f4f4f4;
+}
+
+.ft-centered .ft-circle-overlay span,
+.ft-x .ft-circle-overlay span,
+.ft-y .ft-circle-overlay span, .ft-centered .ft-square-overlay span, .ft-x .ft-square-overlay span, .ft-y .ft-square-overlay span, .ft-centered .ft-circle-overlay i, .ft-x .ft-circle-overlay i, .ft-y .ft-circle-overlay i, .ft-centered .ft-square-overlay i, .ft-x .ft-square-overlay i, .ft-y .ft-square-overlay i {
+  display: inline-block;
+  color: #111;
+  border-radius: 100px;
+  background: #ececec;
+  border: 10px solid #f4f4f4;
+  line-height: 90px;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.ft-centered .ft-square-overlay span,
+.ft-x .ft-square-overlay span,
+.ft-y .ft-square-overlay span, .ft-centered .ft-square-overlay i, .ft-x .ft-square-overlay i, .ft-y .ft-square-overlay i {
+  border-radius: 0;
+}
+
+.ft-centered .ft-basic span,
+.ft-x .ft-basic span,
+.ft-y .ft-basic span, .ft-centered .ft-basic i, .ft-x .ft-basic i, .ft-y .ft-basic i {
+  font-size: 60px;
+  line-height: 60px;
+}

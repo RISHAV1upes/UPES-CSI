@@ -1,0 +1,1149 @@
+.portfolio-filters {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.portfolio-filters li {
+  display: inline-block;
+}
+
+.portfolio-filters li a {
+  padding: 3px 15px;
+  text-transform: uppercase;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: .85em;
+  letter-spacing: 2.5px;
+  color: #777;
+}
+
+.portfolio-filters li a:focus,
+.portfolio-filters li a:visited {
+  text-decoration: none;
+}
+
+.portfolio-filters li a:hover {
+  color: #111;
+}
+
+.portfolio-filters .active a {
+  background: #111;
+  color: #ececec;
+  padding: 3px 15px;
+}
+
+.portfolio-filters .active a:hover {
+  color: #ececec;
+}
+
+/* ---- 15.1 Full Width - Columns ---- */
+.portfolio-columns-fw, .portfolio-columns-boxed {
+  margin-top: 160px;
+}
+
+.portfolio-columns-fw .portfolio-item, .portfolio-columns-boxed .portfolio-item {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.portfolio-columns-fw .portfolio-item figure, .portfolio-columns-boxed .portfolio-item figure {
+  display: block;
+  position: relative;
+  width: 100%;
+  background: gray;
+  overflow: hidden;
+  float: left;
+}
+
+.portfolio-columns-fw .portfolio-item figure img, .portfolio-columns-boxed .portfolio-item figure img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.portfolio-columns-fw .portfolio-item figure figcaption, .portfolio-columns-boxed .portfolio-item figure figcaption {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.8);
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+          transition: opacity 0.5s;
+}
+
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 25px;
+  -webkit-transition: bottom 0.5s;
+          transition: bottom 0.5s;
+}
+
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content h2:first-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content h2:first-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content h3:first-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content h3:first-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .page-title .subheading:first-child,
+.page-title .portfolio-columns-fw .portfolio-item figure figcaption .p-content .subheading:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .page-title .subheading:first-child,
+.page-title .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .subheading:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content h4:first-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content h4:first-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-tabs .tabs-list li a .tab-group .tab-heading:first-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content .tab-heading:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-tabs .tabs-list li a .tab-group .tab-heading:first-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .tab-heading:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .testimonials-3col .t-item blockquote footer cite:first-child,
+.testimonials-3col .t-item blockquote footer .portfolio-columns-fw .portfolio-item figure figcaption .p-content cite:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .testimonials-3col .t-item blockquote footer cite:first-child,
+.testimonials-3col .t-item blockquote footer .portfolio-columns-boxed .portfolio-item figure figcaption .p-content cite:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:first-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .portfolio-columns-fw .portfolio-item figure figcaption .p-content cite:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:first-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .portfolio-columns-boxed .portfolio-item figure figcaption .p-content cite:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:first-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .portfolio-columns-fw .portfolio-item figure figcaption .p-content cite:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:first-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .portfolio-columns-boxed .portfolio-item figure figcaption .p-content cite:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:first-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .portfolio-columns-fw .portfolio-item figure figcaption .p-content cite:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:first-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .portfolio-columns-boxed .portfolio-item figure figcaption .p-content cite:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:first-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .portfolio-columns-fw .portfolio-item figure figcaption .p-content cite:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:first-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .portfolio-columns-boxed .portfolio-item figure figcaption .p-content cite:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .team-3col .t-item .t-info .t-role:first-child,
+.team-3col .t-item .t-info .portfolio-columns-fw .portfolio-item figure figcaption .p-content .t-role:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .team-3col .t-item .t-info .t-role:first-child,
+.team-3col .t-item .t-info .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .t-role:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .team-4col .t-item .t-info .t-role:first-child,
+.team-4col .t-item .t-info .portfolio-columns-fw .portfolio-item figure figcaption .p-content .t-role:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .team-4col .t-item .t-info .t-role:first-child,
+.team-4col .t-item .t-info .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .t-role:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .freelancer-about .t-item .t-info .t-role:first-child,
+.freelancer-about .t-item .t-info .portfolio-columns-fw .portfolio-item figure figcaption .p-content .t-role:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .freelancer-about .t-item .t-info .t-role:first-child,
+.freelancer-about .t-item .t-info .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .t-role:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .t-join .t-info .t-role:first-child,
+.t-join .t-info .portfolio-columns-fw .portfolio-item figure figcaption .p-content .t-role:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .t-join .t-info .t-role:first-child,
+.t-join .t-info .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .t-role:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .login-2 .bg-overlay .form-wrapper .form-content .cards-header:first-child,
+.login-2 .bg-overlay .form-wrapper .form-content .portfolio-columns-fw .portfolio-item figure figcaption .p-content .cards-header:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .login-2 .bg-overlay .form-wrapper .form-content .cards-header:first-child,
+.login-2 .bg-overlay .form-wrapper .form-content .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .cards-header:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:first-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .portfolio-columns-fw .portfolio-item figure figcaption .p-content .sc-lead:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:first-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .sc-lead:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content h5:first-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content h5:first-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-boxed-hover ul li .hover-content .ft-heading:first-child,
+.ft-boxed-hover ul li .hover-content .portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-heading:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-boxed-hover ul li .hover-content .ft-heading:first-child,
+.ft-boxed-hover ul li .hover-content .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-heading:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-tabs .tabs-list li a .tab-group .tab-info:first-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content .tab-info:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-tabs .tabs-list li a .tab-group .tab-info:first-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .tab-info:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .sidebar .comments-widget .widget-item span .widget-comm-title:first-child,
+.sidebar .comments-widget .widget-item span .portfolio-columns-fw .portfolio-item figure figcaption .p-content .widget-comm-title:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .sidebar .comments-widget .widget-item span .widget-comm-title:first-child,
+.sidebar .comments-widget .widget-item span .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .widget-comm-title:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:first-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .portfolio-columns-fw .portfolio-item figure figcaption .p-content .title-timer:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:first-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .title-timer:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .shop-layout-options span:first-child,
+.shop-layout-options .portfolio-columns-fw .portfolio-item figure figcaption .p-content span:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .shop-layout-options span:first-child,
+.shop-layout-options .portfolio-columns-boxed .portfolio-item figure figcaption .p-content span:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content h6:first-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content h6:first-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .progress-group .progress-title:first-child,
+.progress-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content .progress-title:first-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content .progress-group .progress-title:first-child,
+.progress-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .progress-title:first-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .progress-group .progress-value:first-child,
+.progress-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content .progress-value:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .progress-group .progress-value:first-child,
+.progress-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .progress-value:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .accordions-1 .panel .panel-heading .panel-title:first-child,
+.accordions-1 .panel .panel-heading .portfolio-columns-fw .portfolio-item figure figcaption .p-content .panel-title:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .accordions-1 .panel .panel-heading .panel-title:first-child,
+.accordions-1 .panel .panel-heading .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .panel-title:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .footer-social-links ul li:first-child,
+.footer-social-links ul .portfolio-columns-fw .portfolio-item figure figcaption .p-content li:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .footer-social-links ul li:first-child,
+.footer-social-links ul .portfolio-columns-boxed .portfolio-item figure figcaption .p-content li:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .footer-contact .contact-info .show-info-link:first-child,
+.footer-contact .contact-info .portfolio-columns-fw .portfolio-item figure figcaption .p-content .show-info-link:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .footer-contact .contact-info .show-info-link:first-child,
+.footer-contact .contact-info .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .show-info-link:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .footer-contact .contact-info address ul li .adr-heading:first-child,
+.footer-contact .contact-info address ul li .portfolio-columns-fw .portfolio-item figure figcaption .p-content .adr-heading:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .footer-contact .contact-info address ul li .adr-heading:first-child,
+.footer-contact .contact-info address ul li .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .adr-heading:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .footer-contact .contact-info address .show-map:first-child,
+.footer-contact .contact-info address .portfolio-columns-fw .portfolio-item figure figcaption .p-content .show-map:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .footer-contact .contact-info address .show-map:first-child,
+.footer-contact .contact-info address .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .show-map:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .footer-litle address ul li .adr-group .adr-heading:first-child,
+.footer-litle address ul li .adr-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content .adr-heading:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .footer-litle address ul li .adr-group .adr-heading:first-child,
+.footer-litle address ul li .adr-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .adr-heading:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-cards .ft-item a:first-child,
+.ft-cards .ft-item .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-cards .ft-item a:first-child,
+.ft-cards .ft-item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-cards-2 .ft-card-item .ft-content .link-btn:first-child,
+.ft-cards-2 .ft-card-item .ft-content .portfolio-columns-fw .portfolio-item figure figcaption .p-content .link-btn:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-cards-2 .ft-card-item .ft-content .link-btn:first-child,
+.ft-cards-2 .ft-card-item .ft-content .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .link-btn:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-boxed-hover ul li .hover-content a:first-child,
+.ft-boxed-hover ul li .hover-content .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-boxed-hover ul li .hover-content a:first-child,
+.ft-boxed-hover ul li .hover-content .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .circles-counters .circle-item .circle-text:first-child,
+.circles-counters .circle-item .portfolio-columns-fw .portfolio-item figure figcaption .p-content .circle-text:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .circles-counters .circle-item .circle-text:first-child,
+.circles-counters .circle-item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .circle-text:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .circles-counters-dark-bg .circle-item .circle-text:first-child,
+.circles-counters-dark-bg .circle-item .portfolio-columns-fw .portfolio-item figure figcaption .p-content .circle-text:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .circles-counters-dark-bg .circle-item .circle-text:first-child,
+.circles-counters-dark-bg .circle-item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .circle-text:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .number-counters .count-wrapper .count-item .count-text:first-child,
+.number-counters .count-wrapper .count-item .portfolio-columns-fw .portfolio-item figure figcaption .p-content .count-text:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .number-counters .count-wrapper .count-item .count-text:first-child,
+.number-counters .count-wrapper .count-item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .count-text:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .number-counters-dark-bg .count-wrapper .count-item .count-text:first-child,
+.number-counters-dark-bg .count-wrapper .count-item .portfolio-columns-fw .portfolio-item figure figcaption .p-content .count-text:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .number-counters-dark-bg .count-wrapper .count-item .count-text:first-child,
+.number-counters-dark-bg .count-wrapper .count-item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .count-text:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .project-nav nav .nav-btns li a:first-child,
+.project-nav nav .nav-btns li .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .project-nav nav .nav-btns li a:first-child,
+.project-nav nav .nav-btns li .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .pricing-tables .p-table .desc:first-child,
+.pricing-tables .p-table .portfolio-columns-fw .portfolio-item figure figcaption .p-content .desc:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .pricing-tables .p-table .desc:first-child,
+.pricing-tables .p-table .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .desc:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .blog-post-nav .prev-btn:first-child,
+.blog-post-nav .portfolio-columns-fw .portfolio-item figure figcaption .p-content .prev-btn:first-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content .blog-post-nav .prev-btn:first-child,
+.blog-post-nav .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .prev-btn:first-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .blog-post-nav .next-btn:first-child,
+.blog-post-nav .portfolio-columns-fw .portfolio-item figure figcaption .p-content .next-btn:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .blog-post-nav .next-btn:first-child,
+.blog-post-nav .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .next-btn:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .sidebar .tags-widget .tag-list li a:first-child,
+.sidebar .tags-widget .tag-list li .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .sidebar .tags-widget .tag-list li a:first-child,
+.sidebar .tags-widget .tag-list li .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content span:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content span:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:first-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:first-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content p:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content p:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .landing-hero .heading-wrapper .cta-btn:first-child,
+.landing-hero .heading-wrapper .portfolio-columns-fw .portfolio-item figure figcaption .p-content .cta-btn:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .landing-hero .heading-wrapper .cta-btn:first-child,
+.landing-hero .heading-wrapper .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .cta-btn:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .shop-sidebar .filter-widget label:first-child,
+.shop-sidebar .filter-widget .portfolio-columns-fw .portfolio-item figure figcaption .p-content label:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .shop-sidebar .filter-widget label:first-child,
+.shop-sidebar .filter-widget .portfolio-columns-boxed .portfolio-item figure figcaption .p-content label:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .shop-sidebar-vertical .filter-widget label:first-child,
+.shop-sidebar-vertical .filter-widget .portfolio-columns-fw .portfolio-item figure figcaption .p-content label:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .shop-sidebar-vertical .filter-widget label:first-child,
+.shop-sidebar-vertical .filter-widget .portfolio-columns-boxed .portfolio-item figure figcaption .p-content label:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .shop-sidebar .tags-widget .tag-list li a:first-child,
+.shop-sidebar .tags-widget .tag-list li .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .shop-sidebar .tags-widget .tag-list li a:first-child,
+.shop-sidebar .tags-widget .tag-list li .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .shop-sidebar-vertical .tags-widget .tag-list li a:first-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .shop-sidebar-vertical .tags-widget .tag-list li a:first-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .checkout-table tbody tr td:first-child,
+.checkout-table tbody tr .portfolio-columns-fw .portfolio-item figure figcaption .p-content td:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .checkout-table tbody tr td:first-child,
+.checkout-table tbody tr .portfolio-columns-boxed .portfolio-item figure figcaption .p-content td:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .prod-reviews .tp-review .tpr-name:first-child,
+.prod-reviews .tp-review .portfolio-columns-fw .portfolio-item figure figcaption .p-content .tpr-name:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .prod-reviews .tp-review .tpr-name:first-child,
+.prod-reviews .tp-review .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .tpr-name:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content p:first-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content p:first-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content span:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content span:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ececec;
+}
+
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content h2:last-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content h2:last-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content h3:last-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content h3:last-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .page-title .subheading:last-child,
+.page-title .portfolio-columns-fw .portfolio-item figure figcaption .p-content .subheading:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .page-title .subheading:last-child,
+.page-title .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .subheading:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content h4:last-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content h4:last-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-tabs .tabs-list li a .tab-group .tab-heading:last-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content .tab-heading:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-tabs .tabs-list li a .tab-group .tab-heading:last-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .tab-heading:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .testimonials-3col .t-item blockquote footer cite:last-child,
+.testimonials-3col .t-item blockquote footer .portfolio-columns-fw .portfolio-item figure figcaption .p-content cite:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .testimonials-3col .t-item blockquote footer cite:last-child,
+.testimonials-3col .t-item blockquote footer .portfolio-columns-boxed .portfolio-item figure figcaption .p-content cite:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:last-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .portfolio-columns-fw .portfolio-item figure figcaption .p-content cite:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:last-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .portfolio-columns-boxed .portfolio-item figure figcaption .p-content cite:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:last-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .portfolio-columns-fw .portfolio-item figure figcaption .p-content cite:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:last-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .portfolio-columns-boxed .portfolio-item figure figcaption .p-content cite:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:last-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .portfolio-columns-fw .portfolio-item figure figcaption .p-content cite:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:last-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .portfolio-columns-boxed .portfolio-item figure figcaption .p-content cite:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:last-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .portfolio-columns-fw .portfolio-item figure figcaption .p-content cite:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:last-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .portfolio-columns-boxed .portfolio-item figure figcaption .p-content cite:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .team-3col .t-item .t-info .t-role:last-child,
+.team-3col .t-item .t-info .portfolio-columns-fw .portfolio-item figure figcaption .p-content .t-role:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .team-3col .t-item .t-info .t-role:last-child,
+.team-3col .t-item .t-info .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .t-role:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .team-4col .t-item .t-info .t-role:last-child,
+.team-4col .t-item .t-info .portfolio-columns-fw .portfolio-item figure figcaption .p-content .t-role:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .team-4col .t-item .t-info .t-role:last-child,
+.team-4col .t-item .t-info .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .t-role:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .freelancer-about .t-item .t-info .t-role:last-child,
+.freelancer-about .t-item .t-info .portfolio-columns-fw .portfolio-item figure figcaption .p-content .t-role:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .freelancer-about .t-item .t-info .t-role:last-child,
+.freelancer-about .t-item .t-info .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .t-role:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .t-join .t-info .t-role:last-child,
+.t-join .t-info .portfolio-columns-fw .portfolio-item figure figcaption .p-content .t-role:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .t-join .t-info .t-role:last-child,
+.t-join .t-info .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .t-role:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .login-2 .bg-overlay .form-wrapper .form-content .cards-header:last-child,
+.login-2 .bg-overlay .form-wrapper .form-content .portfolio-columns-fw .portfolio-item figure figcaption .p-content .cards-header:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .login-2 .bg-overlay .form-wrapper .form-content .cards-header:last-child,
+.login-2 .bg-overlay .form-wrapper .form-content .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .cards-header:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:last-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .portfolio-columns-fw .portfolio-item figure figcaption .p-content .sc-lead:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:last-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .sc-lead:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content h5:last-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content h5:last-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-boxed-hover ul li .hover-content .ft-heading:last-child,
+.ft-boxed-hover ul li .hover-content .portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-heading:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-boxed-hover ul li .hover-content .ft-heading:last-child,
+.ft-boxed-hover ul li .hover-content .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-heading:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-tabs .tabs-list li a .tab-group .tab-info:last-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content .tab-info:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-tabs .tabs-list li a .tab-group .tab-info:last-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .tab-info:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .sidebar .comments-widget .widget-item span .widget-comm-title:last-child,
+.sidebar .comments-widget .widget-item span .portfolio-columns-fw .portfolio-item figure figcaption .p-content .widget-comm-title:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .sidebar .comments-widget .widget-item span .widget-comm-title:last-child,
+.sidebar .comments-widget .widget-item span .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .widget-comm-title:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:last-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .portfolio-columns-fw .portfolio-item figure figcaption .p-content .title-timer:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:last-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .title-timer:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .shop-layout-options span:last-child,
+.shop-layout-options .portfolio-columns-fw .portfolio-item figure figcaption .p-content span:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .shop-layout-options span:last-child,
+.shop-layout-options .portfolio-columns-boxed .portfolio-item figure figcaption .p-content span:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content h6:last-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content h6:last-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .progress-group .progress-title:last-child,
+.progress-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content .progress-title:last-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content .progress-group .progress-title:last-child,
+.progress-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .progress-title:last-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .progress-group .progress-value:last-child,
+.progress-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content .progress-value:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .progress-group .progress-value:last-child,
+.progress-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .progress-value:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .accordions-1 .panel .panel-heading .panel-title:last-child,
+.accordions-1 .panel .panel-heading .portfolio-columns-fw .portfolio-item figure figcaption .p-content .panel-title:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .accordions-1 .panel .panel-heading .panel-title:last-child,
+.accordions-1 .panel .panel-heading .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .panel-title:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .footer-social-links ul li:last-child,
+.footer-social-links ul .portfolio-columns-fw .portfolio-item figure figcaption .p-content li:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .footer-social-links ul li:last-child,
+.footer-social-links ul .portfolio-columns-boxed .portfolio-item figure figcaption .p-content li:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .footer-contact .contact-info .show-info-link:last-child,
+.footer-contact .contact-info .portfolio-columns-fw .portfolio-item figure figcaption .p-content .show-info-link:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .footer-contact .contact-info .show-info-link:last-child,
+.footer-contact .contact-info .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .show-info-link:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .footer-contact .contact-info address ul li .adr-heading:last-child,
+.footer-contact .contact-info address ul li .portfolio-columns-fw .portfolio-item figure figcaption .p-content .adr-heading:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .footer-contact .contact-info address ul li .adr-heading:last-child,
+.footer-contact .contact-info address ul li .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .adr-heading:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .footer-contact .contact-info address .show-map:last-child,
+.footer-contact .contact-info address .portfolio-columns-fw .portfolio-item figure figcaption .p-content .show-map:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .footer-contact .contact-info address .show-map:last-child,
+.footer-contact .contact-info address .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .show-map:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .footer-litle address ul li .adr-group .adr-heading:last-child,
+.footer-litle address ul li .adr-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content .adr-heading:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .footer-litle address ul li .adr-group .adr-heading:last-child,
+.footer-litle address ul li .adr-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .adr-heading:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-cards .ft-item a:last-child,
+.ft-cards .ft-item .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-cards .ft-item a:last-child,
+.ft-cards .ft-item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-cards-2 .ft-card-item .ft-content .link-btn:last-child,
+.ft-cards-2 .ft-card-item .ft-content .portfolio-columns-fw .portfolio-item figure figcaption .p-content .link-btn:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-cards-2 .ft-card-item .ft-content .link-btn:last-child,
+.ft-cards-2 .ft-card-item .ft-content .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .link-btn:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .ft-boxed-hover ul li .hover-content a:last-child,
+.ft-boxed-hover ul li .hover-content .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .ft-boxed-hover ul li .hover-content a:last-child,
+.ft-boxed-hover ul li .hover-content .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .circles-counters .circle-item .circle-text:last-child,
+.circles-counters .circle-item .portfolio-columns-fw .portfolio-item figure figcaption .p-content .circle-text:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .circles-counters .circle-item .circle-text:last-child,
+.circles-counters .circle-item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .circle-text:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .circles-counters-dark-bg .circle-item .circle-text:last-child,
+.circles-counters-dark-bg .circle-item .portfolio-columns-fw .portfolio-item figure figcaption .p-content .circle-text:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .circles-counters-dark-bg .circle-item .circle-text:last-child,
+.circles-counters-dark-bg .circle-item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .circle-text:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .number-counters .count-wrapper .count-item .count-text:last-child,
+.number-counters .count-wrapper .count-item .portfolio-columns-fw .portfolio-item figure figcaption .p-content .count-text:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .number-counters .count-wrapper .count-item .count-text:last-child,
+.number-counters .count-wrapper .count-item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .count-text:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .number-counters-dark-bg .count-wrapper .count-item .count-text:last-child,
+.number-counters-dark-bg .count-wrapper .count-item .portfolio-columns-fw .portfolio-item figure figcaption .p-content .count-text:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .number-counters-dark-bg .count-wrapper .count-item .count-text:last-child,
+.number-counters-dark-bg .count-wrapper .count-item .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .count-text:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .project-nav nav .nav-btns li a:last-child,
+.project-nav nav .nav-btns li .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .project-nav nav .nav-btns li a:last-child,
+.project-nav nav .nav-btns li .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .pricing-tables .p-table .desc:last-child,
+.pricing-tables .p-table .portfolio-columns-fw .portfolio-item figure figcaption .p-content .desc:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .pricing-tables .p-table .desc:last-child,
+.pricing-tables .p-table .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .desc:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .blog-post-nav .prev-btn:last-child,
+.blog-post-nav .portfolio-columns-fw .portfolio-item figure figcaption .p-content .prev-btn:last-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content .blog-post-nav .prev-btn:last-child,
+.blog-post-nav .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .prev-btn:last-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .blog-post-nav .next-btn:last-child,
+.blog-post-nav .portfolio-columns-fw .portfolio-item figure figcaption .p-content .next-btn:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .blog-post-nav .next-btn:last-child,
+.blog-post-nav .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .next-btn:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .sidebar .tags-widget .tag-list li a:last-child,
+.sidebar .tags-widget .tag-list li .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .sidebar .tags-widget .tag-list li a:last-child,
+.sidebar .tags-widget .tag-list li .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content span:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content span:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:last-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:last-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-fw .portfolio-item figure figcaption .p-content p:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-columns-boxed .portfolio-item figure figcaption .p-content p:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .landing-hero .heading-wrapper .cta-btn:last-child,
+.landing-hero .heading-wrapper .portfolio-columns-fw .portfolio-item figure figcaption .p-content .cta-btn:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .landing-hero .heading-wrapper .cta-btn:last-child,
+.landing-hero .heading-wrapper .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .cta-btn:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .shop-sidebar .filter-widget label:last-child,
+.shop-sidebar .filter-widget .portfolio-columns-fw .portfolio-item figure figcaption .p-content label:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .shop-sidebar .filter-widget label:last-child,
+.shop-sidebar .filter-widget .portfolio-columns-boxed .portfolio-item figure figcaption .p-content label:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .shop-sidebar-vertical .filter-widget label:last-child,
+.shop-sidebar-vertical .filter-widget .portfolio-columns-fw .portfolio-item figure figcaption .p-content label:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .shop-sidebar-vertical .filter-widget label:last-child,
+.shop-sidebar-vertical .filter-widget .portfolio-columns-boxed .portfolio-item figure figcaption .p-content label:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .shop-sidebar .tags-widget .tag-list li a:last-child,
+.shop-sidebar .tags-widget .tag-list li .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .shop-sidebar .tags-widget .tag-list li a:last-child,
+.shop-sidebar .tags-widget .tag-list li .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .shop-sidebar-vertical .tags-widget .tag-list li a:last-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .portfolio-columns-fw .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .shop-sidebar-vertical .tags-widget .tag-list li a:last-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .portfolio-columns-boxed .portfolio-item figure figcaption .p-content a:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .checkout-table tbody tr td:last-child:first-child,
+.checkout-table tbody tr .portfolio-columns-fw .portfolio-item figure figcaption .p-content td:last-child:first-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .checkout-table tbody tr td:last-child:first-child,
+.checkout-table tbody tr .portfolio-columns-boxed .portfolio-item figure figcaption .p-content td:last-child:first-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content .prod-reviews .tp-review .tpr-name:last-child,
+.prod-reviews .tp-review .portfolio-columns-fw .portfolio-item figure figcaption .p-content .tpr-name:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .prod-reviews .tp-review .tpr-name:last-child,
+.prod-reviews .tp-review .portfolio-columns-boxed .portfolio-item figure figcaption .p-content .tpr-name:last-child, .portfolio-columns-fw .portfolio-item figure figcaption .p-content p:last-child,
+.portfolio-columns-boxed .portfolio-item figure figcaption .p-content p:last-child,
+.portfolio-columns-fw .portfolio-item figure figcaption .p-content span:last-child, .portfolio-columns-boxed .portfolio-item figure figcaption .p-content span:last-child {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 2.5px;
+  color: #999;
+}
+
+.portfolio-columns-fw .portfolio-item figure figcaption:hover, .portfolio-columns-boxed .portfolio-item figure figcaption:hover {
+  opacity: 1;
+}
+
+.portfolio-columns-fw .portfolio-item figure figcaption:hover .p-content, .portfolio-columns-boxed .portfolio-item figure figcaption:hover .p-content {
+  bottom: 45px;
+}
+
+.portfolio-columns-fw .portfolio-item figure figcaption:hover .open-btn, .portfolio-columns-boxed .portfolio-item figure figcaption:hover .open-btn {
+  top: 0;
+}
+
+.portfolio-columns-fw .p-wrapper, .portfolio-columns-boxed .p-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  background: gray;
+  overflow: hidden;
+  float: left;
+}
+
+.portfolio-columns-fw .p-wrapper img, .portfolio-columns-boxed .p-wrapper img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.portfolio-columns-fw .p-wrapper:hover img,
+.portfolio-columns-boxed .p-wrapper:hover img,
+.portfolio-columns-fw .p-wrapper:active img, .portfolio-columns-boxed .p-wrapper:active img {
+  -webkit-transform: scale(1.07);
+      -ms-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+.portfolio-columns-fw .p-wrapper:hover .open-btn,
+.portfolio-columns-boxed .p-wrapper:hover .open-btn,
+.portfolio-columns-fw .p-wrapper:active .open-btn, .portfolio-columns-boxed .p-wrapper:active .open-btn {
+  top: 0;
+}
+
+/* ---- 15.2 Boxed Columns ---- */
+/* ---- 15.3 Masonry Layout ---- */
+.portfolio-masonry, .portfolio-masonry-2, .portfolio-masonry-3 {
+  padding-top: 160px;
+}
+
+.portfolio-masonry .p-item,
+.portfolio-masonry-2 .p-item,
+.portfolio-masonry-3 .p-item, .portfolio-masonry .grid-sizer, .portfolio-masonry-2 .grid-sizer, .portfolio-masonry-3 .grid-sizer {
+  width: 25%;
+}
+
+.portfolio-masonry .p-item, .portfolio-masonry-2 .p-item, .portfolio-masonry-3 .p-item {
+  float: left;
+  background: #0D8;
+}
+
+.portfolio-masonry .p-wrapper, .portfolio-masonry-2 .p-wrapper, .portfolio-masonry-3 .p-wrapper {
+  display: block;
+  position: relative;
+  width: 100%;
+  background: gray;
+  overflow: hidden;
+}
+
+.portfolio-masonry .p-wrapper img, .portfolio-masonry-2 .p-wrapper img, .portfolio-masonry-3 .p-wrapper img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.portfolio-masonry .p-wrapper:hover img,
+.portfolio-masonry-2 .p-wrapper:hover img,
+.portfolio-masonry-3 .p-wrapper:hover img, .portfolio-masonry .p-wrapper:active img, .portfolio-masonry-2 .p-wrapper:active img, .portfolio-masonry-3 .p-wrapper:active img {
+  -webkit-transform: scale(1.07);
+      -ms-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
+.portfolio-masonry .p-wrapper .p-hover, .portfolio-masonry-2 .p-wrapper .p-hover, .portfolio-masonry-3 .p-wrapper .p-hover {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(17, 17, 17, 0.8);
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+          transition: opacity 0.5s;
+}
+
+.portfolio-masonry .p-wrapper .p-hover .p-content, .portfolio-masonry-2 .p-wrapper .p-hover .p-content, .portfolio-masonry-3 .p-wrapper .p-hover .p-content {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 25px;
+  -webkit-transition: bottom 0.5s;
+          transition: bottom 0.5s;
+}
+
+.portfolio-masonry .p-wrapper .p-hover .p-content h2:first-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content h2:first-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content h2:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content h3:first-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content h3:first-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content h3:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .page-title .subheading:first-child,
+.page-title .portfolio-masonry .p-wrapper .p-hover .p-content .subheading:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .page-title .subheading:first-child,
+.page-title .portfolio-masonry-2 .p-wrapper .p-hover .p-content .subheading:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .page-title .subheading:first-child, .page-title .portfolio-masonry-3 .p-wrapper .p-hover .p-content .subheading:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content h4:first-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content h4:first-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content h4:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-heading:first-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-masonry .p-wrapper .p-hover .p-content .tab-heading:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-heading:first-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content .tab-heading:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-heading:first-child, .ft-tabs .tabs-list li a .tab-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content .tab-heading:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .testimonials-3col .t-item blockquote footer cite:first-child,
+.testimonials-3col .t-item blockquote footer .portfolio-masonry .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .testimonials-3col .t-item blockquote footer cite:first-child,
+.testimonials-3col .t-item blockquote footer .portfolio-masonry-2 .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .testimonials-3col .t-item blockquote footer cite:first-child, .testimonials-3col .t-item blockquote footer .portfolio-masonry-3 .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:first-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .portfolio-masonry .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:first-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .portfolio-masonry-2 .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:first-child, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .portfolio-masonry-3 .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:first-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .portfolio-masonry .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:first-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .portfolio-masonry-2 .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:first-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .portfolio-masonry-3 .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:first-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .portfolio-masonry .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:first-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .portfolio-masonry-2 .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:first-child, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .portfolio-masonry-3 .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:first-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .portfolio-masonry .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:first-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .portfolio-masonry-2 .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:first-child, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .portfolio-masonry-3 .p-wrapper .p-hover .p-content cite:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .team-3col .t-item .t-info .t-role:first-child,
+.team-3col .t-item .t-info .portfolio-masonry .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .team-3col .t-item .t-info .t-role:first-child,
+.team-3col .t-item .t-info .portfolio-masonry-2 .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .team-3col .t-item .t-info .t-role:first-child, .team-3col .t-item .t-info .portfolio-masonry-3 .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .team-4col .t-item .t-info .t-role:first-child,
+.team-4col .t-item .t-info .portfolio-masonry .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .team-4col .t-item .t-info .t-role:first-child,
+.team-4col .t-item .t-info .portfolio-masonry-2 .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .team-4col .t-item .t-info .t-role:first-child, .team-4col .t-item .t-info .portfolio-masonry-3 .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .freelancer-about .t-item .t-info .t-role:first-child,
+.freelancer-about .t-item .t-info .portfolio-masonry .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .freelancer-about .t-item .t-info .t-role:first-child,
+.freelancer-about .t-item .t-info .portfolio-masonry-2 .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .freelancer-about .t-item .t-info .t-role:first-child, .freelancer-about .t-item .t-info .portfolio-masonry-3 .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .t-join .t-info .t-role:first-child,
+.t-join .t-info .portfolio-masonry .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .t-join .t-info .t-role:first-child,
+.t-join .t-info .portfolio-masonry-2 .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .t-join .t-info .t-role:first-child, .t-join .t-info .portfolio-masonry-3 .p-wrapper .p-hover .p-content .t-role:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .form-content .cards-header:first-child,
+.login-2 .bg-overlay .form-wrapper .form-content .portfolio-masonry .p-wrapper .p-hover .p-content .cards-header:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .form-content .cards-header:first-child,
+.login-2 .bg-overlay .form-wrapper .form-content .portfolio-masonry-2 .p-wrapper .p-hover .p-content .cards-header:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .form-content .cards-header:first-child, .login-2 .bg-overlay .form-wrapper .form-content .portfolio-masonry-3 .p-wrapper .p-hover .p-content .cards-header:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:first-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .portfolio-masonry .p-wrapper .p-hover .p-content .sc-lead:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:first-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .portfolio-masonry-2 .p-wrapper .p-hover .p-content .sc-lead:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:first-child, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .portfolio-masonry-3 .p-wrapper .p-hover .p-content .sc-lead:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content h5:first-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content h5:first-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content h5:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content .ft-heading:first-child,
+.ft-boxed-hover ul li .hover-content .portfolio-masonry .p-wrapper .p-hover .p-content .ft-heading:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content .ft-heading:first-child,
+.ft-boxed-hover ul li .hover-content .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-heading:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content .ft-heading:first-child, .ft-boxed-hover ul li .hover-content .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-heading:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-info:first-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-masonry .p-wrapper .p-hover .p-content .tab-info:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-info:first-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content .tab-info:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-info:first-child, .ft-tabs .tabs-list li a .tab-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content .tab-info:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .sidebar .comments-widget .widget-item span .widget-comm-title:first-child,
+.sidebar .comments-widget .widget-item span .portfolio-masonry .p-wrapper .p-hover .p-content .widget-comm-title:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .sidebar .comments-widget .widget-item span .widget-comm-title:first-child,
+.sidebar .comments-widget .widget-item span .portfolio-masonry-2 .p-wrapper .p-hover .p-content .widget-comm-title:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .sidebar .comments-widget .widget-item span .widget-comm-title:first-child, .sidebar .comments-widget .widget-item span .portfolio-masonry-3 .p-wrapper .p-hover .p-content .widget-comm-title:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:first-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .portfolio-masonry .p-wrapper .p-hover .p-content .title-timer:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:first-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .portfolio-masonry-2 .p-wrapper .p-hover .p-content .title-timer:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:first-child, .comingsoon .content-wrapper .content-inner .cs-timer .item .portfolio-masonry-3 .p-wrapper .p-hover .p-content .title-timer:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .shop-layout-options span:first-child,
+.shop-layout-options .portfolio-masonry .p-wrapper .p-hover .p-content span:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .shop-layout-options span:first-child,
+.shop-layout-options .portfolio-masonry-2 .p-wrapper .p-hover .p-content span:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .shop-layout-options span:first-child, .shop-layout-options .portfolio-masonry-3 .p-wrapper .p-hover .p-content span:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content h6:first-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content h6:first-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content h6:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .progress-group .progress-title:first-child,
+.progress-group .portfolio-masonry .p-wrapper .p-hover .p-content .progress-title:first-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content .progress-group .progress-title:first-child,
+.progress-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content .progress-title:first-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content .progress-group .progress-title:first-child, .progress-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content .progress-title:first-child,
+.portfolio-masonry .p-wrapper .p-hover .p-content .progress-group .progress-value:first-child,
+.progress-group .portfolio-masonry .p-wrapper .p-hover .p-content .progress-value:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .progress-group .progress-value:first-child,
+.progress-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content .progress-value:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .progress-group .progress-value:first-child, .progress-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content .progress-value:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .accordions-1 .panel .panel-heading .panel-title:first-child,
+.accordions-1 .panel .panel-heading .portfolio-masonry .p-wrapper .p-hover .p-content .panel-title:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .accordions-1 .panel .panel-heading .panel-title:first-child,
+.accordions-1 .panel .panel-heading .portfolio-masonry-2 .p-wrapper .p-hover .p-content .panel-title:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .accordions-1 .panel .panel-heading .panel-title:first-child, .accordions-1 .panel .panel-heading .portfolio-masonry-3 .p-wrapper .p-hover .p-content .panel-title:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .footer-social-links ul li:first-child,
+.footer-social-links ul .portfolio-masonry .p-wrapper .p-hover .p-content li:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .footer-social-links ul li:first-child,
+.footer-social-links ul .portfolio-masonry-2 .p-wrapper .p-hover .p-content li:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .footer-social-links ul li:first-child, .footer-social-links ul .portfolio-masonry-3 .p-wrapper .p-hover .p-content li:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .footer-contact .contact-info .show-info-link:first-child,
+.footer-contact .contact-info .portfolio-masonry .p-wrapper .p-hover .p-content .show-info-link:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .footer-contact .contact-info .show-info-link:first-child,
+.footer-contact .contact-info .portfolio-masonry-2 .p-wrapper .p-hover .p-content .show-info-link:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .footer-contact .contact-info .show-info-link:first-child, .footer-contact .contact-info .portfolio-masonry-3 .p-wrapper .p-hover .p-content .show-info-link:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .footer-contact .contact-info address ul li .adr-heading:first-child,
+.footer-contact .contact-info address ul li .portfolio-masonry .p-wrapper .p-hover .p-content .adr-heading:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .footer-contact .contact-info address ul li .adr-heading:first-child,
+.footer-contact .contact-info address ul li .portfolio-masonry-2 .p-wrapper .p-hover .p-content .adr-heading:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .footer-contact .contact-info address ul li .adr-heading:first-child, .footer-contact .contact-info address ul li .portfolio-masonry-3 .p-wrapper .p-hover .p-content .adr-heading:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .footer-contact .contact-info address .show-map:first-child,
+.footer-contact .contact-info address .portfolio-masonry .p-wrapper .p-hover .p-content .show-map:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .footer-contact .contact-info address .show-map:first-child,
+.footer-contact .contact-info address .portfolio-masonry-2 .p-wrapper .p-hover .p-content .show-map:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .footer-contact .contact-info address .show-map:first-child, .footer-contact .contact-info address .portfolio-masonry-3 .p-wrapper .p-hover .p-content .show-map:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .footer-litle address ul li .adr-group .adr-heading:first-child,
+.footer-litle address ul li .adr-group .portfolio-masonry .p-wrapper .p-hover .p-content .adr-heading:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .footer-litle address ul li .adr-group .adr-heading:first-child,
+.footer-litle address ul li .adr-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content .adr-heading:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .footer-litle address ul li .adr-group .adr-heading:first-child, .footer-litle address ul li .adr-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content .adr-heading:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-cards .ft-item a:first-child,
+.ft-cards .ft-item .portfolio-masonry .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-cards .ft-item a:first-child,
+.ft-cards .ft-item .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-cards .ft-item a:first-child, .ft-cards .ft-item .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-cards-2 .ft-card-item .ft-content .link-btn:first-child,
+.ft-cards-2 .ft-card-item .ft-content .portfolio-masonry .p-wrapper .p-hover .p-content .link-btn:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-cards-2 .ft-card-item .ft-content .link-btn:first-child,
+.ft-cards-2 .ft-card-item .ft-content .portfolio-masonry-2 .p-wrapper .p-hover .p-content .link-btn:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-cards-2 .ft-card-item .ft-content .link-btn:first-child, .ft-cards-2 .ft-card-item .ft-content .portfolio-masonry-3 .p-wrapper .p-hover .p-content .link-btn:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content a:first-child,
+.ft-boxed-hover ul li .hover-content .portfolio-masonry .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content a:first-child,
+.ft-boxed-hover ul li .hover-content .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content a:first-child, .ft-boxed-hover ul li .hover-content .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .circles-counters .circle-item .circle-text:first-child,
+.circles-counters .circle-item .portfolio-masonry .p-wrapper .p-hover .p-content .circle-text:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .circles-counters .circle-item .circle-text:first-child,
+.circles-counters .circle-item .portfolio-masonry-2 .p-wrapper .p-hover .p-content .circle-text:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .circles-counters .circle-item .circle-text:first-child, .circles-counters .circle-item .portfolio-masonry-3 .p-wrapper .p-hover .p-content .circle-text:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .circles-counters-dark-bg .circle-item .circle-text:first-child,
+.circles-counters-dark-bg .circle-item .portfolio-masonry .p-wrapper .p-hover .p-content .circle-text:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .circles-counters-dark-bg .circle-item .circle-text:first-child,
+.circles-counters-dark-bg .circle-item .portfolio-masonry-2 .p-wrapper .p-hover .p-content .circle-text:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .circles-counters-dark-bg .circle-item .circle-text:first-child, .circles-counters-dark-bg .circle-item .portfolio-masonry-3 .p-wrapper .p-hover .p-content .circle-text:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .number-counters .count-wrapper .count-item .count-text:first-child,
+.number-counters .count-wrapper .count-item .portfolio-masonry .p-wrapper .p-hover .p-content .count-text:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .number-counters .count-wrapper .count-item .count-text:first-child,
+.number-counters .count-wrapper .count-item .portfolio-masonry-2 .p-wrapper .p-hover .p-content .count-text:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .number-counters .count-wrapper .count-item .count-text:first-child, .number-counters .count-wrapper .count-item .portfolio-masonry-3 .p-wrapper .p-hover .p-content .count-text:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .number-counters-dark-bg .count-wrapper .count-item .count-text:first-child,
+.number-counters-dark-bg .count-wrapper .count-item .portfolio-masonry .p-wrapper .p-hover .p-content .count-text:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .number-counters-dark-bg .count-wrapper .count-item .count-text:first-child,
+.number-counters-dark-bg .count-wrapper .count-item .portfolio-masonry-2 .p-wrapper .p-hover .p-content .count-text:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .number-counters-dark-bg .count-wrapper .count-item .count-text:first-child, .number-counters-dark-bg .count-wrapper .count-item .portfolio-masonry-3 .p-wrapper .p-hover .p-content .count-text:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .project-nav nav .nav-btns li a:first-child,
+.project-nav nav .nav-btns li .portfolio-masonry .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .project-nav nav .nav-btns li a:first-child,
+.project-nav nav .nav-btns li .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .project-nav nav .nav-btns li a:first-child, .project-nav nav .nav-btns li .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .pricing-tables .p-table .desc:first-child,
+.pricing-tables .p-table .portfolio-masonry .p-wrapper .p-hover .p-content .desc:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .pricing-tables .p-table .desc:first-child,
+.pricing-tables .p-table .portfolio-masonry-2 .p-wrapper .p-hover .p-content .desc:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .pricing-tables .p-table .desc:first-child, .pricing-tables .p-table .portfolio-masonry-3 .p-wrapper .p-hover .p-content .desc:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .blog-post-nav .prev-btn:first-child,
+.blog-post-nav .portfolio-masonry .p-wrapper .p-hover .p-content .prev-btn:first-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content .blog-post-nav .prev-btn:first-child,
+.blog-post-nav .portfolio-masonry-2 .p-wrapper .p-hover .p-content .prev-btn:first-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content .blog-post-nav .prev-btn:first-child, .blog-post-nav .portfolio-masonry-3 .p-wrapper .p-hover .p-content .prev-btn:first-child,
+.portfolio-masonry .p-wrapper .p-hover .p-content .blog-post-nav .next-btn:first-child,
+.blog-post-nav .portfolio-masonry .p-wrapper .p-hover .p-content .next-btn:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .blog-post-nav .next-btn:first-child,
+.blog-post-nav .portfolio-masonry-2 .p-wrapper .p-hover .p-content .next-btn:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .blog-post-nav .next-btn:first-child, .blog-post-nav .portfolio-masonry-3 .p-wrapper .p-hover .p-content .next-btn:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .sidebar .tags-widget .tag-list li a:first-child,
+.sidebar .tags-widget .tag-list li .portfolio-masonry .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .sidebar .tags-widget .tag-list li a:first-child,
+.sidebar .tags-widget .tag-list li .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .sidebar .tags-widget .tag-list li a:first-child, .sidebar .tags-widget .tag-list li .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry .p-wrapper .p-hover .p-content span:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content span:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:first-child, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content span:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry .p-wrapper .p-hover .p-content a:first-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:first-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:first-child, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:first-child,
+.portfolio-masonry .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry .p-wrapper .p-hover .p-content p:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content p:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:first-child, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content p:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .portfolio-masonry .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:first-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:first-child, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .landing-hero .heading-wrapper .cta-btn:first-child,
+.landing-hero .heading-wrapper .portfolio-masonry .p-wrapper .p-hover .p-content .cta-btn:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .landing-hero .heading-wrapper .cta-btn:first-child,
+.landing-hero .heading-wrapper .portfolio-masonry-2 .p-wrapper .p-hover .p-content .cta-btn:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .landing-hero .heading-wrapper .cta-btn:first-child, .landing-hero .heading-wrapper .portfolio-masonry-3 .p-wrapper .p-hover .p-content .cta-btn:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .shop-sidebar .filter-widget label:first-child,
+.shop-sidebar .filter-widget .portfolio-masonry .p-wrapper .p-hover .p-content label:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .shop-sidebar .filter-widget label:first-child,
+.shop-sidebar .filter-widget .portfolio-masonry-2 .p-wrapper .p-hover .p-content label:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .shop-sidebar .filter-widget label:first-child, .shop-sidebar .filter-widget .portfolio-masonry-3 .p-wrapper .p-hover .p-content label:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .shop-sidebar-vertical .filter-widget label:first-child,
+.shop-sidebar-vertical .filter-widget .portfolio-masonry .p-wrapper .p-hover .p-content label:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .shop-sidebar-vertical .filter-widget label:first-child,
+.shop-sidebar-vertical .filter-widget .portfolio-masonry-2 .p-wrapper .p-hover .p-content label:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .shop-sidebar-vertical .filter-widget label:first-child, .shop-sidebar-vertical .filter-widget .portfolio-masonry-3 .p-wrapper .p-hover .p-content label:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .shop-sidebar .tags-widget .tag-list li a:first-child,
+.shop-sidebar .tags-widget .tag-list li .portfolio-masonry .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .shop-sidebar .tags-widget .tag-list li a:first-child,
+.shop-sidebar .tags-widget .tag-list li .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .shop-sidebar .tags-widget .tag-list li a:first-child, .shop-sidebar .tags-widget .tag-list li .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .shop-sidebar-vertical .tags-widget .tag-list li a:first-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .portfolio-masonry .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .shop-sidebar-vertical .tags-widget .tag-list li a:first-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .shop-sidebar-vertical .tags-widget .tag-list li a:first-child, .shop-sidebar-vertical .tags-widget .tag-list li .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .checkout-table tbody tr td:first-child,
+.checkout-table tbody tr .portfolio-masonry .p-wrapper .p-hover .p-content td:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .checkout-table tbody tr td:first-child,
+.checkout-table tbody tr .portfolio-masonry-2 .p-wrapper .p-hover .p-content td:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .checkout-table tbody tr td:first-child, .checkout-table tbody tr .portfolio-masonry-3 .p-wrapper .p-hover .p-content td:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .prod-reviews .tp-review .tpr-name:first-child,
+.prod-reviews .tp-review .portfolio-masonry .p-wrapper .p-hover .p-content .tpr-name:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .prod-reviews .tp-review .tpr-name:first-child,
+.prod-reviews .tp-review .portfolio-masonry-2 .p-wrapper .p-hover .p-content .tpr-name:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .prod-reviews .tp-review .tpr-name:first-child, .prod-reviews .tp-review .portfolio-masonry-3 .p-wrapper .p-hover .p-content .tpr-name:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content p:first-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content p:first-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content p:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content span:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content span:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content span:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ececec;
+}
+
+.portfolio-masonry .p-wrapper .p-hover .p-content h2:last-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content h2:last-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content h2:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content h3:last-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content h3:last-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content h3:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .page-title .subheading:last-child,
+.page-title .portfolio-masonry .p-wrapper .p-hover .p-content .subheading:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .page-title .subheading:last-child,
+.page-title .portfolio-masonry-2 .p-wrapper .p-hover .p-content .subheading:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .page-title .subheading:last-child, .page-title .portfolio-masonry-3 .p-wrapper .p-hover .p-content .subheading:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content h4:last-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content h4:last-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content h4:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-heading:last-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-masonry .p-wrapper .p-hover .p-content .tab-heading:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-heading:last-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content .tab-heading:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-heading:last-child, .ft-tabs .tabs-list li a .tab-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content .tab-heading:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .testimonials-3col .t-item blockquote footer cite:last-child,
+.testimonials-3col .t-item blockquote footer .portfolio-masonry .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .testimonials-3col .t-item blockquote footer cite:last-child,
+.testimonials-3col .t-item blockquote footer .portfolio-masonry-2 .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .testimonials-3col .t-item blockquote footer cite:last-child, .testimonials-3col .t-item blockquote footer .portfolio-masonry-3 .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:last-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .portfolio-masonry .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:last-child,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .portfolio-masonry-2 .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite:last-child, .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .portfolio-masonry-3 .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:last-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .portfolio-masonry .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:last-child,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .portfolio-masonry-2 .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite:last-child, .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .portfolio-masonry-3 .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:last-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .portfolio-masonry .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:last-child,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .portfolio-masonry-2 .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite:last-child, .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .portfolio-masonry-3 .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:last-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .portfolio-masonry .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:last-child,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .portfolio-masonry-2 .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite:last-child, .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .portfolio-masonry-3 .p-wrapper .p-hover .p-content cite:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .team-3col .t-item .t-info .t-role:last-child,
+.team-3col .t-item .t-info .portfolio-masonry .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .team-3col .t-item .t-info .t-role:last-child,
+.team-3col .t-item .t-info .portfolio-masonry-2 .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .team-3col .t-item .t-info .t-role:last-child, .team-3col .t-item .t-info .portfolio-masonry-3 .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .team-4col .t-item .t-info .t-role:last-child,
+.team-4col .t-item .t-info .portfolio-masonry .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .team-4col .t-item .t-info .t-role:last-child,
+.team-4col .t-item .t-info .portfolio-masonry-2 .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .team-4col .t-item .t-info .t-role:last-child, .team-4col .t-item .t-info .portfolio-masonry-3 .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .freelancer-about .t-item .t-info .t-role:last-child,
+.freelancer-about .t-item .t-info .portfolio-masonry .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .freelancer-about .t-item .t-info .t-role:last-child,
+.freelancer-about .t-item .t-info .portfolio-masonry-2 .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .freelancer-about .t-item .t-info .t-role:last-child, .freelancer-about .t-item .t-info .portfolio-masonry-3 .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .t-join .t-info .t-role:last-child,
+.t-join .t-info .portfolio-masonry .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .t-join .t-info .t-role:last-child,
+.t-join .t-info .portfolio-masonry-2 .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .t-join .t-info .t-role:last-child, .t-join .t-info .portfolio-masonry-3 .p-wrapper .p-hover .p-content .t-role:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .form-content .cards-header:last-child,
+.login-2 .bg-overlay .form-wrapper .form-content .portfolio-masonry .p-wrapper .p-hover .p-content .cards-header:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .form-content .cards-header:last-child,
+.login-2 .bg-overlay .form-wrapper .form-content .portfolio-masonry-2 .p-wrapper .p-hover .p-content .cards-header:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .form-content .cards-header:last-child, .login-2 .bg-overlay .form-wrapper .form-content .portfolio-masonry-3 .p-wrapper .p-hover .p-content .cards-header:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:last-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .portfolio-masonry .p-wrapper .p-hover .p-content .sc-lead:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:last-child,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .portfolio-masonry-2 .p-wrapper .p-hover .p-content .sc-lead:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead:last-child, .login-2 .bg-overlay .form-wrapper .social-signup .social-card .portfolio-masonry-3 .p-wrapper .p-hover .p-content .sc-lead:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content h5:last-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content h5:last-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content h5:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content .ft-heading:last-child,
+.ft-boxed-hover ul li .hover-content .portfolio-masonry .p-wrapper .p-hover .p-content .ft-heading:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content .ft-heading:last-child,
+.ft-boxed-hover ul li .hover-content .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-heading:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content .ft-heading:last-child, .ft-boxed-hover ul li .hover-content .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-heading:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-info:last-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-masonry .p-wrapper .p-hover .p-content .tab-info:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-info:last-child,
+.ft-tabs .tabs-list li a .tab-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content .tab-info:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-tabs .tabs-list li a .tab-group .tab-info:last-child, .ft-tabs .tabs-list li a .tab-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content .tab-info:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .sidebar .comments-widget .widget-item span .widget-comm-title:last-child,
+.sidebar .comments-widget .widget-item span .portfolio-masonry .p-wrapper .p-hover .p-content .widget-comm-title:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .sidebar .comments-widget .widget-item span .widget-comm-title:last-child,
+.sidebar .comments-widget .widget-item span .portfolio-masonry-2 .p-wrapper .p-hover .p-content .widget-comm-title:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .sidebar .comments-widget .widget-item span .widget-comm-title:last-child, .sidebar .comments-widget .widget-item span .portfolio-masonry-3 .p-wrapper .p-hover .p-content .widget-comm-title:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:last-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .portfolio-masonry .p-wrapper .p-hover .p-content .title-timer:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:last-child,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .portfolio-masonry-2 .p-wrapper .p-hover .p-content .title-timer:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer:last-child, .comingsoon .content-wrapper .content-inner .cs-timer .item .portfolio-masonry-3 .p-wrapper .p-hover .p-content .title-timer:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .shop-layout-options span:last-child,
+.shop-layout-options .portfolio-masonry .p-wrapper .p-hover .p-content span:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .shop-layout-options span:last-child,
+.shop-layout-options .portfolio-masonry-2 .p-wrapper .p-hover .p-content span:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .shop-layout-options span:last-child, .shop-layout-options .portfolio-masonry-3 .p-wrapper .p-hover .p-content span:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content h6:last-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content h6:last-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content h6:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .progress-group .progress-title:last-child,
+.progress-group .portfolio-masonry .p-wrapper .p-hover .p-content .progress-title:last-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content .progress-group .progress-title:last-child,
+.progress-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content .progress-title:last-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content .progress-group .progress-title:last-child, .progress-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content .progress-title:last-child,
+.portfolio-masonry .p-wrapper .p-hover .p-content .progress-group .progress-value:last-child,
+.progress-group .portfolio-masonry .p-wrapper .p-hover .p-content .progress-value:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .progress-group .progress-value:last-child,
+.progress-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content .progress-value:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .progress-group .progress-value:last-child, .progress-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content .progress-value:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .accordions-1 .panel .panel-heading .panel-title:last-child,
+.accordions-1 .panel .panel-heading .portfolio-masonry .p-wrapper .p-hover .p-content .panel-title:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .accordions-1 .panel .panel-heading .panel-title:last-child,
+.accordions-1 .panel .panel-heading .portfolio-masonry-2 .p-wrapper .p-hover .p-content .panel-title:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .accordions-1 .panel .panel-heading .panel-title:last-child, .accordions-1 .panel .panel-heading .portfolio-masonry-3 .p-wrapper .p-hover .p-content .panel-title:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .footer-social-links ul li:last-child,
+.footer-social-links ul .portfolio-masonry .p-wrapper .p-hover .p-content li:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .footer-social-links ul li:last-child,
+.footer-social-links ul .portfolio-masonry-2 .p-wrapper .p-hover .p-content li:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .footer-social-links ul li:last-child, .footer-social-links ul .portfolio-masonry-3 .p-wrapper .p-hover .p-content li:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .footer-contact .contact-info .show-info-link:last-child,
+.footer-contact .contact-info .portfolio-masonry .p-wrapper .p-hover .p-content .show-info-link:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .footer-contact .contact-info .show-info-link:last-child,
+.footer-contact .contact-info .portfolio-masonry-2 .p-wrapper .p-hover .p-content .show-info-link:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .footer-contact .contact-info .show-info-link:last-child, .footer-contact .contact-info .portfolio-masonry-3 .p-wrapper .p-hover .p-content .show-info-link:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .footer-contact .contact-info address ul li .adr-heading:last-child,
+.footer-contact .contact-info address ul li .portfolio-masonry .p-wrapper .p-hover .p-content .adr-heading:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .footer-contact .contact-info address ul li .adr-heading:last-child,
+.footer-contact .contact-info address ul li .portfolio-masonry-2 .p-wrapper .p-hover .p-content .adr-heading:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .footer-contact .contact-info address ul li .adr-heading:last-child, .footer-contact .contact-info address ul li .portfolio-masonry-3 .p-wrapper .p-hover .p-content .adr-heading:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .footer-contact .contact-info address .show-map:last-child,
+.footer-contact .contact-info address .portfolio-masonry .p-wrapper .p-hover .p-content .show-map:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .footer-contact .contact-info address .show-map:last-child,
+.footer-contact .contact-info address .portfolio-masonry-2 .p-wrapper .p-hover .p-content .show-map:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .footer-contact .contact-info address .show-map:last-child, .footer-contact .contact-info address .portfolio-masonry-3 .p-wrapper .p-hover .p-content .show-map:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .footer-litle address ul li .adr-group .adr-heading:last-child,
+.footer-litle address ul li .adr-group .portfolio-masonry .p-wrapper .p-hover .p-content .adr-heading:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .footer-litle address ul li .adr-group .adr-heading:last-child,
+.footer-litle address ul li .adr-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content .adr-heading:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .footer-litle address ul li .adr-group .adr-heading:last-child, .footer-litle address ul li .adr-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content .adr-heading:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-cards .ft-item a:last-child,
+.ft-cards .ft-item .portfolio-masonry .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-cards .ft-item a:last-child,
+.ft-cards .ft-item .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-cards .ft-item a:last-child, .ft-cards .ft-item .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-cards-2 .ft-card-item .ft-content .link-btn:last-child,
+.ft-cards-2 .ft-card-item .ft-content .portfolio-masonry .p-wrapper .p-hover .p-content .link-btn:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-cards-2 .ft-card-item .ft-content .link-btn:last-child,
+.ft-cards-2 .ft-card-item .ft-content .portfolio-masonry-2 .p-wrapper .p-hover .p-content .link-btn:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-cards-2 .ft-card-item .ft-content .link-btn:last-child, .ft-cards-2 .ft-card-item .ft-content .portfolio-masonry-3 .p-wrapper .p-hover .p-content .link-btn:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content a:last-child,
+.ft-boxed-hover ul li .hover-content .portfolio-masonry .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content a:last-child,
+.ft-boxed-hover ul li .hover-content .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .ft-boxed-hover ul li .hover-content a:last-child, .ft-boxed-hover ul li .hover-content .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .circles-counters .circle-item .circle-text:last-child,
+.circles-counters .circle-item .portfolio-masonry .p-wrapper .p-hover .p-content .circle-text:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .circles-counters .circle-item .circle-text:last-child,
+.circles-counters .circle-item .portfolio-masonry-2 .p-wrapper .p-hover .p-content .circle-text:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .circles-counters .circle-item .circle-text:last-child, .circles-counters .circle-item .portfolio-masonry-3 .p-wrapper .p-hover .p-content .circle-text:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .circles-counters-dark-bg .circle-item .circle-text:last-child,
+.circles-counters-dark-bg .circle-item .portfolio-masonry .p-wrapper .p-hover .p-content .circle-text:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .circles-counters-dark-bg .circle-item .circle-text:last-child,
+.circles-counters-dark-bg .circle-item .portfolio-masonry-2 .p-wrapper .p-hover .p-content .circle-text:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .circles-counters-dark-bg .circle-item .circle-text:last-child, .circles-counters-dark-bg .circle-item .portfolio-masonry-3 .p-wrapper .p-hover .p-content .circle-text:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .number-counters .count-wrapper .count-item .count-text:last-child,
+.number-counters .count-wrapper .count-item .portfolio-masonry .p-wrapper .p-hover .p-content .count-text:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .number-counters .count-wrapper .count-item .count-text:last-child,
+.number-counters .count-wrapper .count-item .portfolio-masonry-2 .p-wrapper .p-hover .p-content .count-text:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .number-counters .count-wrapper .count-item .count-text:last-child, .number-counters .count-wrapper .count-item .portfolio-masonry-3 .p-wrapper .p-hover .p-content .count-text:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .number-counters-dark-bg .count-wrapper .count-item .count-text:last-child,
+.number-counters-dark-bg .count-wrapper .count-item .portfolio-masonry .p-wrapper .p-hover .p-content .count-text:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .number-counters-dark-bg .count-wrapper .count-item .count-text:last-child,
+.number-counters-dark-bg .count-wrapper .count-item .portfolio-masonry-2 .p-wrapper .p-hover .p-content .count-text:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .number-counters-dark-bg .count-wrapper .count-item .count-text:last-child, .number-counters-dark-bg .count-wrapper .count-item .portfolio-masonry-3 .p-wrapper .p-hover .p-content .count-text:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .project-nav nav .nav-btns li a:last-child,
+.project-nav nav .nav-btns li .portfolio-masonry .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .project-nav nav .nav-btns li a:last-child,
+.project-nav nav .nav-btns li .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .project-nav nav .nav-btns li a:last-child, .project-nav nav .nav-btns li .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .pricing-tables .p-table .desc:last-child,
+.pricing-tables .p-table .portfolio-masonry .p-wrapper .p-hover .p-content .desc:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .pricing-tables .p-table .desc:last-child,
+.pricing-tables .p-table .portfolio-masonry-2 .p-wrapper .p-hover .p-content .desc:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .pricing-tables .p-table .desc:last-child, .pricing-tables .p-table .portfolio-masonry-3 .p-wrapper .p-hover .p-content .desc:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .blog-post-nav .prev-btn:last-child,
+.blog-post-nav .portfolio-masonry .p-wrapper .p-hover .p-content .prev-btn:last-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content .blog-post-nav .prev-btn:last-child,
+.blog-post-nav .portfolio-masonry-2 .p-wrapper .p-hover .p-content .prev-btn:last-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content .blog-post-nav .prev-btn:last-child, .blog-post-nav .portfolio-masonry-3 .p-wrapper .p-hover .p-content .prev-btn:last-child,
+.portfolio-masonry .p-wrapper .p-hover .p-content .blog-post-nav .next-btn:last-child,
+.blog-post-nav .portfolio-masonry .p-wrapper .p-hover .p-content .next-btn:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .blog-post-nav .next-btn:last-child,
+.blog-post-nav .portfolio-masonry-2 .p-wrapper .p-hover .p-content .next-btn:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .blog-post-nav .next-btn:last-child, .blog-post-nav .portfolio-masonry-3 .p-wrapper .p-hover .p-content .next-btn:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .sidebar .tags-widget .tag-list li a:last-child,
+.sidebar .tags-widget .tag-list li .portfolio-masonry .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .sidebar .tags-widget .tag-list li a:last-child,
+.sidebar .tags-widget .tag-list li .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .sidebar .tags-widget .tag-list li a:last-child, .sidebar .tags-widget .tag-list li .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry .p-wrapper .p-hover .p-content span:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content span:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span:last-child, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content span:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry .p-wrapper .p-hover .p-content a:last-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:last-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a:last-child, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:last-child,
+.portfolio-masonry .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry .p-wrapper .p-hover .p-content p:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-2 .p-wrapper .p-hover .p-content p:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p:last-child, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .portfolio-masonry-3 .p-wrapper .p-hover .p-content p:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .portfolio-masonry .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:last-child,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a:last-child, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .landing-hero .heading-wrapper .cta-btn:last-child,
+.landing-hero .heading-wrapper .portfolio-masonry .p-wrapper .p-hover .p-content .cta-btn:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .landing-hero .heading-wrapper .cta-btn:last-child,
+.landing-hero .heading-wrapper .portfolio-masonry-2 .p-wrapper .p-hover .p-content .cta-btn:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .landing-hero .heading-wrapper .cta-btn:last-child, .landing-hero .heading-wrapper .portfolio-masonry-3 .p-wrapper .p-hover .p-content .cta-btn:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .shop-sidebar .filter-widget label:last-child,
+.shop-sidebar .filter-widget .portfolio-masonry .p-wrapper .p-hover .p-content label:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .shop-sidebar .filter-widget label:last-child,
+.shop-sidebar .filter-widget .portfolio-masonry-2 .p-wrapper .p-hover .p-content label:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .shop-sidebar .filter-widget label:last-child, .shop-sidebar .filter-widget .portfolio-masonry-3 .p-wrapper .p-hover .p-content label:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .shop-sidebar-vertical .filter-widget label:last-child,
+.shop-sidebar-vertical .filter-widget .portfolio-masonry .p-wrapper .p-hover .p-content label:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .shop-sidebar-vertical .filter-widget label:last-child,
+.shop-sidebar-vertical .filter-widget .portfolio-masonry-2 .p-wrapper .p-hover .p-content label:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .shop-sidebar-vertical .filter-widget label:last-child, .shop-sidebar-vertical .filter-widget .portfolio-masonry-3 .p-wrapper .p-hover .p-content label:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .shop-sidebar .tags-widget .tag-list li a:last-child,
+.shop-sidebar .tags-widget .tag-list li .portfolio-masonry .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .shop-sidebar .tags-widget .tag-list li a:last-child,
+.shop-sidebar .tags-widget .tag-list li .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .shop-sidebar .tags-widget .tag-list li a:last-child, .shop-sidebar .tags-widget .tag-list li .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .shop-sidebar-vertical .tags-widget .tag-list li a:last-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .portfolio-masonry .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .shop-sidebar-vertical .tags-widget .tag-list li a:last-child,
+.shop-sidebar-vertical .tags-widget .tag-list li .portfolio-masonry-2 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .shop-sidebar-vertical .tags-widget .tag-list li a:last-child, .shop-sidebar-vertical .tags-widget .tag-list li .portfolio-masonry-3 .p-wrapper .p-hover .p-content a:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content .checkout-table tbody tr td:last-child:first-child,
+.checkout-table tbody tr .portfolio-masonry .p-wrapper .p-hover .p-content td:last-child:first-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .checkout-table tbody tr td:last-child:first-child,
+.checkout-table tbody tr .portfolio-masonry-2 .p-wrapper .p-hover .p-content td:last-child:first-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .checkout-table tbody tr td:last-child:first-child, .checkout-table tbody tr .portfolio-masonry-3 .p-wrapper .p-hover .p-content td:last-child:first-child, .portfolio-masonry .p-wrapper .p-hover .p-content .prod-reviews .tp-review .tpr-name:last-child,
+.prod-reviews .tp-review .portfolio-masonry .p-wrapper .p-hover .p-content .tpr-name:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content .prod-reviews .tp-review .tpr-name:last-child,
+.prod-reviews .tp-review .portfolio-masonry-2 .p-wrapper .p-hover .p-content .tpr-name:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content .prod-reviews .tp-review .tpr-name:last-child, .prod-reviews .tp-review .portfolio-masonry-3 .p-wrapper .p-hover .p-content .tpr-name:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content p:last-child,
+.portfolio-masonry-2 .p-wrapper .p-hover .p-content p:last-child,
+.portfolio-masonry-3 .p-wrapper .p-hover .p-content p:last-child, .portfolio-masonry .p-wrapper .p-hover .p-content span:last-child, .portfolio-masonry-2 .p-wrapper .p-hover .p-content span:last-child, .portfolio-masonry-3 .p-wrapper .p-hover .p-content span:last-child {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 2.5px;
+  color: #999;
+}
+
+.portfolio-masonry .p-wrapper .open-btn, .portfolio-masonry-2 .p-wrapper .open-btn, .portfolio-masonry-3 .p-wrapper .open-btn {
+  position: absolute;
+  padding-top: 22px;
+  width: 60px;
+  height: 60px;
+  right: 0;
+  top: -60px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 0;
+  color: #111;
+  background: #ececec;
+  -webkit-transition: top .5;
+          transition: top .5;
+}
+
+.portfolio-masonry .p-wrapper .open-btn:focus,
+.portfolio-masonry-2 .p-wrapper .open-btn:focus,
+.portfolio-masonry-3 .p-wrapper .open-btn:focus, .portfolio-masonry .p-wrapper .open-btn:visited, .portfolio-masonry-2 .p-wrapper .open-btn:visited, .portfolio-masonry-3 .p-wrapper .open-btn:visited {
+  outline: none;
+}
+
+.portfolio-masonry .p-wrapper .open-btn:hover, .portfolio-masonry-2 .p-wrapper .open-btn:hover, .portfolio-masonry-3 .p-wrapper .open-btn:hover {
+  color: #ececec;
+  background: #111;
+}
+
+.portfolio-masonry .p-wrapper:hover, .portfolio-masonry-2 .p-wrapper:hover, .portfolio-masonry-3 .p-wrapper:hover {
+  opacity: 1;
+}
+
+.portfolio-masonry .p-wrapper:hover .p-content, .portfolio-masonry-2 .p-wrapper:hover .p-content, .portfolio-masonry-3 .p-wrapper:hover .p-content {
+  bottom: 45px;
+}
+
+.portfolio-masonry .p-wrapper:hover .open-btn, .portfolio-masonry-2 .p-wrapper:hover .open-btn, .portfolio-masonry-3 .p-wrapper:hover .open-btn {
+  top: 0;
+}
+
+.portfolio-masonry-2 .p-item,
+.portfolio-masonry-3 .p-item,
+.portfolio-masonry-2 .grid-sizer, .portfolio-masonry-3 .grid-sizer {
+  width: 33.33%;
+}
+
+.portfolio-masonry-3 .p-item,
+.portfolio-masonry-3 .grid-sizer {
+  width: 30.7%;
+  margin: 15px;
+}
+
+/* ---- 15.4 Single Column ---- */
+.portfolio-1col-fw .portfolio-item, .portfolio-1col-boxed .portfolio-item {
+  position: relative;
+  margin-bottom: 50px;
+  height: 440px;
+  background: #f4f4f4;
+  overflow: hidden;
+}
+
+.portfolio-1col-fw .portfolio-item .img-wrapper, .portfolio-1col-boxed .portfolio-item .img-wrapper {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.portfolio-1col-fw .portfolio-item .img-wrapper img, .portfolio-1col-boxed .portfolio-item .img-wrapper img {
+  display: inline-block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-1col-fw .portfolio-item figcaption, .portfolio-1col-boxed .portfolio-item figcaption {
+  padding: 70px 100px 70px 70px;
+}
+
+.portfolio-1col-fw .portfolio-item figcaption .subheading, .portfolio-1col-boxed .portfolio-item figcaption .subheading {
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  color: #999;
+  margin-bottom: 45px;
+}
+
+.portfolio-1col-fw .portfolio-item figcaption .view-btn, .portfolio-1col-boxed .portfolio-item figcaption .view-btn {
+  margin-top: 45px;
+}
+
+.portfolio-1col-boxed .portfolio-item {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.portfolio-1col-boxed .portfolio-item:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-1col-boxed .portfolio-item figcaption {
+  padding: 50px 70px;
+}
+
+/* ---- 15.5 Portfoli Single - Project Page ---- */
+.pfolio-single .project-info, .pfolio-single .project-info-2 {
+  margin-bottom: 75px;
+}
+
+.pfolio-single .project-info h5, .pfolio-single .project-info-2 h5, .pfolio-single .project-info .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .pfolio-single .project-info .ft-heading, .pfolio-single .project-info-2 .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .pfolio-single .project-info-2 .ft-heading, .pfolio-single .project-info .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .pfolio-single .project-info .tab-info, .pfolio-single .project-info-2 .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .pfolio-single .project-info-2 .tab-info, .pfolio-single .project-info .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .pfolio-single .project-info .widget-comm-title, .pfolio-single .project-info-2 .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .pfolio-single .project-info-2 .widget-comm-title, .pfolio-single .project-info .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .pfolio-single .project-info .title-timer, .pfolio-single .project-info-2 .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .pfolio-single .project-info-2 .title-timer, .pfolio-single .project-info .shop-layout-options span, .shop-layout-options .pfolio-single .project-info span, .pfolio-single .project-info-2 .shop-layout-options span, .shop-layout-options .pfolio-single .project-info-2 span {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.pfolio-single .project-info ul, .pfolio-single .project-info-2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pfolio-single .project-info ul li, .pfolio-single .project-info-2 ul li {
+  display: block;
+}
+
+.pfolio-single .project-info ul li h6, .pfolio-single .project-info-2 ul li h6, .pfolio-single .project-info ul li .progress-group .progress-title, .progress-group .pfolio-single .project-info ul li .progress-title,
+.pfolio-single .project-info-2 ul li .progress-group .progress-title, .progress-group .pfolio-single .project-info-2 ul li .progress-title,
+.pfolio-single .project-info ul li .progress-group .progress-value, .progress-group .pfolio-single .project-info ul li .progress-value, .pfolio-single .project-info-2 ul li .progress-group .progress-value, .progress-group .pfolio-single .project-info-2 ul li .progress-value, .pfolio-single .project-info ul li .accordions-1 .panel .panel-heading .panel-title, .accordions-1 .panel .panel-heading .pfolio-single .project-info ul li .panel-title, .pfolio-single .project-info-2 ul li .accordions-1 .panel .panel-heading .panel-title, .accordions-1 .panel .panel-heading .pfolio-single .project-info-2 ul li .panel-title, .pfolio-single .project-info .footer-social-links ul li li, .footer-social-links .pfolio-single .project-info ul li li, .pfolio-single .project-info-2 .footer-social-links ul li li, .footer-social-links .pfolio-single .project-info-2 ul li li, .pfolio-single .project-info ul li .footer-contact .contact-info .show-info-link, .footer-contact .contact-info .pfolio-single .project-info ul li .show-info-link, .pfolio-single .project-info-2 ul li .footer-contact .contact-info .show-info-link, .footer-contact .contact-info .pfolio-single .project-info-2 ul li .show-info-link, .pfolio-single .project-info .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address .pfolio-single .project-info ul li .adr-heading, .pfolio-single .project-info-2 .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address .pfolio-single .project-info-2 ul li .adr-heading, .pfolio-single .project-info ul li .footer-contact .contact-info address .show-map, .footer-contact .contact-info address .pfolio-single .project-info ul li .show-map, .pfolio-single .project-info-2 ul li .footer-contact .contact-info address .show-map, .footer-contact .contact-info address .pfolio-single .project-info-2 ul li .show-map, .pfolio-single .project-info .footer-litle address ul li .adr-group .adr-heading, .footer-litle address .pfolio-single .project-info ul li .adr-group .adr-heading, .pfolio-single .project-info-2 .footer-litle address ul li .adr-group .adr-heading, .footer-litle address .pfolio-single .project-info-2 ul li .adr-group .adr-heading, .pfolio-single .project-info ul li .ft-cards .ft-item a, .ft-cards .ft-item .pfolio-single .project-info ul li a, .pfolio-single .project-info-2 ul li .ft-cards .ft-item a, .ft-cards .ft-item .pfolio-single .project-info-2 ul li a, .pfolio-single .project-info ul li .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-cards-2 .ft-card-item .ft-content .pfolio-single .project-info ul li .link-btn, .pfolio-single .project-info-2 ul li .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-cards-2 .ft-card-item .ft-content .pfolio-single .project-info-2 ul li .link-btn, .pfolio-single .project-info .ft-boxed-hover ul li .hover-content a, .ft-boxed-hover .pfolio-single .project-info ul li .hover-content a, .pfolio-single .project-info-2 .ft-boxed-hover ul li .hover-content a, .ft-boxed-hover .pfolio-single .project-info-2 ul li .hover-content a, .pfolio-single .project-info ul li .circles-counters .circle-item .circle-text, .circles-counters .circle-item .pfolio-single .project-info ul li .circle-text, .pfolio-single .project-info-2 ul li .circles-counters .circle-item .circle-text, .circles-counters .circle-item .pfolio-single .project-info-2 ul li .circle-text, .pfolio-single .project-info ul li .circles-counters-dark-bg .circle-item .circle-text, .circles-counters-dark-bg .circle-item .pfolio-single .project-info ul li .circle-text, .pfolio-single .project-info-2 ul li .circles-counters-dark-bg .circle-item .circle-text, .circles-counters-dark-bg .circle-item .pfolio-single .project-info-2 ul li .circle-text, .pfolio-single .project-info ul li .number-counters .count-wrapper .count-item .count-text, .number-counters .count-wrapper .count-item .pfolio-single .project-info ul li .count-text, .pfolio-single .project-info-2 ul li .number-counters .count-wrapper .count-item .count-text, .number-counters .count-wrapper .count-item .pfolio-single .project-info-2 ul li .count-text, .pfolio-single .project-info ul li .number-counters-dark-bg .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .pfolio-single .project-info ul li .count-text, .pfolio-single .project-info-2 ul li .number-counters-dark-bg .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .pfolio-single .project-info-2 ul li .count-text, .pfolio-single .project-info ul .project-nav nav .nav-btns li a, .project-nav nav .nav-btns .pfolio-single .project-info ul li a, .pfolio-single .project-info-2 ul .project-nav nav .nav-btns li a, .project-nav nav .nav-btns .pfolio-single .project-info-2 ul li a, .pfolio-single .project-info ul li .pricing-tables .p-table .desc, .pricing-tables .p-table .pfolio-single .project-info ul li .desc, .pfolio-single .project-info-2 ul li .pricing-tables .p-table .desc, .pricing-tables .p-table .pfolio-single .project-info-2 ul li .desc, .pfolio-single .project-info ul li .blog-post-nav .prev-btn, .blog-post-nav .pfolio-single .project-info ul li .prev-btn,
+.pfolio-single .project-info-2 ul li .blog-post-nav .prev-btn, .blog-post-nav .pfolio-single .project-info-2 ul li .prev-btn,
+.pfolio-single .project-info ul li .blog-post-nav .next-btn, .blog-post-nav .pfolio-single .project-info ul li .next-btn, .pfolio-single .project-info-2 ul li .blog-post-nav .next-btn, .blog-post-nav .pfolio-single .project-info-2 ul li .next-btn, .pfolio-single .project-info ul .sidebar .tags-widget .tag-list li a, .sidebar .tags-widget .tag-list .pfolio-single .project-info ul li a, .pfolio-single .project-info-2 ul .sidebar .tags-widget .tag-list li a, .sidebar .tags-widget .tag-list .pfolio-single .project-info-2 ul li a, .pfolio-single .project-info ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .pfolio-single .project-info ul li span, .pfolio-single .project-info-2 ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .pfolio-single .project-info-2 ul li span, .pfolio-single .project-info ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .pfolio-single .project-info ul li a,
+.pfolio-single .project-info-2 ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .pfolio-single .project-info-2 ul li a,
+.pfolio-single .project-info ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .pfolio-single .project-info ul li p, .pfolio-single .project-info-2 ul li .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .pfolio-single .project-info-2 ul li p, .pfolio-single .project-info ul li .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .pfolio-single .project-info ul li a, .pfolio-single .project-info-2 ul li .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .pfolio-single .project-info-2 ul li a, .pfolio-single .project-info ul li .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .pfolio-single .project-info ul li .cta-btn, .pfolio-single .project-info-2 ul li .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .pfolio-single .project-info-2 ul li .cta-btn, .pfolio-single .project-info ul li .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .pfolio-single .project-info ul li label, .pfolio-single .project-info-2 ul li .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .pfolio-single .project-info-2 ul li label, .pfolio-single .project-info ul li .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .pfolio-single .project-info ul li label, .pfolio-single .project-info-2 ul li .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .pfolio-single .project-info-2 ul li label, .pfolio-single .project-info ul .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list .pfolio-single .project-info ul li a, .pfolio-single .project-info-2 ul .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list .pfolio-single .project-info-2 ul li a, .pfolio-single .project-info ul .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list .pfolio-single .project-info ul li a, .pfolio-single .project-info-2 ul .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list .pfolio-single .project-info-2 ul li a, .pfolio-single .project-info ul li .checkout-table tbody tr td:first-child, .checkout-table tbody tr .pfolio-single .project-info ul li td:first-child, .pfolio-single .project-info-2 ul li .checkout-table tbody tr td:first-child, .checkout-table tbody tr .pfolio-single .project-info-2 ul li td:first-child, .pfolio-single .project-info ul li .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .pfolio-single .project-info ul li .tpr-name, .pfolio-single .project-info-2 ul li .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .pfolio-single .project-info-2 ul li .tpr-name {
+  margin: 0;
+  display: inline-block;
+  font-size: .8em;
+  padding-right: 10px;
+}
+
+.pfolio-single .project-info ul li a, .pfolio-single .project-info-2 ul li a {
+  display: inline-block;
+  padding-left: 2px;
+  font-size: .9em;
+  text-decoration: underline;
+  color: #999;
+}
+
+.pfolio-single .project-info ul li a:hover, .pfolio-single .project-info-2 ul li a:hover {
+  color: #111;
+}
+
+.pfolio-single .project-info ul li span, .pfolio-single .project-info-2 ul li span {
+  font-size: .9em;
+  letter-spacing: .7px;
+}
+
+.pfolio-single .project-info-2 {
+  margin-top: 100px;
+}
+
+.pfolio-single .p-info-gray {
+  padding: 30px;
+  background: #f4f4f4;
+}
+
+.pfolio-single .p-info {
+  margin-bottom: 75px;
+}
+
+.pfolio-single .p-info h5,
+.pfolio-single .p-info .ft-boxed-hover ul li .hover-content .ft-heading,
+.ft-boxed-hover ul li .hover-content .pfolio-single .p-info .ft-heading, .pfolio-single .p-info .ft-tabs .tabs-list li a .tab-group .tab-info,
+.ft-tabs .tabs-list li a .tab-group .pfolio-single .p-info .tab-info, .pfolio-single .p-info .sidebar .comments-widget .widget-item span .widget-comm-title,
+.sidebar .comments-widget .widget-item span .pfolio-single .p-info .widget-comm-title, .pfolio-single .p-info .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .pfolio-single .p-info .title-timer, .pfolio-single .p-info .shop-layout-options span,
+.shop-layout-options .pfolio-single .p-info span, .pfolio-single .p-info p {
+  margin: 0;
+}
+
+.pfolio-single .p-info h5, .pfolio-single .p-info .ft-boxed-hover ul li .hover-content .ft-heading, .ft-boxed-hover ul li .hover-content .pfolio-single .p-info .ft-heading, .pfolio-single .p-info .ft-tabs .tabs-list li a .tab-group .tab-info, .ft-tabs .tabs-list li a .tab-group .pfolio-single .p-info .tab-info, .pfolio-single .p-info .sidebar .comments-widget .widget-item span .widget-comm-title, .sidebar .comments-widget .widget-item span .pfolio-single .p-info .widget-comm-title, .pfolio-single .p-info .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer, .comingsoon .content-wrapper .content-inner .cs-timer .item .pfolio-single .p-info .title-timer, .pfolio-single .p-info .shop-layout-options span, .shop-layout-options .pfolio-single .p-info span {
+  padding-bottom: 20px;
+}
+
+.pfolio-single .project-testimonial {
+  padding: 30px;
+  font-size: 1.2em;
+  color: #777;
+  background: #f4f4f4;
+}
+
+.pfolio-single .project-testimonial .p-t-icon {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #777;
+}
+
+.pfolio-single .project-testimonial footer {
+  color: #777;
+  line-height: 1.2;
+}
+
+.pfolio-single .project-testimonial footer:before {
+  content: none;
+}
+
+.pfolio-single .project-testimonial footer cite span {
+  font-weight: 700;
+}
+
+.pfolio-single .project-images img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.single-img-slider {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.single-img-slider li img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.single-img-slider .slider-nav {
+  top: 50%;
+  margin-top: -25px;
+  opacity: 0;
+  -webkit-transition: opacity, 0.5s;
+          transition: opacity, 0.5s;
+}
+
+.single-img-slider .slider-nav span {
+  display: block;
+  padding-bottom: 7px;
+  font-size: 26px;
+}
+
+.single-img-slider:hover .slider-nav {
+  opacity: 1;
+}
+
+.project-item {
+  display: block;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.project-item h4,
+.project-item .ft-tabs .tabs-list li a .tab-group .tab-heading,
+.ft-tabs .tabs-list li a .tab-group .project-item .tab-heading, .project-item .testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item blockquote footer .project-item cite, .project-item .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .project-item cite, .project-item .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .project-item cite, .project-item .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .project-item cite, .project-item .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .project-item cite, .project-item .team-3col .t-item .t-info .t-role,
+.team-3col .t-item .t-info .project-item .t-role, .project-item .team-4col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .project-item .t-role, .project-item .freelancer-about .t-item .t-info .t-role,
+.freelancer-about .t-item .t-info .project-item .t-role, .project-item .t-join .t-info .t-role,
+.t-join .t-info .project-item .t-role, .project-item .login-2 .bg-overlay .form-wrapper .form-content .cards-header,
+.login-2 .bg-overlay .form-wrapper .form-content .project-item .cards-header, .project-item .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .project-item .sc-lead, .project-item h5,
+.project-item .ft-boxed-hover ul li .hover-content .ft-heading,
+.ft-boxed-hover ul li .hover-content .project-item .ft-heading, .project-item .ft-tabs .tabs-list li a .tab-group .tab-info,
+.ft-tabs .tabs-list li a .tab-group .project-item .tab-info, .project-item .sidebar .comments-widget .widget-item span .widget-comm-title,
+.sidebar .comments-widget .widget-item span .project-item .widget-comm-title, .project-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .project-item .title-timer, .project-item .shop-layout-options span,
+.shop-layout-options .project-item span, .project-item h6,
+.project-item .progress-group .progress-title,
+.progress-group .project-item .progress-title,
+.project-item .progress-group .progress-value,
+.progress-group .project-item .progress-value, .project-item .accordions-1 .panel .panel-heading .panel-title,
+.accordions-1 .panel .panel-heading .project-item .panel-title, .project-item .footer-social-links ul li,
+.footer-social-links ul .project-item li, .project-item .footer-contact .contact-info .show-info-link,
+.footer-contact .contact-info .project-item .show-info-link, .project-item .footer-contact .contact-info address ul li .adr-heading,
+.footer-contact .contact-info address ul li .project-item .adr-heading, .project-item .footer-contact .contact-info address .show-map,
+.footer-contact .contact-info address .project-item .show-map, .project-item .footer-litle address ul li .adr-group .adr-heading,
+.footer-litle address ul li .adr-group .project-item .adr-heading, .project-item .ft-cards .ft-item a,
+.ft-cards .ft-item .project-item a, .project-item .ft-cards-2 .ft-card-item .ft-content .link-btn,
+.ft-cards-2 .ft-card-item .ft-content .project-item .link-btn, .project-item .ft-boxed-hover ul li .hover-content a,
+.ft-boxed-hover ul li .hover-content .project-item a, .project-item .circles-counters .circle-item .circle-text,
+.circles-counters .circle-item .project-item .circle-text, .project-item .circles-counters-dark-bg .circle-item .circle-text,
+.circles-counters-dark-bg .circle-item .project-item .circle-text, .project-item .number-counters .count-wrapper .count-item .count-text,
+.number-counters .count-wrapper .count-item .project-item .count-text, .project-item .number-counters-dark-bg .count-wrapper .count-item .count-text,
+.number-counters-dark-bg .count-wrapper .count-item .project-item .count-text, .project-item .project-nav nav .nav-btns li a,
+.project-nav nav .nav-btns li .project-item a, .project-item .pricing-tables .p-table .desc,
+.pricing-tables .p-table .project-item .desc, .project-item .blog-post-nav .prev-btn,
+.blog-post-nav .project-item .prev-btn,
+.project-item .blog-post-nav .next-btn,
+.blog-post-nav .project-item .next-btn, .project-item .sidebar .tags-widget .tag-list li a,
+.sidebar .tags-widget .tag-list li .project-item a, .project-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .project-item span, .project-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .project-item a,
+.project-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .project-item p, .project-item .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .project-item a, .project-item .landing-hero .heading-wrapper .cta-btn,
+.landing-hero .heading-wrapper .project-item .cta-btn, .project-item .shop-sidebar .filter-widget label,
+.shop-sidebar .filter-widget .project-item label, .project-item .shop-sidebar-vertical .filter-widget label,
+.shop-sidebar-vertical .filter-widget .project-item label, .project-item .shop-sidebar .tags-widget .tag-list li a,
+.shop-sidebar .tags-widget .tag-list li .project-item a, .project-item .shop-sidebar-vertical .tags-widget .tag-list li a,
+.shop-sidebar-vertical .tags-widget .tag-list li .project-item a, .project-item .checkout-table tbody tr td:first-child,
+.checkout-table tbody tr .project-item td:first-child, .project-item .prod-reviews .tp-review .tpr-name,
+.prod-reviews .tp-review .project-item .tpr-name, .project-item p {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.project-item h4,
+.project-item .ft-tabs .tabs-list li a .tab-group .tab-heading,
+.ft-tabs .tabs-list li a .tab-group .project-item .tab-heading, .project-item .testimonials-3col .t-item blockquote footer cite,
+.testimonials-3col .t-item blockquote footer .project-item cite, .project-item .testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer cite,
+.testimonials-3col .t-item .wrapper-404 .content-wrapper .info-wrapper .info-404 footer .project-item cite, .project-item .wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer cite,
+.wrapper-404 .content-wrapper .info-wrapper .testimonials-3col .t-item .info-404 footer .project-item cite, .project-item .testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer cite,
+.testimonials-3col .t-item .bg-maintenance .content-wrapper .content-inner p footer .project-item cite, .project-item .bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer cite,
+.bg-maintenance .content-wrapper .content-inner .testimonials-3col .t-item p footer .project-item cite, .project-item .team-3col .t-item .t-info .t-role,
+.team-3col .t-item .t-info .project-item .t-role, .project-item .team-4col .t-item .t-info .t-role,
+.team-4col .t-item .t-info .project-item .t-role, .project-item .freelancer-about .t-item .t-info .t-role,
+.freelancer-about .t-item .t-info .project-item .t-role, .project-item .t-join .t-info .t-role,
+.t-join .t-info .project-item .t-role, .project-item .login-2 .bg-overlay .form-wrapper .form-content .cards-header,
+.login-2 .bg-overlay .form-wrapper .form-content .project-item .cards-header, .project-item .login-2 .bg-overlay .form-wrapper .social-signup .social-card .sc-lead,
+.login-2 .bg-overlay .form-wrapper .social-signup .social-card .project-item .sc-lead, .project-item h5,
+.project-item .ft-boxed-hover ul li .hover-content .ft-heading,
+.ft-boxed-hover ul li .hover-content .project-item .ft-heading, .project-item .ft-tabs .tabs-list li a .tab-group .tab-info,
+.ft-tabs .tabs-list li a .tab-group .project-item .tab-info, .project-item .sidebar .comments-widget .widget-item span .widget-comm-title,
+.sidebar .comments-widget .widget-item span .project-item .widget-comm-title, .project-item .comingsoon .content-wrapper .content-inner .cs-timer .item .title-timer,
+.comingsoon .content-wrapper .content-inner .cs-timer .item .project-item .title-timer, .project-item .shop-layout-options span,
+.shop-layout-options .project-item span, .project-item h6, .project-item .progress-group .progress-title, .progress-group .project-item .progress-title,
+.project-item .progress-group .progress-value, .progress-group .project-item .progress-value, .project-item .accordions-1 .panel .panel-heading .panel-title, .accordions-1 .panel .panel-heading .project-item .panel-title, .project-item .footer-social-links ul li, .footer-social-links ul .project-item li, .project-item .footer-contact .contact-info .show-info-link, .footer-contact .contact-info .project-item .show-info-link, .project-item .footer-contact .contact-info address ul li .adr-heading, .footer-contact .contact-info address ul li .project-item .adr-heading, .project-item .footer-contact .contact-info address .show-map, .footer-contact .contact-info address .project-item .show-map, .project-item .footer-litle address ul li .adr-group .adr-heading, .footer-litle address ul li .adr-group .project-item .adr-heading, .project-item .ft-cards .ft-item a, .ft-cards .ft-item .project-item a, .project-item .ft-cards-2 .ft-card-item .ft-content .link-btn, .ft-cards-2 .ft-card-item .ft-content .project-item .link-btn, .project-item .ft-boxed-hover ul li .hover-content a, .ft-boxed-hover ul li .hover-content .project-item a, .project-item .circles-counters .circle-item .circle-text, .circles-counters .circle-item .project-item .circle-text, .project-item .circles-counters-dark-bg .circle-item .circle-text, .circles-counters-dark-bg .circle-item .project-item .circle-text, .project-item .number-counters .count-wrapper .count-item .count-text, .number-counters .count-wrapper .count-item .project-item .count-text, .project-item .number-counters-dark-bg .count-wrapper .count-item .count-text, .number-counters-dark-bg .count-wrapper .count-item .project-item .count-text, .project-item .project-nav nav .nav-btns li a, .project-nav nav .nav-btns li .project-item a, .project-item .pricing-tables .p-table .desc, .pricing-tables .p-table .project-item .desc, .project-item .blog-post-nav .prev-btn, .blog-post-nav .project-item .prev-btn,
+.project-item .blog-post-nav .next-btn, .blog-post-nav .project-item .next-btn, .project-item .sidebar .tags-widget .tag-list li a, .sidebar .tags-widget .tag-list li .project-item a, .project-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .project-item span, .project-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .project-item a,
+.project-item .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p, .contact-1 .contact-wrapper .contact-info-wrapper address .address-group .project-item p, .project-item .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a, .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .project-item a, .project-item .landing-hero .heading-wrapper .cta-btn, .landing-hero .heading-wrapper .project-item .cta-btn, .project-item .shop-sidebar .filter-widget label, .shop-sidebar .filter-widget .project-item label, .project-item .shop-sidebar-vertical .filter-widget label, .shop-sidebar-vertical .filter-widget .project-item label, .project-item .shop-sidebar .tags-widget .tag-list li a, .shop-sidebar .tags-widget .tag-list li .project-item a, .project-item .shop-sidebar-vertical .tags-widget .tag-list li a, .shop-sidebar-vertical .tags-widget .tag-list li .project-item a, .project-item .checkout-table tbody tr td:first-child, .checkout-table tbody tr .project-item td:first-child, .project-item .prod-reviews .tp-review .tpr-name, .prod-reviews .tp-review .project-item .tpr-name {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.p-s-portfolio .portfolio-columns-boxed {
+  margin-top: 0;
+  padding-top: 160px;
+}
+
+.project-nav nav .nav-btns {
+  margin: 0;
+  padding: 50px 0;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+.project-nav nav .nav-btns li {
+  display: inline-block;
+}
+
+.project-nav nav .nav-btns li a {
+  display: block;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.project-nav nav .nav-btns .nav-icon {
+  display: inline-block;
+  font-size: 26px;
+  color: #111;
+  vertical-align: top;
+}
+
+.project-nav nav .nav-btns .prev a:visited,
+.project-nav nav .nav-btns .prev a:focus,
+.project-nav nav .nav-btns .next a:visited,
+.project-nav nav .nav-btns .next a:focus {
+  text-decoration: none;
+}
+
+.project-nav nav .nav-btns .prev:hover,
+.project-nav nav .nav-btns .next:hover {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.project-nav nav .nav-btns .prev:hover .nav-icon,
+.project-nav nav .nav-btns .next:hover .nav-icon {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
+.project-nav nav .nav-btns .prev {
+  float: left;
+  -webkit-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+          transform: translateX(-20px);
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.project-nav nav .nav-btns .prev .nav-icon {
+  opacity: 0;
+  -webkit-transform: translateX(20px);
+      -ms-transform: translateX(20px);
+          transform: translateX(20px);
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.project-nav nav .nav-btns .next {
+  float: right;
+  -webkit-transform: translateX(20px);
+      -ms-transform: translateX(20px);
+          transform: translateX(20px);
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.project-nav nav .nav-btns .next .nav-icon {
+  opacity: 0;
+  -webkit-transform: translateX(-20px);
+      -ms-transform: translateX(-20px);
+          transform: translateX(-20px);
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+/* ---- 15.6 Portfoli Mobile ---- */
+.portfolio-mobile .pt-item {
+  display: inline-block;
+  border-top: 1px solid #f8f8f8;
+  background: #f8f8f8;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+
+.portfolio-mobile .pt-item img {
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+}
+
+.portfolio-mobile .pt-item:hover {
+  -webkit-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-mobile .pt-item:hover img {
+  opacity: .9;
+}
+
+.portfolio-mobile .pt-item:focus {
+  outline: none;
+}
